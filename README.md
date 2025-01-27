@@ -21,7 +21,7 @@ Click on the following links to acces a web-page that includes code usied for th
 
 ---
 
-For any questions, comments, or suggestions, please reach out to Simone D'Ambrogio (simone.dambrogio@psy.ox.ac.uk).
+<!-- For any questions, comments, or suggestions, please reach out to Simone D'Ambrogio (simone.dambrogio@psy.ox.ac.uk). -->
 
 ## System requirements
 
