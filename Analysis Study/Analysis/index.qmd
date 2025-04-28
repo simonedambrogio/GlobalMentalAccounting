@@ -9635,7 +9635,7 @@ plot_betas_nogdp <- pp1$dpars$mu$fe$b %>%
   scale_color_manual(values = colorspace::qualitative_hcl(7, "Dark 3")[c(2, 4, 7, 6, 1, 3)]) +
   theme_pubr() +
   coord_cartesian(xlim = c(0.9, 4.3), ylim = c(-0.22, .3)) +
-  scale_x_discrete(labels = c("Finantial\nLiteracy", "Education", "Age", "Income"),
+  scale_x_discrete(labels = c("Financial\nLiteracy", "Education", "Age", "Income"),
                    guide = "prism_offset") +
   scale_y_continuous(breaks = c(-0.2, 0, 0.2), guide = "prism_offset") +
   theme(text = element_text(size = 15, family="Arial"),
@@ -9815,7 +9815,7 @@ plot_betas <- pp$dpars$mu$fe$b %>%
   scale_color_manual(values = colorspace::qualitative_hcl(7, "Dark 3")[c(2, 4, 7, 6, 1, 3)]) +
   theme_pubr() +
   coord_cartesian(xlim = c(0.9, 5.1), ylim = c(-0.3, .45)) +
-  scale_x_discrete(labels = c("GDP per\nCapita","Finantial\nLiteracy", "Education", "Age", "Income"),
+  scale_x_discrete(labels = c("GDP per\nCapita","Financial\nLiteracy", "Education", "Age", "Income"),
                    guide = "prism_offset") +
   scale_y_continuous(breaks = c(-0.25, 0, 0.25), guide = "prism_offset") +
   theme(text = element_text(size = 15, family="Arial"),
