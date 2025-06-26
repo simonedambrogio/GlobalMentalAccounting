@@ -7,17 +7,17 @@ Click [here](https://run.pavlovia.org/JDMLAB/mmar-demo/) to access a web-page th
 
 ## Analysis Study
 
-Click [here](https://run.pavlovia.org/JDMLAB/mmar-analysis/) to access a web-page that includes all the codes used to produce the results reported in the main text and in the supplementary materials are. 
-Source code: Analysis Study/Analysis/index.qmd. You can execute it on your machine using the command ``` quarto render Analysis Study/Analysis/index.qmd ```. The file should be rendered in whithin 3 and 4 days on a "normal" desktop computer.
+Click [here](https://run.pavlovia.org/JDMLAB/mmar-analysis/) to access a webpage that includes all the codes used to produce the results reported in the main text and in the supplementary materials. 
+Source code: Analysis Study/Analysis/index.qmd. You can execute it on your machine using the command ``` quarto render Analysis Study/Analysis/index.qmd ```. The file should be rendered in within 3 and 4 days on a "normal" desktop computer.
 
 ### Data 
 
-Preregistered Data: Analysis Study/Data/Preregristered
+Preregistered Data: Analysis Study/Data/Preregistered
 
-Data with no exlusion criterion: Analysis Study/Data
+Data with no exclusion criterion: Analysis Study/Data
 
-## Other Analyses
-Click on the following links to acces a web-page that includes code usied for the [Power Analysis](https://run.pavlovia.org/JDMLAB/mmar-supplementary/Power%20Analysis.html), [Analysis Plan](https://run.pavlovia.org/JDMLAB/mmar-supplementary/Analysis%20Plan.html), and [Pilot](https://run.pavlovia.org/JDMLAB/mmar-supplementary/Compare%20Pilot%20Version.html) (Source code: Other Analyses/).
+## [Other Analyses](https://run.pavlovia.org/JDMLAB/mmar-supplementary)
+Click on the following links to access a webpage that includes code used for the [Power Analysis](https://run.pavlovia.org/JDMLAB/mmar-supplementary/Power%20Analysis.html), [Analysis Plan](https://run.pavlovia.org/JDMLAB/mmar-supplementary/Analysis%20Plan.html), and [Pilot](https://run.pavlovia.org/JDMLAB/mmar-supplementary/Compare%20Pilot%20Version.html) (Source code: Other Analyses/).
 
 ---
 
