@@ -17,7 +17,7 @@ Preregistered Data: Analysis Study/Data/Preregristered
 Data with no exlusion criterion: Analysis Study/Data
 
 ## Other Analyses
-Click on the following links to acces a web-page that includes code usied for the [Power Analysis](https://run.pavlovia.org/JDMLAB/supplementary/Power%20Analysis.html), [Analysis Plan](https://run.pavlovia.org/JDMLAB/supplementary/Analysis%20Plan.html), and [Pilot](https://run.pavlovia.org/JDMLAB/supplementary/Compare%20Pilot%20Version.html) (Source code: Other Analyses/).
+Click on the following links to acces a web-page that includes code usied for the [Power Analysis](https://run.pavlovia.org/JDMLAB/mmar-supplementary/Power%20Analysis.html), [Analysis Plan](https://run.pavlovia.org/JDMLAB/mmar-supplementary/Analysis%20Plan.html), and [Pilot](https://run.pavlovia.org/JDMLAB/mmar-supplementary/Compare%20Pilot%20Version.html) (Source code: Other Analyses/).
 
 ---
 
