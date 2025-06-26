@@ -16,8 +16,8 @@ Preregistered Data: Analysis Study/Data/Preregistered
 
 Data with no exclusion criterion: Analysis Study/Data
 
-## [Other Analyses](https://run.pavlovia.org/JDMLAB/mmar-supplementary)
-Click on the following links to access a webpage that includes code used for the [Power Analysis](https://run.pavlovia.org/JDMLAB/mmar-supplementary/Power%20Analysis.html), [Analysis Plan](https://run.pavlovia.org/JDMLAB/mmar-supplementary/Analysis%20Plan.html), and [Pilot](https://run.pavlovia.org/JDMLAB/mmar-supplementary/Compare%20Pilot%20Version.html) (Source code: Other Analyses/).
+## Other Analyses
+Click on the following [links](https://run.pavlovia.org/JDMLAB/mmar-supplementary) to access a webpage that includes code used for the [Power Analysis](https://run.pavlovia.org/JDMLAB/mmar-supplementary/Power%20Analysis.html), [Analysis Plan](https://run.pavlovia.org/JDMLAB/mmar-supplementary/Analysis%20Plan.html), and [Pilot](https://run.pavlovia.org/JDMLAB/mmar-supplementary/Compare%20Pilot%20Version.html) (Source code: Other Analyses/).
 
 ---
 
