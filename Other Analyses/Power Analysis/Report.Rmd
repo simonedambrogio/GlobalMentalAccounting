@@ -1,6 +1,6 @@
 ---
 title: "Power Analysis"
-author: "Simone D'Ambrogio"
+author: ""
 subtitle: ""
 date: "`r Sys.Date()`"
 output:

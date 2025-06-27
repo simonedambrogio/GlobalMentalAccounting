@@ -1,6 +1,6 @@
 ---
 title: "Analysis Plan"
-author: "Simone D'Ambrogio"
+author: ""
 subtitle: ""
 date: "`r Sys.Date()`"
 output:

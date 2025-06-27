@@ -1,6 +1,6 @@
 ---
 title: "Compare Pilot Versions"
-author: "Simone D'Ambrogio"
+author: ""
 subtitle: ""
 date: "`r Sys.Date()`"
 output:

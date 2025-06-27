@@ -1,6 +1,6 @@
 ---
 title: "A first look at the data"
-author: "Simone D'Ambrogio"
+author: ""
 subtitle: "Short Version"
 date: "`r Sys.Date()`"
 output:
