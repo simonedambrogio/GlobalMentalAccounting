@@ -8,6 +8,7 @@ format:
     fig-format: svg
     code-block-border-left: "#31BAE9" # 5A6570
     link-external-newwindow: true
+    html-math-method: katex
 knitr:
   opts_chunk:
     warning: false
@@ -231,6 +232,11 @@ data_table %>%
   align(align='left', part='header') %>% 
   save_as_docx(path = "tables/docx/Demographics.docx")
 
+data_table %>%                                                                
+  kbl(format = "latex", booktabs = TRUE, caption = "Demographics") %>%
+  kable_styling(latex_options = c("hold_position")) %>%
+  save_kable(file = "tables/tex/Demographics.tex") 
+
 data_table %>%
   kable(caption="<b>Table 1 | </b> Demographics", align=rep('l', 5),
       table.attr = "style='width:60%;'") %>%
@@ -449,6 +455,11 @@ data_table %>%
   align(align='left') %>% 
   align(align='left', part='header') %>% 
   save_as_docx(path = "tables/docx/Demographics (None).docx")
+
+data_table %>%                                                                
+  kbl(format = "latex", booktabs = TRUE, caption = "Demographics") %>%
+  kable_styling(latex_options = c("hold_position")) %>%
+  save_kable(file = "tables/tex/DemographicsNone.tex") 
 
 data_table %>%
   kable(caption="<b>Table 1 | </b> Demographics", align=rep('l', 5),
@@ -2152,7 +2163,7 @@ log10_bf <- c(
 ```{r table-preregistered}
 #| eval: true
 
-# re-run1 
+# re-run12
 rownames(table_bayesian) <- table_bayesian$Study
  
 table_bayesian$`log₁₀(BF)` <- log10_bf
@@ -2183,6 +2194,92 @@ table_bayesian[,c(5,1:4)] %>%
 ::: 
 
 Number of participants: `r n_participants`
+
+#### Within- vs Between-Subjects Comparison
+
+For the Jacket, Play, and Plane scenarios (between-subjects in the original studies), we re-estimate each effect using a single, randomly selected condition per participant and compare it with the within-subjects estimate. The code below builds the random split, fits the between-subjects pooled model, and reports the 95% credible interval of the difference (within − between).
+
+```{r within-between-subjects}
+#| code-summary: "Within- vs between-subjects computation"
+#| cache: true
+
+between_vs_within <- function(data, condition_col, conditions, m_within, original) {
+
+  # Assign each participant to a single (between-subjects) condition
+  data_random <- data %>%
+    mutate(condition = .data[[condition_col]]) %>%
+    filter(!(Country %in% countries2remove), attention_check_grater_than_3) %>%
+    select(Country, subject, condition, response) %>% as_tibble() %>%
+    group_by(Country, condition) %>% mutate(sbjtype = row_number() %% 2) %>% ungroup() %>%
+    mutate(sbjtype = ifelse(condition == conditions[1], sbjtype, 1 - sbjtype)) %>%
+    filter(as.logical(sbjtype)) %>% select(-sbjtype)
+
+  # Per-country log odds-ratio (theta) and its standard error
+  databetween_theta <- data_random %>%
+    group_by(condition, response, Country) %>% mutate(n = n()) %>% filter(row_number() == 1) %>%
+    group_by(condition, Country) %>% mutate(Odds = n[response == 1] / n[response == 0]) %>%
+    mutate(se_theta = sqrt(sum(1 / n))) %>% filter(row_number() == 1) %>% select(-response) %>%
+    group_by(Country) %>%
+    mutate(OR = Odds[condition == conditions[1]] / Odds[condition == conditions[2]],
+           theta = log(OR)) %>%
+    filter(row_number() == 1) %>% select(-c(OR, Odds, n, condition)) %>% ungroup()
+
+  # Between-subjects pooled effect (fast: aggregated theta per country)
+  m_between <- brm(theta | se(se_theta) ~ 1 + (1 | Country),
+                   prior = prior_string("normal(0,2.5)", class = "Intercept"),
+                   data = databetween_theta, iter = 20000, seed = 123, refresh = 0)
+
+  # Pooled-effect posterior, within vs between, and CI of their difference
+  within_samples  <- as.numeric(prepare_predictions(m_within)$dpars$mu$fe$b)
+  between_samples <- as.numeric(prepare_predictions(m_between)$dpars$mu$fe$b)
+  ci <- quantile(within_samples - between_samples, probs = c(0.025, 0.975))
+
+  df <- rbind(data.frame(post = between_samples, type = "between"),
+              data.frame(post = within_samples,  type = "within"))
+  p <- ggplot(df, aes(post, color = type, fill = type)) +
+    geom_density(alpha = 0.2, linewidth = 2) +
+    geom_vline(xintercept = original, color = "#472E7CFF", linewidth = 2) +
+    scale_color_manual(values = c("#FFC857", "#2A9D8F")) +
+    scale_fill_manual(values = c("#FFC857", "#2A9D8F")) +
+    theme_pubr() +
+    theme(legend.position = "none", axis.title = element_text(size = 18),
+          axis.text = element_text(size = 16), title = element_text(size = 20)) +
+    labs(y = "Density", x = "Posterior log(Odd-Ratio)", color = NULL, fill = NULL) +
+    scale_x_continuous(limits = c(0, 2.5))
+
+  list(ci = ci, plot = p)
+}
+
+jacket <- between_vs_within(data_Jacket, "price",  c("low", "high"),       mJacket, original_theta$Jacket$theta)
+play   <- between_vs_within(data_Play,   "loss",   c("cash", "ticket"),    mPlay,   original_theta$Play$theta)
+plane  <- between_vs_within(data_Plane,  "coupon", c("purchased", "free"), mPlane,  original_theta$Plane$theta)
+```
+
+```{r within-between-table}
+#| code-summary: "Within- vs between-subjects difference CIs"
+
+wb_cis <- dplyr::bind_rows(
+  data.frame(study = "Jacket", lower = jacket$ci[1], upper = jacket$ci[2]),
+  data.frame(study = "Play",   lower = play$ci[1],   upper = play$ci[2]),
+  data.frame(study = "Plane",  lower = plane$ci[1],  upper = plane$ci[2]))
+
+wb_cis %>%
+  transmute(Study = study,
+            `95% CI of difference (within vs between)` = sprintf("[%.2f, %.2f]", lower, upper)) %>%
+  kbl(caption = "<b>Within- vs between-subjects comparison</b>",
+      format = "html", table.attr = "style='width:50%;'") %>%
+  kable_classic(html_font = "Cambria") %>%
+  kable_material(c("striped", "hover"))
+```
+
+```{r within-between-figures}
+#| layout-ncol: 3
+#| fig-cap: "Posterior distributions of the within- and between-subjects pooled effect for the Jacket, Play, and Plane scenarios; the vertical line marks the original effect."
+
+jacket$plot
+play$plot
+plane$plot
+```
 
 ### Partial
 
@@ -4163,6 +4260,16 @@ table_bayesian[,c(5,1:4)] %>%
   autofit() %>% 
   save_as_docx(path = "tables/Hierarchical Bayesian Meta-Analysis (None).docx")
 
+table_bayesian %>%
+  rename(
+    `$\\log_{10}$(BF)` = `log₁₀(BF)`,
+    `CIs (95\\%)` = `CIs (95%)`
+    ) %>%
+  kbl(caption = "Hierarchical Bayesian Meta-Analysis",
+      format = "latex", booktabs = TRUE, longtable = TRUE, escape = FALSE) %>%
+  kable_styling(latex_options = c("repeat_header")) %>%
+  save_kable(file = "tables/tex/HierarchicalBayesianMeta-AnalysisNone.tex")
+
 table_bayesian[,c(5,1:4)] %>%
   select(-Study) |>
   kbl(caption="<b>Table 2 | </b> Hierarchical Bayesian Meta-Analysis",
@@ -5248,7 +5355,17 @@ table_unpooled %>%
   align(align='center', part='header') %>% 
   save_as_docx(path = "tables/Unpooled Analysis.docx")
 
-table_unpooled %>% 
+table_unpooled %>%
+  rename(
+    `$\\log_{10}$(BF)` = log10_bf,
+    `CIs (95\\%)` = `CIs (95%)`
+    ) %>%
+  kbl(caption = "Unpooled Analysis",
+      format = "latex", booktabs = TRUE, longtable = TRUE, escape = FALSE) %>%
+  kable_styling(latex_options = c("repeat_header")) %>%
+  save_kable(file = "tables/tex/UnpooledAnalysis.tex")
+
+table_unpooled %>%
   rename(`log₁₀(BF)` = log10_bf) %>% 
   kbl(caption="<b>Table 3 | </b> Unpooled Analysis",
       format = "html", table.attr = "style='width:50%;'") %>% 
@@ -9336,6 +9453,16 @@ table_unpooled %>%
   align(align='left', part='header') %>% 
   save_as_docx(path = "tables/Unpooled Analysis (None).docx")
 
+table_unpooled %>%
+  rename(
+    `$\\log_{10}$(BF)` = log10_bf,
+    `CIs (95\\%)` = `CIs (95%)`
+    ) %>%
+  kbl(caption = "Unpooled Analysis",
+      format = "latex", booktabs = TRUE, longtable = TRUE, escape = FALSE) %>%
+  kable_styling(latex_options = c("repeat_header")) %>%
+  save_kable(file = "tables/tex/UnpooledAnalysisNone.tex")
+
 table_unpooled %>% 
   kbl(caption="<b>Table 3 | </b> Unpooled Analysis",
       format = "html", table.attr = "style='width:50%;'") %>% 
@@ -9364,16 +9491,21 @@ zscore <- function(x) as.vector(scale(x))
 info <- 
   read.csv("../Data/Info Countries/data.csv") %>% 
   filter(Country %in% unique(post$Country)) %>% 
-  select(Country, GDP.per.capita..current.US.., Democracy.index) %>% 
+  select(Country, GDP.per.capita..current.US.., GINI.index, Democracy.index) %>%
   rename(
     GDPxCapita = GDP.per.capita..current.US..,
+    Gini = GINI.index,
     democracy_index=Democracy.index
-  ) %>% 
+  ) %>%
   mutate(
     # GDPxCapita: Remove (2022) and convert in number
     GDPxCapita = str_replace(GDPxCapita, "\\([^()]{0,}\\)", ""),
     GDPxCapita = str_remove(GDPxCapita, ","),
     GDPxCapita = as.numeric(GDPxCapita),
+    # Gini: Remove (2022), remove comma, convert to number, scale to 0-1
+    Gini = str_replace(Gini, "\\([^()]{0,}\\)", ""),
+    Gini = str_remove(Gini, ","),
+    Gini = as.numeric(Gini) / 100,
     democracy_index = str_replace(democracy_index, ",", "."),
     democracy_index=as.numeric(democracy_index)
   )
@@ -9827,12 +9959,19 @@ plot_betas <- pp$dpars$mu$fe$b %>%
   scale_fill_manual(values = c("#f6f0e8", "#E7ECEF"))
 
 cowplot::plot_grid(
-  plot_betas, plot_gdp, rel_widths = c(0.55, 0.45), 
+  plot_betas, plot_gdp, rel_widths = c(0.55, 0.45),
   labels = LETTERS[1:2], label_size = 20, label_y = 0.93
 )
 ```
 
+```{r figure2b-gdp-slope}
+#| include: false
+gdp_slope <- round(fixef(bm1)["r_Intercept", "Estimate"], 2)
+gdp_lo    <- round(fixef(bm1)["r_Intercept", "Q2.5"], 2)
+gdp_hi    <- round(fixef(bm1)["r_Intercept", "Q97.5"], 2)
+```
 
+Figure 2B: the slope (logistic growth rate) of the association between GDP per capita and mental accounting is `r gdp_slope`, 95% CI [`r gdp_lo`, `r gdp_hi`].
 
 
 ### GDP per Capita
@@ -10097,6 +10236,59 @@ df %>%
 ```
 
 
+### Financial Literacy and Demographic Variables
+
+Country-level associations of Financial Literacy, Education, Age, and Income with mental accounting, estimated from the model including all predictors. Estimates are standardized.
+
+::: {.panel-tabset}
+
+#### Plot
+
+```{r table4-betas-plot}
+#| code-summary: "Plot"
+#| warning: false
+
+plot_betas_nogdp
+```
+
+#### Table
+
+```{r table4-demographics-all}
+#| code-summary: "Table"
+
+# Built from the already-loaded all-predictors model (mAll); mirrors the
+# "All predictors" block in scr/tables.R
+log10_bf_z <- function(model, var){
+  pp <- prepare_predictions(model)
+  posterior <- as.vector(unlist(pp$dpars$mu$fe$b[, str_c("b_z", var)]))
+  prior <- distribution_normal(length(posterior), mean = 0, sd = 1)
+  round(log10(as.numeric(
+    bayesfactor_parameters(posterior, prior, direction = "two-sided", null = 0)
+  )), 2)
+}
+
+fe <- fixef(mAll)[c("zFinancialLiteracy", "zEducation", "zAge", "zIncome"), ]
+
+data.frame(
+  ` ` = c("Financial Literacy", "Education", "Age", "Income"),
+  `Standardized Estimate` = round(fe[, "Estimate"], 2),
+  `95% CIs` = sprintf("%.2f, %.2f", fe[, "Q2.5"], fe[, "Q97.5"]),
+  `log₁₀(BF)` = c(
+    log10_bf_z(mAll, "FinancialLiteracy"),
+    log10_bf_z(mAll, "Education"),
+    log10_bf_z(mAll, "Age"),
+    log10_bf_z(mAll, "Income")
+  ),
+  check.names = FALSE, row.names = NULL
+) %>%
+  kbl(caption = "<b>Table 4 | </b> Associations of Financial Literacy and Demographic Variables with Mental Accounting",
+      format = "html", row.names = FALSE, table.attr = "style='width:60%;'") %>%
+  kable_classic(html_font = "Cambria") %>%
+  kable_material(c("striped", "hover"))
+```
+
+:::
+
 ### Full Non-Linear
 
 ```{r fit-fullnonlinear-gdp}
@@ -10109,18 +10301,20 @@ d <- df %>%
     x = zscore(GDPxCapita),
     y = choensd,
     zdemocracy = zscore(democracy_index),
-    zface_value = zscore(log(Rate_to_USD))
+    zface_value = zscore(log(Rate_to_USD)),
+    zgini = zscore(Gini)
   ) %>%
   filter(family != "binomial1")
 
 # Define the nonlinear formula with random effects plus linear face value effect
 nlform <- bf(
-  y ~ K / (1 + exp(-r * (x - x0))) + betademocracy * zdemocracy + betaface * zface_value,
+  y ~ K / (1 + exp(-r * (x - x0))) + betademocracy * zdemocracy + betaface * zface_value + betagini * zgini,
   K ~ 1 + (1|study),
   r ~ 1 + (1|study),
   x0 ~ 1 + (1|study),
   betademocracy ~ 1 + (1|study),
   betaface ~ 1 + (1|study),
+  betagini ~ 1 + (1|study),
   nl = TRUE
 )
 
@@ -10130,7 +10324,8 @@ priors <- c(
   prior(normal(0, 2.5), nlpar = "r"),
   prior(normal(-1, 1), nlpar = "x0"),
   prior(normal(0, 2.5), nlpar = "betademocracy"),
-  prior(normal(0, 2.5), nlpar = "betaface")
+  prior(normal(0, 2.5), nlpar = "betaface"),
+  prior(normal(0, 2.5), nlpar = "betagini")
 )
 
 # Fit the model
@@ -10139,7 +10334,8 @@ bm2 <- brm(
   data = d,
   prior = priors,
   family = gaussian(),
-  control = list(adapt_delta = 0.95),
+  control = list(adapt_delta = 0.99),
+  save_pars = save_pars(all = TRUE),
   chains = 4,
   iter = 20000,
   cores = 4,
@@ -10150,6 +10346,11 @@ summary(bm2)
 
 ```
 
+```{r summary-fullnonlinear-gdp}
+
+summary(bm2)
+
+```
 
 :::
 
@@ -10623,6 +10824,16 @@ map_dfr(unique(df_table$study), reshape_df) %>%
   align(align='left', part='header') %>% 
   save_as_docx(path = "tables/Exploratory Analysis.docx")
 
+map_dfr(unique(df_table$study), reshape_df) %>%
+  rename(
+    `CIs (95\\%)` = `CIs (95%)`,         
+    `$\\log_{10}$(BF)` = `log₁₀(BF)`
+  ) %>%
+  kbl(caption = "Exploratory Analysis",
+      format = "latex", booktabs = TRUE, longtable = TRUE, escape = FALSE, row.names = FALSE) %>%
+  kable_styling(latex_options = c("repeat_header")) %>%
+  save_kable(file = "tables/tex/ExploratoryAnalysis.tex")
+
 map_dfr(unique(df_table$study), reshape_df) %>% 
   kbl(caption="<b>Table 4 | </b> Exploratory Analysis",
       format = "html", table.attr = "style='width:50%;'") %>% 
@@ -10765,10 +10976,327 @@ fig
 
 
 
-## Within-Person Correlation
+## Individual- and Country-level Correlations
 
+Figure 3 as reported in the manuscript. Across all panels, the MrAB gain and loss measures are averaged into a single MrAB index, so that each of the seven scenarios is represented by one measure. The code that computes each panel is shown in the (folded) chunks below.
+
+```{r fig3-setup}
+#| code-summary: "Setup: variables, palette, helpers"
+#| message: false
+#| warning: false
+
+library(psych)        # mixed (tetrachoric/polyserial) correlations
+library(metafor)      # meta-analysis of correlations
+library(lme4)         # mixed-effects models
+library(performance)  # R2 (Nakagawa / Tjur)
+library(relaimpo)     # LMG variance decomposition
+library(corrplot)
+
+# Earlier sections load packages (e.g., MASS) that mask dplyr verbs; re-bind them
+select <- dplyr::select
+filter <- dplyr::filter
+
+binary_vars     <- c("MrAB1", "MrAB2", "Jacket", "Play", "Plane")
+continuous_vars <- c("Game", "Drink", "Gym")
+all_vars        <- c("MrAB1", "MrAB2", "Game", "Drink", "Jacket", "Play", "Gym", "Plane")
+scenario_labels <- c("MrAB", "Game", "Drink", "Jacket", "Play", "Gym", "Plane")
+scenario_colors <- colorspace::qualitative_hcl(7, "Dark 3")[c(5, 2, 4, 7, 6, 1, 3)]
+names(scenario_colors) <- c("MrAB", "Game", "Play", "Drink", "Jacket", "Plane", "Gym")
+corr_palette    <- colorRampPalette(c("#053061", "white", "#67001F"))(200)
+
+# Add correlation values + significance stars onto a (lower-triangle) corrplot
+add_corrplot_text <- function(r_mat, p_mat, cex = 1.0) {
+  n <- nrow(r_mat)
+  for (i in 2:n) for (j in 1:(i - 1)) {
+    stars <- ""
+    if (!is.na(p_mat[i, j])) {
+      if (p_mat[i, j] < 0.001) stars <- "***"
+      else if (p_mat[i, j] < 0.01) stars <- "**"
+      else if (p_mat[i, j] < 0.05) stars <- "*"
+    }
+    text(j, n - i + 1, paste0(sprintf("%.2f", r_mat[i, j]), stars), cex = cex)
+  }
+}
+```
+
+```{r fig3-indicators}
+#| code-summary: "Build per-participant mental-accounting indicators"
+#| message: false
+#| warning: false
+
+# One indicator per scenario per participant (binary 0/1 or continuous difference)
+mrab1_indicator <- data_MrAB %>% filter(!(Country %in% countries2remove)) %>%
+  filter(attention_check_grater_than_3) %>% filter(scenario_group == "gain") %>%
+  rename(condition = scenario) %>% group_by(subject, Country) %>%
+  summarise(MrAB1 = as.integer((response[condition == "gain-gain VS gain"] == 1) &
+                               (response[condition == "gain-loss VS gain"] == 0)), .groups = "drop")
+mrab2_indicator <- data_MrAB %>% filter(!(Country %in% countries2remove)) %>%
+  filter(attention_check_grater_than_3) %>% filter(scenario_group == "loss") %>%
+  rename(condition = scenario) %>% group_by(subject, Country) %>%
+  summarise(MrAB2 = as.integer((response[condition == "loss-loss VS loss"] == 1) &
+                               (response[condition == "loss-gain VS loss"] == 0)), .groups = "drop")
+game_indicator <- Game %>% filter(!(Country %in% countries2remove)) %>%
+  group_by(subject, Country, condition) %>% summarise(response = mean(response, na.rm = TRUE), .groups = "drop") %>%
+  pivot_wider(names_from = condition, values_from = response) %>%
+  mutate(Game = Stranger - Friend) %>% select(subject, Country, Game)
+drink_indicator <- Drink %>% filter(!(Country %in% countries2remove)) %>%
+  group_by(subject, Country, condition) %>% summarise(response = mean(response, na.rm = TRUE), .groups = "drop") %>%
+  pivot_wider(names_from = condition, values_from = response) %>%
+  filter(!is.na(`Resort Hotel`) & !is.na(`Grocery Store`)) %>%
+  mutate(Drink = `Resort Hotel` - `Grocery Store`) %>% select(subject, Country, Drink)
+jacket_indicator <- Jacket %>% filter(!(Country %in% countries2remove)) %>%
+  group_by(subject, Country, condition) %>% summarise(response = mean(response, na.rm = TRUE), .groups = "drop") %>%
+  pivot_wider(names_from = condition, values_from = response) %>%
+  mutate(Jacket = as.integer(low > high)) %>% select(subject, Country, Jacket)
+play_indicator <- Play %>% filter(!(Country %in% countries2remove)) %>%
+  group_by(subject, Country, condition) %>% summarise(response = mean(response, na.rm = TRUE), .groups = "drop") %>%
+  pivot_wider(names_from = condition, values_from = response) %>%
+  mutate(Play = as.integer(cash > ticket)) %>% select(subject, Country, Play)
+gym_indicator <- Gym %>% filter(!(Country %in% countries2remove)) %>%
+  group_by(subject, Country, condition) %>% summarise(response = mean(response, na.rm = TRUE), .groups = "drop") %>%
+  pivot_wider(names_from = condition, values_from = response) %>%
+  mutate(Gym = Yearly - `Per-session`) %>% select(subject, Country, Gym)
+plane_indicator <- Plane %>% filter(!(Country %in% countries2remove)) %>%
+  group_by(subject, Country, condition) %>% summarise(response = mean(response, na.rm = TRUE), .groups = "drop") %>%
+  pivot_wider(names_from = condition, values_from = response) %>%
+  mutate(Plane = as.integer(purchased > free)) %>% select(subject, Country, Plane)
+
+df_indicators <- mrab1_indicator %>%
+  inner_join(mrab2_indicator, by = c("subject", "Country")) %>%
+  inner_join(game_indicator,  by = c("subject", "Country")) %>%
+  inner_join(drink_indicator, by = c("subject", "Country")) %>%
+  inner_join(jacket_indicator, by = c("subject", "Country")) %>%
+  inner_join(play_indicator,  by = c("subject", "Country")) %>%
+  inner_join(gym_indicator,   by = c("subject", "Country")) %>%
+  inner_join(plane_indicator, by = c("subject", "Country"))
+```
 
 ::: {.panel-tabset}
+
+### Figure 3A: Individual-level
+
+Left: meta-analyzed individual-level correlation matrix across the seven scenarios. Right: partial R² decomposition (variance explained when predicting each scenario from the others). The two MrAB conditions are averaged into a single MrAB index.
+
+```{r fig3a-corr-compute}
+#| code-summary: "Within-country mixed correlations + meta-analysis"
+#| cache: true
+#| message: false
+#| warning: false
+
+# Tetrachoric (binary-binary), polyserial (binary-continuous), Pearson (cont-cont)
+safe_tetrachoric <- function(x, y) tryCatch({
+  if (length(unique(x)) < 2 || length(unique(y)) < 2) return(NA)
+  tetrachoric(cbind(x, y), correct = 0.5)$rho[1, 2]
+}, error = function(e) NA)
+safe_polyserial <- function(b, c) tryCatch({
+  if (length(unique(b)) < 2 || sd(c, na.rm = TRUE) == 0 ||
+      sum(!is.na(b) & !is.na(c)) < 10) return(NA)
+  r <- as.numeric(polyserial(c, b))
+  if (is.na(r) || abs(r) > 1) r <- cor(as.numeric(b), c, use = "complete.obs")
+  r
+}, error = function(e) tryCatch(cor(as.numeric(b), c, use = "complete.obs"),
+                                error = function(e2) NA))
+
+# Standardize continuous indicators within country, then per-country correlation matrix
+df_standardized <- df_indicators %>% group_by(Country) %>%
+  mutate(across(all_of(continuous_vars), ~ as.vector(scale(.)))) %>% ungroup()
+
+compute_country_correlation <- function(data) {
+  mat <- na.omit(as.data.frame(data[, all_vars]))
+  if (nrow(mat) < 30) return(NULL)
+  n <- length(all_vars)
+  cm <- matrix(NA, n, n, dimnames = list(all_vars, all_vars)); diag(cm) <- 1
+  for (i in 1:(n - 1)) for (j in (i + 1):n) {
+    x <- mat[[all_vars[i]]]; y <- mat[[all_vars[j]]]
+    ib <- all_vars[i] %in% binary_vars; jb <- all_vars[j] %in% binary_vars
+    r <- if (ib && jb) safe_tetrachoric(x, y)
+         else if (ib && !jb) safe_polyserial(x, y)
+         else if (!ib && jb) safe_polyserial(y, x)
+         else cor(x, y, use = "complete.obs")
+    cm[i, j] <- r; cm[j, i] <- r
+  }
+  list(cor_matrix = cm, n = nrow(mat))
+}
+country_results <- lapply(split(df_standardized, df_standardized$Country), compute_country_correlation)
+country_results <- country_results[!sapply(country_results, is.null)]
+
+# Fisher-z random-effects meta-analysis of each pair, back-transformed
+meta_pvalues <- do.call(rbind, lapply(combn(all_vars, 2, simplify = FALSE), function(pair) {
+  cors <- sapply(country_results, function(x) x$cor_matrix[pair[1], pair[2]])
+  ns   <- sapply(country_results, function(x) x$n)
+  ok <- !is.na(cors); cors <- cors[ok]; ns <- ns[ok]
+  if (length(cors) < 3) return(data.frame(var1 = pair[1], var2 = pair[2], r_pooled = NA, p_value = NA))
+  fit <- tryCatch(rma(yi = atanh(cors), vi = 1 / (ns - 3), method = "REML"), error = function(e) NULL)
+  if (is.null(fit)) return(data.frame(var1 = pair[1], var2 = pair[2], r_pooled = NA, p_value = NA))
+  data.frame(var1 = pair[1], var2 = pair[2], r_pooled = tanh(as.numeric(fit$beta)), p_value = fit$pval)
+}))
+
+# Combine MrAB1 & MrAB2 into a single 7x7 matrix (average r, max/conservative p)
+get_pair <- function(d, a, b, col) d[[col]][(d$var1 == a & d$var2 == b) | (d$var1 == b & d$var2 == a)]
+individual_r <- matrix(NA, 7, 7, dimnames = list(scenario_labels, scenario_labels)); diag(individual_r) <- 1
+individual_p <- matrix(NA, 7, 7, dimnames = list(scenario_labels, scenario_labels)); diag(individual_p) <- 0
+others <- setdiff(scenario_labels, "MrAB")
+for (v in others) {
+  r1 <- get_pair(meta_pvalues, "MrAB1", v, "r_pooled"); r2 <- get_pair(meta_pvalues, "MrAB2", v, "r_pooled")
+  p1 <- get_pair(meta_pvalues, "MrAB1", v, "p_value");  p2 <- get_pair(meta_pvalues, "MrAB2", v, "p_value")
+  individual_r["MrAB", v] <- individual_r[v, "MrAB"] <- mean(c(r1, r2), na.rm = TRUE)
+  individual_p["MrAB", v] <- individual_p[v, "MrAB"] <- max(c(p1, p2), na.rm = TRUE)
+}
+for (i in seq_along(others)) for (j in seq_along(others)) if (i < j) {
+  rv <- get_pair(meta_pvalues, others[i], others[j], "r_pooled")
+  pv <- get_pair(meta_pvalues, others[i], others[j], "p_value")
+  if (length(rv) && !is.na(rv[1])) {
+    individual_r[others[i], others[j]] <- individual_r[others[j], others[i]] <- rv[1]
+    individual_p[others[i], others[j]] <- individual_p[others[j], others[i]] <- pv[1]
+  }
+}
+```
+
+```{r fig3a-corr-plot}
+#| code-summary: "Plot: individual-level correlation matrix"
+#| fig-width: 6
+#| fig-height: 6
+
+corrplot(individual_r, method = "color", diag = FALSE, type = "lower",
+         col.lim = c(-1, 1), col = corr_palette, tl.col = "black",
+         tl.cex = 1.4, tl.srt = 45, tl.offset = 0.8, mar = c(0, 0, 2, 0))
+add_corrplot_text(individual_r, individual_p)
+```
+
+```{r fig3a-var-compute}
+#| code-summary: "Individual-level variance explained (drop-one ΔR²)"
+#| cache: true
+#| message: false
+#| warning: false
+
+df_scaled <- df_indicators %>%
+  mutate(across(all_of(continuous_vars), ~ scale(.)[, 1], .names = "{.col}_z"))
+get_r2 <- function(m, is_binary) if (is_binary)
+  tryCatch(as.numeric(r2_tjur(m)), error = function(e) NA_real_) else
+  tryCatch(as.numeric(r2_nakagawa(m)$R2_marginal), error = function(e) NA_real_)
+
+individual_partial_r2 <- data.frame()
+for (target in all_vars) {
+  is_binary <- target %in% binary_vars
+  preds <- setdiff(all_vars, target)
+  pnames <- sapply(preds, function(p) if (p %in% continuous_vars) paste0(p, "_z") else p)
+  if (!is_binary) { df_scaled[[paste0(target, "_z")]] <- scale(df_scaled[[target]])[, 1]; tvar <- paste0(target, "_z") } else tvar <- target
+  fit <- function(fm) if (is_binary)
+    glmer(fm, df_scaled, family = binomial, control = glmerControl(optimizer = "bobyqa", optCtrl = list(maxfun = 1e5))) else
+    lmer(fm, df_scaled, REML = FALSE)
+  full <- fit(as.formula(paste(tvar, "~", paste(pnames, collapse = " + "), "+ (1|Country)")))
+  r2_full <- get_r2(full, is_binary)
+  delta <- setNames(numeric(length(preds)), preds)
+  for (i in seq_along(preds)) {
+    red <- fit(as.formula(paste(tvar, "~", paste(pnames[-i], collapse = " + "), "+ (1|Country)")))
+    delta[preds[i]] <- max(r2_full - get_r2(red, is_binary), 0)
+  }
+  pr2 <- if (sum(delta) > 0) (delta / sum(delta)) * r2_full else delta
+  individual_partial_r2 <- rbind(individual_partial_r2,
+    data.frame(target = target, predictor = preds, partial_r2 = pr2, r2_total = r2_full))
+}
+
+# Combine MrAB1/MrAB2 (sum as predictors; average the two MrAB targets)
+mrab_t <- individual_partial_r2 %>% filter(target %in% c("MrAB1", "MrAB2")) %>%
+  mutate(predictor = ifelse(predictor %in% c("MrAB1", "MrAB2"), "MrAB", predictor)) %>%
+  group_by(target, predictor) %>% summarise(partial_r2 = sum(partial_r2), r2_total = first(r2_total), .groups = "drop") %>%
+  group_by(predictor) %>% summarise(partial_r2 = mean(partial_r2), r2_total = mean(r2_total), .groups = "drop") %>%
+  mutate(target = "MrAB") %>% filter(predictor != "MrAB")
+other_t <- individual_partial_r2 %>% filter(!target %in% c("MrAB1", "MrAB2")) %>%
+  mutate(predictor = ifelse(predictor %in% c("MrAB1", "MrAB2"), "MrAB", predictor)) %>%
+  group_by(target, predictor) %>% summarise(partial_r2 = sum(partial_r2), r2_total = first(r2_total), .groups = "drop")
+individual_combined <- bind_rows(mrab_t, other_t)
+```
+
+```{r fig3a-var-plot}
+#| code-summary: "Plot: individual-level variance explained"
+#| fig-width: 6
+#| fig-height: 5
+
+individual_combined %>%
+  mutate(partial_r2_pct = partial_r2 * 100,
+         target = factor(target, levels = rev(scenario_labels)),
+         predictor = factor(predictor, levels = scenario_labels)) %>%
+  ggplot(aes(target, partial_r2_pct, fill = predictor)) +
+  geom_bar(stat = "identity", position = "stack", width = 0.2, alpha = 0.8) +
+  scale_fill_manual(values = scenario_colors, name = "Predictor") +
+  coord_flip(ylim = c(-.1, 85)) +
+  labs(x = NULL, y = "Variance Explained (%)") +
+  theme_pubr(base_size = 12) +
+  theme(legend.position = c(0.7, 0.7), text = element_text(size = 15))
+```
+
+### Figure 3B: Country-level
+
+Left: country-level correlation matrix (Pearson correlations of country effect sizes). Right: partial R² decomposition (LMG method). The two MrAB conditions are averaged into a single MrAB index.
+
+```{r fig3b-compute}
+#| code-summary: "Country effect-size matrix, correlations, and LMG"
+#| cache: true
+#| message: false
+#| warning: false
+
+# Country x scenario effect-size matrix (binomial log-ORs mapped to SMD; MrAB averaged)
+lor2smd <- sqrt(3 / (pi^2))
+df_country <- map_dfr(theta_preregisteredExclusion, ~ .x)[, c("Country", "theta", "study", "family")] %>%
+  group_by(study) %>% mutate(theta = ifelse(family == "binomial", theta * lor2smd, theta)) %>%
+  na.omit() %>% ungroup() %>%
+  group_by(Country, study) %>% summarise(theta = mean(theta), .groups = "drop") %>%
+  pivot_wider(names_from = study, values_from = theta, id_cols = Country)
+
+# Country-level correlation matrix + p-values
+country_r <- matrix(NA, 7, 7, dimnames = list(scenario_labels, scenario_labels)); diag(country_r) <- 1
+country_p <- matrix(NA, 7, 7, dimnames = list(scenario_labels, scenario_labels)); diag(country_p) <- 0
+for (i in seq_along(scenario_labels)) for (j in seq_along(scenario_labels)) if (i < j) {
+  ct <- cor.test(df_country[[scenario_labels[i]]], df_country[[scenario_labels[j]]])
+  country_r[i, j] <- country_r[j, i] <- ct$estimate
+  country_p[i, j] <- country_p[j, i] <- ct$p.value
+}
+
+# Country-level LMG variance decomposition (lm per scenario, relaimpo)
+country_partial_r2 <- data.frame()
+for (target in scenario_labels) {
+  preds <- setdiff(scenario_labels, target)
+  m <- lm(as.formula(paste0("`", target, "` ~ ", paste0("`", preds, "`", collapse = " + "))), data = df_country)
+  lmg <- calc.relimp(m, type = "lmg")@lmg
+  country_partial_r2 <- rbind(country_partial_r2, data.frame(
+    target = target, predictor = gsub("`", "", names(lmg)),
+    partial_r2 = as.numeric(lmg), r2_total = summary(m)$r.squared))
+}
+```
+
+```{r fig3b-corr-plot}
+#| code-summary: "Plot: country-level correlation matrix"
+#| fig-width: 6
+#| fig-height: 6
+
+corrplot(country_r, method = "color", diag = FALSE, type = "lower",
+         col.lim = c(-1, 1), col = corr_palette, tl.col = "black",
+         tl.cex = 1.4, tl.srt = 45, tl.offset = 0.8, mar = c(0, 0, 2, 0))
+add_corrplot_text(country_r, country_p)
+```
+
+```{r fig3b-var-plot}
+#| code-summary: "Plot: country-level variance explained"
+#| fig-width: 6
+#| fig-height: 5
+
+country_partial_r2 %>%
+  mutate(partial_r2_pct = partial_r2 * 100,
+         target = factor(target, levels = rev(scenario_labels)),
+         predictor = factor(predictor, levels = scenario_labels)) %>%
+  ggplot(aes(target, partial_r2_pct, fill = predictor)) +
+  geom_bar(stat = "identity", position = "stack", width = 0.2, alpha = 0.8) +
+  scale_fill_manual(values = scenario_colors, name = "Predictor") +
+  coord_flip(ylim = c(-.1, 85)) +
+  labs(x = NULL, y = "Variance Explained (%)") +
+  theme_pubr(base_size = 12) +
+  theme(text = element_text(size = 15), legend.position = "none")
+```
+
+:::
+
+::: {.content-hidden}
 
 ### Plot
 
