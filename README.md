@@ -7,7 +7,7 @@ Click [here](https://run.pavlovia.org/JDMLAB/mmar-demo/) to access a web-page th
 
 ## Analysis Study
 
-Click [here](https://run.pavlovia.org/JDMLAB/mmar-analysis/) to access a webpage that includes all the codes used to produce the results reported in the main text and in the supplementary materials. 
+Click [here](https://simonedambrogio.github.io/GlobalMentalAccounting/) to access a webpage that includes all the codes used to produce the results reported in the main text and in the supplementary materials. 
 Source code: Analysis Study/Analysis/index.qmd. You can execute it on your machine using the command ``` quarto render Analysis Study/Analysis/index.qmd ```. The file should be rendered in within 3 and 4 days on a "normal" desktop computer.
 
 ### Data 
