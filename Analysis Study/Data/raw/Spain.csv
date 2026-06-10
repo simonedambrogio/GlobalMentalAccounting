@@ -1,0 +1,742 @@
+StartDate,EndDate,Status,Progress,Duration (in seconds),Finished,RecordedDate,ResponseId,DistributionChannel,UserLanguage,Q_RecaptchaScore,Consent,MrAB1,Game1_1_1,Game1_1_2,Game1_2_1,Game1_2_2,Drink1,Gym1 _1,Gym1 _2,Gym1 _3,Jacket1,Game2_1_1,Game2_1_2,Game2_2_1,Game2_2_2,MrAB2,"Play2 ","Plane2 ",MrAB3,Game3_1 _1,Game3_1 _2,Game3_2_1,Game3_2_2,Jacket2,Gym2 _1,Gym2 _2,Gym2 _3,"MrAB4 ","Play1 ","Plane1 ",Drink2,fin_lit1,fin_lit2,fin_lit3,fin_lit4,Att_check,Gender,"Age ",Income,Education,Residence,Native language,Debriefing,FL_5_DO_FL_14,FL_5_DO_FL_15,FL_5_DO_FL_16,FL_5_DO_FL_17
+Start Date,End Date,Response Type,Progress,Duration (in seconds),Finished,Recorded Date,Response ID,Distribution Channel,User Language,Q_RecaptchaScore,"Dear Participant,
+
+
+
+We invite you to take part in an online study with the purpose of investigating how people make decisions. The duration of the questionnaire is approximately 10 minutes. At the end of the questionnaire, you will be asked some personal demographic information.
+
+
+
+Your data will be analyzed anonymously and processed according to the current international legislation for the protection of privacy (D. Lgs 196/2003 and EU GDPR 679/2016 on the protection of personal data and art. 9 of the Deontological Code of Italian Psychologists). Your data will be used solely for the purposes of the research itself. No information regarding you personally will be published or revealed in any way.
+
+
+
+You are free to withdraw from the study at any point without giving any explanation. In this case your data will be deleted. You will not receive any payment or reimbursement of any sort for your participation in this study. There are no known risks associated with participating in this study.
+
+
+
+Project Manager: Enrico Rubaltelli (Department of Development Psychology and Socialization -DPSS, University of Padua). The person responsible for this research agrees to comply with the obligations of current legislation in terms of collection, processing and storage of sensitive data.
+
+
+
+I DECLARE THAT
+
+• I am 18 years old or older
+
+• I take part in this project voluntarily
+
+• I am aware of the objectives and aims of this research project
+
+• I am aware that the data obtained, in absolute anonymity, will be treated exclusively for educational and research purposes
+
+• I am aware that it is not possible to withdraw the data I have provided once it has been submitted.
+
+
+
+For any clarification you can contact Prof. Enrico Rubaltelli at jdmlab.multicountry@gmail.com.","Person A was given two tickets to the lottery. They won 40€ with one ticket and 10€ with the other ticket.  
+
+
+
+Person B was given a ticket to one lottery. They won 50€.  
+
+
+ 
+
+Who is happier?","You are going to a sold-out game of your favorite local sports team and you have an extra ticket. The price marked on the ticket is 5€ but this ticket has been offered to you by a friend for free.   
+
+
+
+You want to get rid of the extra ticket and you know the ticket’s face value price is 5€. You find someone who wants the ticket. There is no law against charging more than the price marked on the ticket.
+
+
+
+What price do you ask for selling the extra ticket if the person you sell it to... ? - Is a friend","You are going to a sold-out game of your favorite local sports team and you have an extra ticket. The price marked on the ticket is 5€ but this ticket has been offered to you by a friend for free.   
+
+
+
+You want to get rid of the extra ticket and you know the ticket’s face value price is 5€. You find someone who wants the ticket. There is no law against charging more than the price marked on the ticket.
+
+
+
+What price do you ask for selling the extra ticket if the person you sell it to... ? - Is a stranger",What price would you have asked for if you found out that the ticket’s face value price was 10€ instead? - If they are a friend,What price would you have asked for if you found out that the ticket’s face value price was 10€ instead? - If they are a stranger,"You are on the beach on a hot day, and you would really like a cold drink. A friend offers to go buy the drink from a fancy resort hotel. They ask how much you are willing to pay for the drink: they will only buy it if it costs as much or less than the price you state. You trust your friend, and there is no possibility of bargaining with the bartender.
+
+
+
+What price do you tell them?","Imagine that you go to the gym on a regular basis. Due to your busy working schedule, you can only go on Monday nights. The membership to the gym allows you to pay 5€ (non-refundable) per session. One Monday, just after you have paid and changed into your gym clothes, you receive a phone call that requires you to leave and forgo your exercise that evening.
+
+How well does
+each of the following statements capture your feelings about the cost of the missed
+workout? - I feel like I wasted 5€","Imagine that you go to the gym on a regular basis. Due to your busy working schedule, you can only go on Monday nights. The membership to the gym allows you to pay 5€ (non-refundable) per session. One Monday, just after you have paid and changed into your gym clothes, you receive a phone call that requires you to leave and forgo your exercise that evening.
+
+How well does
+each of the following statements capture your feelings about the cost of the missed
+workout? - I feel like I wasted nothing, since my visit had already been paid for","Imagine that you go to the gym on a regular basis. Due to your busy working schedule, you can only go on Monday nights. The membership to the gym allows you to pay 5€ (non-refundable) per session. One Monday, just after you have paid and changed into your gym clothes, you receive a phone call that requires you to leave and forgo your exercise that evening.
+
+How well does
+each of the following statements capture your feelings about the cost of the missed
+workout? - I feel like I wasted something, but no specific amount or measure comes to mind","You are about to purchase a jacket for 105€ and a Bluetooth speaker for 15€. The salesman informs you that the speaker you wish to buy is on sale for 10€ at the other branch store, located 20 minutes away.
+
+
+
+Would you make the trip to the other store?","Imagine you are going to a sold-out game of your favorite local sports team, and you have an extra ticket. The price marked on the ticket is 5€ which is what you paid for each ticket.
+
+
+
+You want to get rid of the extra ticket and you know the ticket's face value price is 5€. You find someone who wants the ticket. There is no law against charging more than the price marked on the ticket.
+
+
+What price do you ask for selling the extra ticket if the person you sell it to...? - Is a friend","Imagine you are going to a sold-out game of your favorite local sports team, and you have an extra ticket. The price marked on the ticket is 5€ which is what you paid for each ticket.
+
+
+
+You want to get rid of the extra ticket and you know the ticket's face value price is 5€. You find someone who wants the ticket. There is no law against charging more than the price marked on the ticket.
+
+
+What price do you ask for selling the extra ticket if the person you sell it to...? - Is a stranger",What price would you have asked for if you found out that the ticket’s face value price was 10€ instead? - If they are a friend,What price would you have asked for if you found out that the ticket’s face value price was 10€ instead? - If they are a stranger,"Person A received a fine and owed 70€. The same day they received a second fine and owed 30€.
+
+
+
+Person B received a fine and owed 100€.
+
+Who is more upset?","Imagine that you are on your way to a music event and intend to buy a ticket worth 40€. On entering the venue, you realize that you have lost 40€ in cash.
+
+
+Would you still pay 40€ for a ticket?","You are flying with a friend who has upgraded their ticket to business class and has two coupons, each worth 10€, which could be used to upgrade your ticket from economy to business class. They purchased one coupon for the standard price of 10€ and received the other one for free. Just one coupon is required to upgrade your class on the current flight and your friend offers you the coupon which they got for free so that you can upgrade your ticket as well.
+
+
+
+What do you think is the most appropriate thing to do?","Person A bought a lottery ticket and won 70€. Also, they damaged one door in their apartment in an accident and had to pay the landlord 50€.  
+
+ 
+
+Person B bought a lottery ticket and won 20€.  
+
+ 
+
+Who is happier?","You are going to a sold-out game of your favorite local sports team and you have an extra ticket. The ticket’s face value price is 5€ but you paid 10€ for each ticket when you bought them from another person.
+
+
+
+You want to get rid of the extra ticket and you know the ticket’s face value price is 5€. You find someone who wants the ticket. There is no law against charging more than the price marked on the ticket.
+
+
+
+What price do you ask for selling the extra ticket if the person you sell it to...? - Is a friend","You are going to a sold-out game of your favorite local sports team and you have an extra ticket. The ticket’s face value price is 5€ but you paid 10€ for each ticket when you bought them from another person.
+
+
+
+You want to get rid of the extra ticket and you know the ticket’s face value price is 5€. You find someone who wants the ticket. There is no law against charging more than the price marked on the ticket.
+
+
+
+What price do you ask for selling the extra ticket if the person you sell it to...? - Is a stranger",What price would you have asked for if you found out that the ticket’s face value price was 10€ instead? - If they are a friend,What price would you have asked for if you found out that the ticket’s face value price was 10€ instead? - If they are a stranger,"You are about to purchase a jacket for 15€ and a Bluetooth speaker for 105€. The salesman informs you that the speaker you wish to buy is on sale for 100€ at the other branch store, located 20 minutes away.
+
+
+
+Would you make the trip to the other store?","Imagine that you go to the gym on a regular basis. Due to your busy working schedule, you can only go on Monday nights. The membership costs you 300€ a year (i.e., roughly 5€ per visit). One Monday, just after you have arrived and changed into your gym clothes, you receive a phone call that requires you to leave and forgo your exercise that evening.
+
+
+
+How well does
+each of the following statements capture your feelings about the cost of the missed
+workout? - I feel like I wasted 5€","Imagine that you go to the gym on a regular basis. Due to your busy working schedule, you can only go on Monday nights. The membership costs you 300€ a year (i.e., roughly 5€ per visit). One Monday, just after you have arrived and changed into your gym clothes, you receive a phone call that requires you to leave and forgo your exercise that evening.
+
+
+
+How well does
+each of the following statements capture your feelings about the cost of the missed
+workout? - I feel like I wasted nothing, since my visit had already been paid for","Imagine that you go to the gym on a regular basis. Due to your busy working schedule, you can only go on Monday nights. The membership costs you 300€ a year (i.e., roughly 5€ per visit). One Monday, just after you have arrived and changed into your gym clothes, you receive a phone call that requires you to leave and forgo your exercise that evening.
+
+
+
+How well does
+each of the following statements capture your feelings about the cost of the missed
+workout? - I feel like I wasted something, but no specific amount or measure comes to mind","Person A damaged their car in a parking lot. They had to spend 140€ to repair the damage. The same day they damaged the car they won 20€ in a raffle.  
+
+ 
+
+Person B damaged their car in a parking lot. They had to spend 120€ to repair the damage.  
+
+ 
+
+Who is more upset?","Imagine that you are on your way to a music event with a ticket for which you have paid 40€. On entering the venue, you discover that you have lost the ticket.
+
+
+
+Would you pay 40€ for another ticket?","You are flying with a friend who has upgraded their ticket to business class and has two coupons, each worth 10€, which could be used to upgrade your ticket from economy to business class. They purchased one coupon for the standard price of 10€ and received the other one for free. Just one coupon is required to upgrade your class on the current flight, and your friend offers you the coupon which they purchased so that you can upgrade as well.
+
+
+
+What do you think is the most appropriate thing to do?","You are on the beach on a hot day, and you would really like a cold drink. A friend offers to go buy the drink from a small, run-down grocery store. They ask how much you are willing to pay for the drink: they will only buy it if it costs as much or less than the price you state. You trust your friend, and there is no possibility of bargaining with the store owner.
+
+
+
+What price do you tell them?","Suppose that you have 100€ in a savings account and the interest rate is 2% per year. After 5 years, how much do you think you would have in the account if you let the money grow?","Imagine that the interest rate on your savings account was 1% per year and inflation was 2% per year. After 1 year,
+how much would you be able to buy with the money in this account?",Buying a single company's stock usually provides a safer return than a stock mutual fund.,"If interest rates rise, what would typically happen to bond prices?","To ensure the quality of our data we need to know if participants paid attention during the survey. Please tell us honestly how serious you were in completing the survey.
+
+
+How serious have you been about filling in the survey?",What gender do you identify as?,What is your age (in numbers)?,Which of the following best describes your annual household net income last year?,How many years of schooling have you completed? (from elementary school to doctoral degree or specialization if you have one),List of Countries,Which of the following is your native language?,"The survey you have completed aims to replicate the mental accounting effect. According to this phenomenon a person attributes different values to the same amount of money based on subjective criteria. Specifically, people tend to subjectively organize economic resources into different mental accounts. In addition, in this study, we measured some individual differences that might have an influence on mental accounting. In particular:   	
+ 	
+ 
+●	Scale to measure financial literacy (Lusardi and Mitchell, 2014).  	 	 	
+ ●	Demographic data (e.g. gender, age or income level)	
+
+ 
+Finally, we inform you that we have also used an attentional check to measure respondent engagement. The purpose of this study could not be fully revealed at the beginning of the study to avoid influencing your answers. Now that you have received this information, we ask you to confirm your consent to participate in this study or to withdraw it. In the latter case your data will not be used and will be deleted.",FL_5 - Block Randomizer - Display Order - FL_14,FL_5 - Block Randomizer - Display Order - FL_15,FL_5 - Block Randomizer - Display Order - FL_16,FL_5 - Block Randomizer - Display Order - FL_17
+"{""ImportId"":""startDate"",""timeZone"":""Europe/Berlin""}","{""ImportId"":""endDate"",""timeZone"":""Europe/Berlin""}","{""ImportId"":""status""}","{""ImportId"":""progress""}","{""ImportId"":""duration""}","{""ImportId"":""finished""}","{""ImportId"":""recordedDate"",""timeZone"":""Europe/Berlin""}","{""ImportId"":""_recordId""}","{""ImportId"":""distributionChannel""}","{""ImportId"":""userLanguage""}","{""ImportId"":""Q_RecaptchaScore""}","{""ImportId"":""QID1""}","{""ImportId"":""QID8""}","{""ImportId"":""QID14_1""}","{""ImportId"":""QID14_2""}","{""ImportId"":""QID15_1""}","{""ImportId"":""QID15_2""}","{""ImportId"":""QID23_TEXT""}","{""ImportId"":""QID44_1""}","{""ImportId"":""QID44_2""}","{""ImportId"":""QID44_3""}","{""ImportId"":""QID34""}","{""ImportId"":""QID17_1""}","{""ImportId"":""QID17_2""}","{""ImportId"":""QID18_1""}","{""ImportId"":""QID18_2""}","{""ImportId"":""QID12""}","{""ImportId"":""QID78""}","{""ImportId"":""QID86""}","{""ImportId"":""QID10""}","{""ImportId"":""QID20_1""}","{""ImportId"":""QID20_2""}","{""ImportId"":""QID21_1""}","{""ImportId"":""QID21_2""}","{""ImportId"":""QID74""}","{""ImportId"":""QID82_1""}","{""ImportId"":""QID82_2""}","{""ImportId"":""QID82_3""}","{""ImportId"":""QID11""}","{""ImportId"":""QID40""}","{""ImportId"":""QID48""}","{""ImportId"":""QID70_TEXT""}","{""ImportId"":""QID59""}","{""ImportId"":""QID60""}","{""ImportId"":""QID61""}","{""ImportId"":""QID62""}","{""ImportId"":""QID51""}","{""ImportId"":""QID52""}","{""ImportId"":""QID53_TEXT""}","{""ImportId"":""QID54""}","{""ImportId"":""QID55_TEXT""}","{""ImportId"":""QID114""}","{""ImportId"":""QID57""}","{""ImportId"":""QID63""}","{""ImportId"":""FL_5_DO"",""choiceId"":""FL_14""}","{""ImportId"":""FL_5_DO"",""choiceId"":""FL_15""}","{""ImportId"":""FL_5_DO"",""choiceId"":""FL_16""}","{""ImportId"":""FL_5_DO"",""choiceId"":""FL_17""}"
+2022-09-12 10:27:57,2022-09-12 10:54:53,0,100,1616,1,2022-09-12 10:54:55,R_3peThD4mkToCpHX,anonymous,ES-ES,0.8999999761581421,1,1,0,5,0,10,4,1,4,5,1,0,5,0,10,1,1,3,2,0,10,0,10,1,4,2,2,2,2,3,2,1,3,3,4,4,2,23,5,12,163,20,1,2,3,4,1
+2022-09-12 10:36:01,2022-09-12 10:58:39,0,100,1357,1,2022-09-12 10:58:41,R_brwc9e2kqDi0DK1,anonymous,ES-ES,0.8999999761581421,1,1,0,5,0,10,6,1,5,5,1,5,5,10,10,1,1,2,1,5,10,10,10,1,1,5,5,2,2,1,3,1,3,3,4,5,2,57,6,23,163,20,1,1,3,2,4
+2022-09-12 10:53:40,2022-09-12 11:21:46,0,100,1685,1,2022-09-12 11:21:47,R_3FKWr4IV9g3gJ2I,anonymous,ES-ES,0.8999999761581421,1,1,0,0,0,5,5,1,5,3,1,5,5,10,10,1,1,3,2,5,10,10,10,2,5,5,1,1,1,3,2,2,3,3,4,5,2,25,4,20,163,20,1,2,4,1,3
+2022-09-12 11:11:19,2022-09-12 11:24:21,0,100,782,1,2022-09-12 11:24:22,R_1MuITgLaiWclPKV,anonymous,ES-ES,1,1,3,0,5,0,10,1.5,4,2,2,2,0,5,0,10,3,1,1,1,0,5,0,10,2,5,1,2,3,2,1,1.5,1,3,3,4,4,2,47,6,20,163,20,1,4,1,2,3
+2022-09-12 11:17:45,2022-09-12 11:31:17,0,100,812,1,2022-09-12 11:31:18,R_3JsJXX5hVr0I1ch,anonymous,ES-ES,1,1,1,0,5,0,10,2,3,5,3,2,0,5,0,10,1,1,2,2,5,10,0,10,2,1,2,2,2,1,2,2,1,3,2,4,4,1,24,5,21,163,20,1,1,4,2,3
+2022-09-12 14:36:48,2022-09-12 14:45:52,0,100,543,1,2022-09-12 14:45:52,R_33Cj8sEPNR66xJX,anonymous,ES-ES,0.8999999761581421,1,1,5,7,10,15,2,1,4,2,1,5,7,10,15,2,2,2,1,5,7,10,15,1,2,3,1,2,2,1,1.5,3,3,3,4,4,2,24,7,17,163,20,1,4,3,2,1
+2022-09-12 15:00:23,2022-09-12 15:15:40,0,100,916,1,2022-09-12 15:15:41,R_2OZxDdIdHY3X2vG,anonymous,ES-ES,0.8999999761581421,1,1,0,15,5,25,2.5,3,5,2,1,5,15,10,25,1,1,3,2,10,20,10,25,1,4,5,2,2,2,3,1.5,1,3,2,4,4,1,26,7,12,163,20,1,1,4,2,3
+2022-09-12 15:59:02,2022-09-12 16:10:51,0,100,709,1,2022-09-12 16:10:52,R_3HOjBti7jBeTJsZ,anonymous,EN,1,1,2,0,0,0,0,2,1,5,3,1,5,5,5,10,1,2,2,2,10,10,10,10,2,5,1,5,2,2,1,1.5,3,4,3,4,5,2,22,1,20,95,2,1,3,2,4,1
+2022-09-12 16:51:36,2022-09-12 16:59:57,0,100,500,1,2022-09-12 16:59:57,R_AHiA91PX7qHvbDH,anonymous,ES-ES,1,1,3,0,5,5,10,5,3,3,2,2,0,5,5,10,1,1,3,2,5,10,5,10,2,5,3,4,3,1,3,3,1,3,2,1,4,2,26,6,23,163,20,1,2,1,4,3
+2022-09-12 16:53:14,2022-09-12 17:07:27,0,100,852,1,2022-09-12 17:07:27,R_71UYW38aOpKLe25,anonymous,EN,0.8999999761581421,1,1,0,5,0,10,10,5,1,3,1,5,5,10,10,2,1,2,1,5,10,10,10,2,5,1,3,2,1,2,5,1,3,3,4,4,1,29,6,12,163,26,1,4,2,1,3
+2022-09-12 19:54:37,2022-09-12 22:12:54,0,100,8296,1,2022-09-12 22:12:54,R_2qyrbqstoCUwgVY,anonymous,ES-ES,1,1,2,15,30,30,60,50,1,5,5,1,15,30,30,60,1,2,2,2,20,30,25,35,1,1,5,2,1,2,2,15,1,3,2,1,5,1,30,7,25,135,20,2,3,1,4,2
+2022-09-12 22:57:19,2022-09-12 23:12:59,0,100,940,1,2022-09-12 23:13:01,R_3rTdpwLZtaehpO0,anonymous,ES-ES,1,1,3,0,5,0,19,3,1,5,5,2,5,7,5,10,1,2,3,2,5,10,10,12,2,2,4,3,2,2,3,3,4,4,3,4,3,2,31,5,26,163,20,1,2,1,3,4
+2022-09-13 06:39:04,2022-09-13 06:53:35,0,100,871,1,2022-09-13 06:53:35,R_3Jzte53nUnIb5K0,anonymous,ES-ES,1,1,1,0,5,5,10,5,3,2,1,2,0,5,5,10,1,1,2,2,5,10,10,10,2,5,3,1,2,1,2,3,1,4,3,1,4,2,24,6,18,163,20,1,3,2,4,1
+2022-09-13 09:33:22,2022-09-13 09:45:59,0,100,757,1,2022-09-13 09:46:00,R_2wGNDhFOPYwuhv0,anonymous,ES-ES,0.8999999761581421,1,1,0,5,0,10,5,2,4,3,1,0,5,0,10,1,1,2,2,0,5,0,10,1,5,1,2,2,1,2,2,1,1,3,4,5,2,23,5,16,163,20,1,2,3,4,1
+2022-09-13 11:21:37,2022-09-13 11:38:20,0,100,1002,1,2022-09-13 11:38:20,R_2xCNNxl4Yczg9c4,anonymous,EN,1,1,1,0,5,0,10,2,1,5,3,2,5,5,10,10,1,1,3,2,10,10,10,10,2,4,5,1,1,1,3,2,1,3,2,1,4,1,37,7,18,163,26,1,4,3,1,2
+2022-09-13 12:06:45,2022-09-13 12:15:35,0,100,530,1,2022-09-13 12:15:37,R_27DarX5TrsTvYsd,anonymous,ES-ES,0.800000011920929,1,2,0,20,0,30,7,1,5,3,2,0,20,0,30,1,1,2,2,0,40,0,50,2,5,1,5,2,2,1,2,4,4,1,4,3,1,26,6,20,187,20,1,4,2,3,1
+2022-09-13 12:06:28,2022-09-13 12:17:44,0,100,676,1,2022-09-13 12:17:45,R_2SiT4l3K4oSvp8o,anonymous,ES-ES,0.8999999761581421,1,2,0,6,0,12,3,2,4,3,1,0,4,0,8,1,2,2,1,0,4,0,8,2,5,4,2,3,2,2,2,1,3,2,1,4,1,27,6,27,163,20,1,4,3,1,2
+2022-09-13 12:06:44,2022-09-13 12:20:29,0,100,825,1,2022-09-13 12:20:31,R_xhDJLTmBYRkBNYZ,anonymous,ES-ES,0.8999999761581421,1,3,0,5,0,10,2,1,2,2,1,0,5,0,10,3,1,3,3,0,10,0,10,1,1,4,2,3,2,3,1.5,3,3,2,4,2,1,27,5,24,163,20,1,4,3,2,1
+2022-09-13 12:09:05,2022-09-13 12:21:39,0,100,754,1,2022-09-13 12:21:40,R_2aJgUudyeztgqoI,anonymous,EN,1,1,1,10,10,10,10,2,3,5,2,1,7,7,15,15,1,2,2,2,10,10,10,10,1,3,5,2,2,2,2,2,1,3,2,1,5,2,47,6,25,65,20,1,4,1,2,3
+2022-09-13 12:26:17,2022-09-13 12:36:13,0,100,595,1,2022-09-13 12:36:13,R_1MVXC4VqnjNoQKn,anonymous,ES-ES,1,1,2,0,5,0,10,5,1,5,5,1,0,10,0,15,1,1,1,2,10,15,10,15,2,2,4,5,2,2,1,3,1,3,2,4,3,4,26,4,19,163,20,1,2,3,1,4
+2022-09-13 12:29:37,2022-09-13 12:44:32,0,100,894,1,2022-09-13 12:44:32,R_3QLeVpJGuc58lsR,anonymous,ES-ES,1,1,1,0,7,0,10,3,1,5,5,1,5,7,5,10,1,1,2,2,10,10,10,10,1,4,5,2,2,1,2,2,1,3,2,1,5,3,26,4,12,163,20,1,1,2,4,3
+2022-09-13 12:37:28,2022-09-13 12:51:36,0,100,847,1,2022-09-13 12:51:38,R_3RqEyFu6LPvwWyL,anonymous,ES-ES,0.8999999761581421,1,1,0,5,0,10,2,1,4,3,2,5,5,5,10,1,2,3,2,10,15,10,10,2,4,3,3,2,2,3,2,1,3,2,4,3,1,28,6,15,163,20,1,4,3,2,1
+2022-09-13 12:36:20,2022-09-13 12:53:50,0,100,1049,1,2022-09-13 12:53:50,R_28Urpr1qmBmicQa,anonymous,ES-ES,1,1,1,0,5,0,10,5,5,1,1,1,0,5,0,10,1,1,3,2,0,5,0,10,1,2,4,5,2,1,3,2,1,3,3,4,5,1,23,6,17,163,20,1,3,1,2,4
+2022-09-13 12:36:41,2022-09-13 12:56:34,0,100,1193,1,2022-09-13 12:56:35,R_1OoZ8xDqwzBK8rK,anonymous,ES-ES,1,1,2,0,5,0,10,3,1,4,2,1,0,10,5,20,1,1,2,2,5,10,5,20,1,4,2,1,2,1,2,3,1,3,3,4,5,2,25,1,17,163,20,1,3,1,2,4
+2022-09-13 13:17:05,2022-09-13 13:27:29,0,100,623,1,2022-09-13 13:27:29,R_2OGEdpaLbaxVlTM,anonymous,EN,0.8999999761581421,1,3,0,5,0,10,8,1,5,5,1,5,10,10,15,1,1,3,1,10,10,10,15,2,4,5,2,2,1,3,4,2,3,2,4,4,1,35,6,16,36,20,1,2,1,3,4
+2022-09-13 14:16:38,2022-09-13 14:28:54,0,100,736,1,2022-09-13 14:28:55,R_Ol3bulmUweW4I4p,anonymous,ES-ES,0.8999999761581421,1,2,5,5,10,10,3,1,5,5,2,5,5,10,10,1,1,3,2,5,10,10,10,2,4,2,1,2,2,3,3,1,3,3,4,4,1,39,5,16,163,20,1,4,1,3,2
+2022-09-13 14:29:32,2022-09-13 14:47:06,0,100,1054,1,2022-09-13 14:47:06,R_3qEwSv0cBCfSWfD,anonymous,ES-ES,1,1,3,5,5,10,10,5,5,5,1,2,5,5,10,10,3,1,2,3,10,15,10,15,2,5,1,5,3,1,1,5,1,3,2,2,4,1,29,6,20,163,20,1,3,4,1,2
+2022-09-13 14:43:27,2022-09-13 15:04:55,0,100,1287,1,2022-09-13 15:04:55,R_3s67HzVzTrCxizc,anonymous,ES-ES,0.8999999761581421,1,2,0,5,0,10,2,2,5,4,2,0,5,0,10,1,1,2,2,5,10,5,10,2,4,3,2,2,2,3,2,1,3,2,4,4,1,27,4,21,163,20,1,3,2,4,1
+2022-09-13 15:02:18,2022-09-13 15:20:03,0,100,1064,1,2022-09-13 15:20:04,R_2dFH0keFgL2UVax,anonymous,ES-ES,1,1,3,0,5,0,10,5,1,5,5,1,5,10,10,15,1,1,3,2,10,10,10,10,2,3,5,2,2,1,2,2,1,3,3,4,5,1,47,6,11,163,20,1,4,3,1,2
+2022-09-13 15:33:29,2022-09-13 15:44:22,0,100,652,1,2022-09-13 15:44:22,R_1rC78jox2R2D76B,anonymous,ES-ES,1,1,1,5,20,10,20,2,1,5,5,2,5,20,10,20,1,1,1,2,5,20,10,20,2,5,3,4,2,1,1,2,1,3,2,4,4,1,21,7,16,163,20,1,2,3,1,4
+2022-09-13 15:30:02,2022-09-13 15:53:14,0,100,1392,1,2022-09-13 15:53:15,R_1T9oCI7H0ne3cJ3,anonymous,ES-ES,1,1,3,5,5,10,10,3,1,4,5,2,5,5,10,10,1,2,2,2,10,10,10,10,2,2,4,2,2,2,1,3,1,3,1,4,4,2,58,7,19,163,20,1,4,1,2,3
+2022-09-13 15:58:45,2022-09-13 16:16:24,0,100,1059,1,2022-09-13 16:16:25,R_pAuIsXRuNS4KKHf,anonymous,ES-ES,1,1,1,5,5,10,10,3,1,5,4,2,5,5,10,10,1,2,3,2,10,10,10,10,2,3,4,1,3,2,1,3,1,3,3,4,4,2,39,7,14,163,20,1,4,3,1,2
+2022-09-13 15:32:50,2022-09-13 16:28:42,0,100,3352,1,2022-09-13 16:28:43,R_0W132q2XIqDHxDP,anonymous,ES-ES,0.8999999761581421,1,1,5,10,10,15,4,1,5,3,2,5,10,10,15,1,1,3,2,5,10,10,15,2,5,1,2,2,1,3,4,1,3,2,4,2,1,36,6,18,163,20,1,3,2,4,1
+2022-09-13 16:37:08,2022-09-13 16:50:52,0,100,824,1,2022-09-13 16:50:53,R_3CZxlSDgZtSuqiF,anonymous,ES-ES,1,1,2,0,5,0,10,3,1,5,5,2,5,10,10,20,1,1,1,2,10,20,10,20,2,2,3,2,1,1,1,3,1,3,3,4,4,1,37,5,17,163,20,1,4,2,3,1
+2022-09-13 16:57:54,2022-09-13 17:11:19,0,100,804,1,2022-09-13 17:11:19,R_b4xQUVhevcw4gtr,anonymous,EN,0.8999999761581421,1,1,5,5,10,10,5,1,5,5,2,5,5,10,10,1,1,3,2,10,10,10,10,2,3,3,3,2,1,3,5,1,3,2,1,3,1,34,6,17,162,9,1,2,1,4,3
+2022-09-13 17:07:53,2022-09-13 17:19:38,0,100,705,1,2022-09-13 17:19:38,R_1OU0h8R4SiBTCtA,anonymous,EN,1,1,1,0,5,0,10,3,2,4,2,2,0,5,0,10,1,1,3,2,0,10,0,10,2,4,2,3,2,1,3,3,1,3,2,4,4,1,35,6,10,163,26,1,3,2,4,1
+2022-09-13 19:40:05,2022-09-13 19:51:07,0,100,662,1,2022-09-13 19:51:08,R_1dssfFyTB06RGnX,anonymous,EN,1,1,2,0,5,0,10,2,1,5,5,2,0,5,0,10,3,1,2,3,0,5,0,10,2,1,5,5,2,1,2,2,1,3,2,1,4,1,32,6,20,163,20,1,1,3,2,4
+2022-09-13 20:05:25,2022-09-13 20:14:15,0,100,529,1,2022-09-13 20:14:15,R_2s14B6zv2fQItmJ,anonymous,ES-ES,1,1,2,5,6,10,12,10,2,3,3,2,5,6,10,12,1,1,3,2,10,12,10,12,2,4,3,3,2,2,3,5,1,3,2,1,4,1,40,6,20,111,20,1,2,1,4,3
+2022-09-13 22:04:16,2022-09-13 22:14:17,0,100,601,1,2022-09-13 22:14:18,R_1F8tbE2WENtuNMA,anonymous,ES-ES,1,1,3,0,5,0,10,3,3,2,4,2,0,5,0,10,1,1,2,2,0,5,0,10,2,5,2,1,2,1,2,4,1,3,2,1,5,2,24,1,23,163,20,1,1,2,4,3
+2022-09-13 22:14:55,2022-09-13 22:32:44,0,100,1068,1,2022-09-13 22:32:44,R_1jpLhKDfOghlhJp,anonymous,ES-ES,0.8999999761581421,1,3,5,5,10,10,5,2,1,1,1,5,5,10,10,1,1,1,2,5,10,10,10,1,1,2,2,3,1,1,3,2,3,3,4,3,2,24,2,17,163,10,1,3,1,4,2
+2022-09-13 22:59:08,2022-09-13 23:07:21,0,100,493,1,2022-09-13 23:07:23,R_247NXCsbkh6SeSt,anonymous,ES-ES,1,1,1,5,20,10,40,4,1,3,5,1,5,10,10,40,1,2,2,2,5,20,10,40,1,5,1,1,2,1,2,2,1,3,2,3,3,1,25,6,17,163,20,1,1,3,4,2
+2022-09-13 22:55:09,2022-09-13 23:18:04,0,100,1374,1,2022-09-13 23:18:04,R_3GwjAPFk6FV0Kbf,anonymous,EN,1,1,1,5,7.5,10,15,5,1,5,5,2,5,7.5,10,15,1,1,2,1,5,7.5,10,15,2,1,5,5,2,1,2,2,1,3,2,4,5,1,25,7,18,163,20,1,3,1,2,4
+2022-09-13 23:35:15,2022-09-13 23:52:36,0,100,1040,1,2022-09-13 23:52:36,R_2dzlc2XeysarNLE,anonymous,ES-ES,0.8999999761581421,1,3,5,5,10,10,3,3,3,3,1,5,5,10,10,3,1,3,2,10,10,10,10,2,3,5,3,2,2,3,2,1,3,3,4,5,2,65,6,18,163,20,1,2,4,3,1
+2022-09-14 00:32:25,2022-09-14 00:47:07,0,100,882,1,2022-09-14 00:47:09,R_3psbU1utPGa4Lbn,anonymous,EN,1,1,1,0,10,0,20,5,2,5,4,2,5,10,10,20,1,1,3,1,10,20,10,20,2,3,4,2,2,1,3,5,1,3,2,3,4,1,31,6,20,163,20,1,3,1,2,4
+2022-09-14 05:51:03,2022-09-14 06:01:22,0,100,618,1,2022-09-14 06:01:22,R_bHiXtOOGRcxAQ49,anonymous,ES-ES,0.4000000059604645,1,3,0,7,0,7,4,2,3,3,2,5,7,10,13,3,1,1,3,10,10,10,10,2,4,2,3,2,1,1,2.5,1,3,2,4,5,1,34,6,16,163,20,1,2,1,4,3
+2022-09-14 09:22:23,2022-09-14 09:35:30,0,100,786,1,2022-09-14 09:35:30,R_Z49j1OnkvaMCMLf,anonymous,ES-ES,1,1,3,5,10,10,15,3,1,5,3,1,5,10,10,15,3,1,3,3,10,12,10,25,1,2,3,2,3,1,1,2.5,1,3,3,4,4,2,30,6,17,163,20,1,1,4,3,2
+2022-09-14 09:24:59,2022-09-14 09:41:19,0,100,980,1,2022-09-14 09:41:20,R_wMl4xpAehwsmtUJ,anonymous,ES-ES,1,1,1,0,7,0,15,15,1,5,4,1,0,10,0,20,1,1,3,1,5,10,5,12,1,5,1,2,2,1,3,10,1,3,2,4,5,1,30,6,18,163,20,1,3,2,4,1
+2022-09-14 10:28:52,2022-09-14 10:43:14,0,100,862,1,2022-09-14 10:43:14,R_XpsQMcvI04KSToB,anonymous,ES-ES,1,1,1,0,5,0,10,4,1,4,5,2,0,5,0,10,1,2,2,2,0,5,0,10,2,1,2,3,2,2,2,2,3,4,3,4,5,1,32,2,27,163,20,1,2,4,1,3
+2022-09-15 12:18:02,2022-09-15 12:27:29,0,100,567,1,2022-09-15 12:27:30,R_ylSU1Wp4eGjID3r,anonymous,ES-ES,1,1,2,5,10,10,20,2,1,5,5,1,5,10,10,20,2,2,2,1,10,20,10,20,1,1,5,5,1,2,2,2,1,3,2,4,5,2,28,6,21,163,20,1,2,1,3,4
+2022-09-16 16:54:50,2022-09-16 17:04:43,0,100,592,1,2022-09-16 17:04:44,R_2VKhEeQQDLWNUI2,anonymous,ES-ES,1,1,1,0,5,0,10,3,1,4,2,2,5,5,5,10,2,2,2,1,5,10,10,10,2,1,4,2,2,1,2,3,3,3,2,4,3,2,24,3,17,163,20,1,4,2,3,1
+2022-09-16 17:29:21,2022-09-16 17:42:03,0,100,761,1,2022-09-16 17:42:03,R_2hNkTuwrex1zcD7,anonymous,ES-ES,0.8999999761581421,1,3,0,5,0,10,10,1,5,5,2,0,5,0,10,3,2,2,2,0,10,0,10,2,5,3,1,3,2,1,2,3,4,2,4,5,2,24,7,16,163,20,1,4,3,1,2
+2022-09-17 20:15:17,2022-09-17 20:45:51,0,100,1833,1,2022-09-17 20:45:52,R_2B8rmtfn9LzyT09,anonymous,EN,0.8999999761581421,1,2,0,10,5,15,3,2,4,4,1,0,10,10,15,1,1,3,1,10,15,10,15,1,3,2,2,3,2,3,2,1,3,2,4,5,2,36,6,25,163,26,1,3,2,1,4
+2022-09-18 13:30:14,2022-09-18 13:43:55,0,100,821,1,2022-09-18 13:43:57,R_2thdPZweZc6r9hF,anonymous,ES-ES,1,1,1,0,10,0,10,6,5,1,1,1,5,25,10,25,1,1,2,2,10,25,10,25,1,5,1,1,2,1,2,4,1,3,2,1,5,1,26,3,17,163,20,1,4,3,2,1
+2022-09-18 14:50:32,2022-09-18 14:59:40,0,100,547,1,2022-09-18 14:59:40,R_1Lhs7xJypuAWewK,anonymous,EN,1,1,3,0,5,0,10,7,1,5,5,2,5,10,10,20,1,1,3,2,10,10,10,20,2,4,2,2,2,1,3,4,1,3,2,1,5,2,23,6,17,163,7,1,4,2,3,1
+2022-09-12 11:09:41,2022-09-12 11:11:33,0,19,111,0,2022-09-19 11:11:41,R_2903JJZ4oQ0tgRu,anonymous,ES-ES,0.8999999761581421,1,,,,,,,,,,,5,7,5,10,3,1,,,,,,,,,,,,,,,,,,,,,,,,,,,4,1,2,3
+2022-09-12 11:35:46,2022-09-12 11:42:33,0,67,406,0,2022-09-19 11:51:05,R_2YV7In9bhV9CZqx,anonymous,ES-ES,1,1,1,0,5,0,10,4,1,5,5,2,5,5,5,10,1,1,2,1,10,10,10,10,2,3,3,5,2,1,2,3,,,,,,,,,,,,,4,1,2,3
+2022-09-19 13:09:45,2022-09-19 13:20:18,0,100,633,1,2022-09-19 13:20:19,R_23VHmsHgB3CnnMD,anonymous,ES-ES,1,1,2,0,0,0,0,10,1,4,4,1,0,5,0,10,2,2,2,1,0,10,0,10,2,4,1,3,2,1,2,3,1,3,3,4,5,2,27,4,20,163,20,1,4,1,3,2
+2022-09-19 14:06:16,2022-09-19 14:23:37,0,100,1041,1,2022-09-19 14:23:39,R_xDWRAvJEmAl9yRr,anonymous,ES-ES,0.8999999761581421,1,2,5,5,10,10,2,5,2,4,1,5,5,10,10,1,1,3,2,5,5,10,10,1,5,2,4,2,1,3,2,1,3,2,4,4,2,23,7,20,163,20,1,4,3,1,2
+2022-09-12 18:51:33,2022-09-12 18:52:03,0,8,30,0,2022-09-19 18:58:33,R_2SGfnQtihNFuCA6,anonymous,ES-ES,1,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,2,1,4
+2022-09-12 20:16:09,2022-09-12 20:18:06,0,19,117,0,2022-09-19 20:18:08,R_3Hug3NmRvBth5Go,anonymous,ES-ES,0.8999999761581421,1,,,,,,,,,,,5,5,10,10,1,1,,,,,,,,,,,,,,,,,,,,,,,,,,,3,1,4,2
+2022-09-13 00:04:26,2022-09-13 00:05:07,0,11,40,0,2022-09-20 00:05:09,R_3hB0xE5QO6GWnDj,anonymous,ES-ES,1,1,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,2,4,1,3
+2022-09-13 10:59:57,2022-09-13 11:01:07,0,8,70,0,2022-09-20 11:08:27,R_2CD3UDFnH2cGzlc,anonymous,ES-ES,0.8999999761581421,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,1,2,3
+2022-09-13 12:00:41,2022-09-13 12:03:09,0,22,147,0,2022-09-20 12:36:28,R_28PaavbRhrPfqgW,anonymous,ES-ES,0.8999999761581421,1,,,,,,,,,,,,,,,,,,2,10,10,10,10,2,3,3,3,,,,,,,,,,,,,,,,,3,4,1,2
+2022-09-13 12:08:58,2022-09-13 12:17:52,0,50,534,0,2022-09-20 12:46:03,R_1zZeKornCJYmtLX,anonymous,EN,1,1,1,,,,,,,,,,15,20,30,40,1,2,2,1,1,1,1,1,2,5,3,3,2,2,2,1,,,,,,,,,,,,,4,2,3,1
+2022-09-13 12:39:45,2022-09-13 12:47:12,0,67,447,0,2022-09-20 12:49:30,R_25HgkaYlUVgiVWR,anonymous,EN,1,1,1,0,5,0,5,5,3,3,1,1,0,5,0,5,1,1,2,1,0,5,0,5,1,4,4,4,1,1,2,5,,,,,,,,,,,,,3,1,4,2
+2022-09-13 13:45:44,2022-09-13 13:45:58,0,3,14,0,2022-09-20 13:47:51,R_ODsTdHmeW3eqBIl,anonymous,EN,0.8999999761581421,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2022-09-13 14:17:09,2022-09-13 14:17:28,0,3,18,0,2022-09-20 14:17:31,R_1ezpgVictPyYRHY,anonymous,ES-ES,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2022-09-13 14:39:06,2022-09-13 14:44:34,0,53,328,0,2022-09-20 14:44:35,R_1eXD6OM4qlNs3Jc,anonymous,ES-ES,0.8999999761581421,1,1,5,5,5,10,5,1,5,3,2,5,5,5,10,1,1,2,2,,,,,,,,,2,1,2,5,,,,,,,,,,,,,1,3,4,2
+2022-09-13 15:11:55,2022-09-13 15:12:33,0,8,37,0,2022-09-20 15:12:38,R_1CHI38zpDNdbEKK,anonymous,ES-ES,1,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,1,3,2
+2022-09-20 15:49:57,2022-09-20 15:57:13,0,100,436,1,2022-09-20 15:57:13,R_3ektiCinKkU8uPF,anonymous,ES-ES,1,1,1,0,5,0,5,4,2,4,5,1,5,6,5,10,1,1,1,2,0,10,0,10,2,5,1,5,2,1,1,3,1,3,3,4,4,2,24,3,16,163,20,1,3,1,4,2
+2022-09-13 16:02:36,2022-09-13 16:03:48,0,11,71,0,2022-09-20 16:03:52,R_22EKwOlxdnFAvsf,anonymous,ES-ES,1,1,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,4,2
+2022-09-13 15:04:08,2022-09-13 16:19:50,0,50,4541,0,2022-09-20 16:19:56,R_2OK2JTgDeicYcEP,anonymous,ES-ES,0.8999999761581421,1,3,0,5,0,10,3,3,5,2,2,5,5,10,10,1,1,,2,10,10,10,10,2,4,1,5,,,,,,,,,,,,,,,,,2,3,1,4
+2022-09-13 16:24:14,2022-09-13 16:26:34,0,36,139,0,2022-09-20 16:26:35,R_3jZ1tIn5f5xBz5U,anonymous,ES-ES,1,1,1,,,,,,,,,,5,25,10,50,1,1,2,,,,,,,,,,2,2,2,2.5,,,,,,,,,,,,,3,1,4,2
+2022-09-13 16:48:52,2022-09-13 17:01:50,0,81,777,0,2022-09-20 17:01:55,R_1psook2coxdDkyz,anonymous,ES-ES,1,1,2,0,20,0,30,15,5,5,5,2,0,20,0,30,1,1,1,2,0,20,0,30,2,5,5,5,1,1,1,3,1,3,2,1,2,,,,,,,,1,2,3,4
+2022-09-13 18:17:23,2022-09-13 18:35:48,0,61,1105,0,2022-09-20 18:35:52,R_2thzBCitJGS3Odm,anonymous,EN,1,1,1,5,10,10,20,5,1,5,5,2,5,10,10,20,3,1,1,2,10,20,10,20,2,,,,2,1,1,5,,,,,,,,,,,,,2,1,4,3
+2022-09-13 21:04:09,2022-09-13 21:06:48,0,25,159,0,2022-09-20 21:06:51,R_2OTuvghL0VMEuAW,anonymous,ES-ES,0.8999999761581421,1,1,,,,,,,,,,,,,,,,,2,5,10,10,15,2,4,4,2,,,,,,,,,,,,,,,,,2,3,1,4
+2022-09-20 21:04:26,2022-09-20 21:17:22,0,100,776,1,2022-09-20 21:17:22,R_31XZUKjuOL92M4d,anonymous,ES-ES,0.8999999761581421,1,1,5,5,10,10,7,2,5,3,2,5,5,10,10,1,1,2,2,10,10,10,10,2,3,3,2,2,1,1,5,1,4,3,4,4,2,45,5,8,163,20,1,1,3,2,4
+2022-09-13 22:48:37,2022-09-13 22:52:08,0,22,211,0,2022-09-20 22:52:17,R_308YLRcDMmTosEz,anonymous,ES-ES,0.8999999761581421,1,,,,,,,,,,,,,,,,,,2,20,50,20,50,2,1,5,5,,,,,,,,,,,,,,,,,4,2,1,3
+2022-09-14 00:20:40,2022-09-14 00:25:21,0,11,281,0,2022-09-21 00:25:24,R_3RjAxGnjzcryXbV,anonymous,ES-ES,1,1,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,2,3,4
+2022-09-21 03:10:34,2022-09-21 03:27:19,0,100,1004,1,2022-09-21 03:27:19,R_3Pw7DuD1fLFFAMt,anonymous,ES-ES,0.8999999761581421,1,1,0,5,0,10,6,5,3,1,2,0,5,0,10,1,1,1,2,0,5,0,10,2,5,3,1,3,1,1,4,1,3,2,4,5,2,54,7,15,163,20,1,3,1,2,4
+2022-09-14 10:40:38,2022-09-14 10:40:47,8,3,9,0,2022-09-21 10:40:49,R_1IfVpkDriCw5uCo,anonymous,ES-ES,1,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2022-09-14 13:46:22,2022-09-14 13:47:45,0,11,83,0,2022-09-21 13:47:47,R_27pdRVrgu7Wyczr,anonymous,ES-ES,1,1,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,2,4
+2022-09-14 14:25:17,2022-09-14 16:20:39,0,50,6921,0,2022-09-21 16:20:42,R_3G1hjg3ep8wBLbs,anonymous,ES-ES,1,1,3,0,5,0,10,4,2,4,2,2,,,,,,,,3,0,10,0,10,2,2,4,4,3,1,1,2,,,,,,,,,,,,,2,4,1,3
+2022-09-21 19:48:36,2022-09-21 19:59:02,0,100,626,1,2022-09-21 19:59:04,R_3D2AC4O968HOFR0,anonymous,EN,1,1,1,0,5,0,10,3,1,5,5,2,5,20,5,25,2,1,1,2,10,10,10,15,2,4,5,2,2,1,1,15,1,3,2,4,4,2,22,6,18,163,20,1,3,2,1,4
+2022-09-21 21:27:00,2022-09-21 21:39:26,0,100,745,1,2022-09-21 21:39:26,R_2bJJJ6HNDUipr5e,anonymous,EN,0.8999999761581421,1,1,0,10,0,20,15,3,5,1,1,5,10,10,20,1,2,1,1,10,20,10,20,2,5,5,2,2,2,1,5,1,3,3,4,5,2,42,7,16,69,20,1,2,1,3,4
+2022-09-21 23:29:40,2022-09-21 23:39:01,0,100,561,1,2022-09-21 23:39:02,R_1BOSeW774iffVFN,anonymous,ES-ES,0.8999999761581421,1,1,0,5,0,10,3,1,5,5,1,0,5,0,10,1,1,1,2,0,10,0,10,1,1,5,5,2,1,1,3,4,3,2,4,5,2,28,2,17,163,20,1,1,3,4,2
+2022-09-13 20:39:01,2022-09-15 10:43:36,0,28,137075,0,2022-09-22 10:56:56,R_3Pt6bG1le9T0Fug,anonymous,ES-ES,1,1,,,,,,,,,,,5,10,10,20,1,1,2,,,,,,,,,,2,1,,,,,,,,,,,,,,,4,1,3,2
+2022-09-16 18:46:37,2022-09-16 18:52:53,0,33,376,0,2022-09-23 18:53:00,R_3BOIfJriBiyZPLr,anonymous,ES-ES,1,1,1,0,5,0,10,10,1,5,5,1,,,,,,,,,,,,,,,,,2,1,1,,,,,,,,,,,,,,1,4,3,2
+2022-09-24 22:37:10,2022-09-24 22:49:49,0,100,759,1,2022-09-24 22:49:50,R_234xPWYEjemo2Tc,anonymous,ES-ES,1,1,1,0,0,0,0,5,1,5,3,1,5,5,5,10,1,1,2,2,0,10,0,10,2,5,1,3,1,1,3,2,1,3,2,4,4,1,41,6,19,163,20,1,1,4,2,3
+2022-09-18 01:18:46,2022-09-18 01:57:25,0,28,2319,0,2022-09-25 01:57:26,R_3e8Pm1iDOYLLL0E,anonymous,ES-ES,1,1,2,20,40,30,50,20,5,5,1,1,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,,1,4,2,3
+2022-09-18 13:34:26,2022-09-18 13:35:08,0,8,41,0,2022-09-25 13:35:11,R_1eXis5xTmvoCqjg,anonymous,EN,1,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,1,2,3
+2022-09-26 07:41:56,2022-09-26 07:56:20,0,100,864,1,2022-09-26 07:56:21,R_1fgbq5kRKI2GxGL,anonymous,ES-ES,1,1,1,0,5,0,10,3,2,5,2,2,0,5,0,10,1,1,2,2,0,10,0,10,2,2,5,1,2,1,2,1,1,3,3,4,5,1,41,6,17,168,20,1,3,4,1,2
+2022-09-26 11:46:04,2022-09-26 11:54:42,0,100,518,1,2022-09-26 11:54:43,R_2Wxvp8f8ERqGlpK,anonymous,ES-ES,1,1,3,0,5,0,10,5,4,2,1,2,5,10,10,20,3,2,3,2,10,12,10,20,2,4,3,1,2,2,3,4,1,3,2,4,5,2,29,6,20,163,20,1,4,2,1,3
+2022-09-26 23:37:59,2022-09-26 23:51:15,0,100,795,1,2022-09-26 23:51:16,R_qEjQfITOyhpgawF,anonymous,ES-ES,1,1,3,0,0,0,6,3,5,1,1,1,0,5,0,10,1,2,1,3,0,5,0,10,1,5,1,3,2,2,1,1.5,1,4,2,1,3,2,29,5,17,163,20,1,3,1,2,4
+2022-09-27 08:32:55,2022-09-27 08:53:14,0,100,1218,1,2022-09-27 08:53:14,R_OeRk6lOXBbToNI5,anonymous,ES-ES,1,1,1,0,0,0,0,7,2,5,5,1,5,5,10,10,1,1,3,2,5,5,10,10,2,5,3,2,2,1,3,2.5,1,3,2,4,5,1,32,3,15,163,20,1,1,3,2,4
+2022-09-20 12:49:46,2022-09-20 12:50:58,0,14,72,0,2022-09-27 12:51:02,R_2S7WY7YRmesIbDz,anonymous,EN,1,1,,,,,,,,,,,,,,,,,,,,,,,,,,,1,2,,,,,,,,,,,,,,,2,3,4,1
+2022-09-20 13:37:50,2022-09-20 13:38:49,8,11,59,0,2022-09-27 13:38:57,R_1DCHDYUN2K6CWAU,anonymous,EN,1,1,,,,,,,,,,,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,,4,2,1,3
+2022-09-27 15:43:34,2022-09-27 15:53:07,0,100,572,1,2022-09-27 15:53:07,R_1l612HPQWXsTsk1,anonymous,ES-ES,0.8999999761581421,1,1,5,20,10,20,3,1,5,2,1,5,20,5,20,1,2,1,2,5,20,5,20,1,1,5,2,1,2,1,3,1,2,3,4,4,2,24,6,18,163,20,1,1,4,3,2
+2022-09-27 16:07:15,2022-09-27 16:19:10,0,100,714,1,2022-09-27 16:19:10,R_Y3Qb35Pe2TtU3It,anonymous,ES-ES,1,1,3,0,0,0,0,5,5,1,4,1,0,5,0,10,1,2,2,2,0,10,0,10,1,5,1,5,2,2,2,2,4,4,3,1,5,2,32,1,16,163,9,1,4,1,3,2
+2022-09-27 16:16:50,2022-09-27 16:34:34,0,100,1064,1,2022-09-27 16:34:34,R_1gFmLAXx9h3OFJi,anonymous,EN,0.8999999761581421,1,1,5,10,10,20,8,1,5,3,1,5,10,10,20,1,1,3,2,10,10,10,10,2,3,1,2,2,1,3,2.50,1,3,3,4,5,2,25,7,18,84,16,1,1,3,2,4
+2022-09-27 17:01:37,2022-09-27 17:11:27,0,100,590,1,2022-09-27 17:11:29,R_1hEiDKoBd0xB4y1,anonymous,ES-ES,0.8999999761581421,1,1,0,5,0,10,5,1,4,5,1,5,10,10,20,1,1,3,2,10,15,10,20,1,5,1,5,2,1,3,2,1,3,2,4,3,1,21,6,115,163,20,1,3,1,4,2
+2022-09-27 17:08:03,2022-09-27 17:18:45,0,100,642,1,2022-09-27 17:18:45,R_SOAkY9N878tc3SN,anonymous,ES-ES,1,1,3,5,10,10,15,5,3,3,2,2,5,10,10,15,3,1,1,2,10,15,10,15,2,3,5,1,3,2,1,5,1,3,2,2,3,2,36,7,18,163,20,1,4,3,1,2
+2022-09-20 17:33:32,2022-09-20 17:34:54,0,11,82,0,2022-09-27 17:34:55,R_vIB0xzaHcDkxMc1,anonymous,ES-ES,0.8999999761581421,1,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,,,,,,,,,,,,,,,4,3,2,1
+2022-09-27 19:37:43,2022-09-27 19:54:51,0,100,1028,1,2022-09-27 19:54:51,R_1BPpCPNU6oLKt11,anonymous,ES-ES,0.8999999761581421,1,3,0,0,0,0,0,4,4,3,1,0,0,0,0,1,2,1,2,0,0,0,0,1,4,3,4,2,2,1,0,1,3,2,4,5,1,24,7,18,163,20,1,1,3,4,2
+2022-09-27 19:50:27,2022-09-27 20:05:54,0,100,926,1,2022-09-27 20:05:54,R_3qesEE12qJ5PZv0,anonymous,ES-ES,1,1,3,5,7,10,15,10,2,4,4,1,5,7,10,15,1,2,3,2,5,7,10,15,1,2,4,4,1,2,3,5,1,3,2,4,4,1,40,6,12,163,20,1,1,4,2,3
+2022-09-27 19:54:56,2022-09-27 20:08:56,0,100,840,1,2022-09-27 20:08:57,R_2AM46Od3zN5sAgu,anonymous,ES-ES,1,1,3,0,5,0,10,5,1,5,5,1,5,10,10,15,3,1,3,2,10,10,10,15,1,5,1,3,2,1,3,3,1,3,2,1,3,1,35,6,17,163,26,1,3,2,1,4
+2022-09-27 20:01:43,2022-09-27 20:09:21,0,100,457,1,2022-09-27 20:09:21,R_733XwJhQyxJOY81,anonymous,ES-ES,0.8999999761581421,1,1,0,5,0,10,2,1,3,5,2,5,5,10,10,1,2,2,3,10,10,10,10,2,5,3,5,3,2,2,2,1,3,2,1,5,2,37,7,24,163,20,1,4,2,1,3
+2022-09-27 20:04:18,2022-09-27 20:21:17,0,100,1019,1,2022-09-27 20:21:17,R_3k26jjMOefhtoMR,anonymous,ES-ES,1,1,1,0,5,0,10,4,1,5,1,2,5,5,10,10,1,1,3,2,5,10,10,10,2,5,4,1,2,1,3,4,1,3,2,1,4,1,41,6,14,59,20,1,1,2,4,3
+2022-09-27 20:12:30,2022-09-27 20:24:37,0,100,726,1,2022-09-27 20:24:37,R_cU6juTs1ck1EjCN,anonymous,ES-ES,1,1,1,5,5,5,10,2,2,5,1,2,5,5,5,10,1,1,3,2,10,10,10,10,2,2,5,1,2,1,3,2,1,3,2,1,4,4,45,7,20,163,20,1,3,1,4,2
+2022-09-27 20:21:29,2022-09-27 20:56:12,0,100,2082,1,2022-09-27 20:56:14,R_1OB4xcZq4ZBWSPS,anonymous,ES-ES,1,1,3,0,10,0,25,10,3,5,5,2,0,10,0,25,3,1,2,2,0,10,0,25,2,4,5,5,2,1,2,10,1,3,2,1,4,1,43,6,19,163,20,1,1,2,3,4
+2022-09-27 20:59:49,2022-09-27 21:06:58,0,100,428,1,2022-09-27 21:06:58,R_uvPvpWcoEhcHMXL,anonymous,ES-ES,1,1,1,0,5,0,10,3,1,5,4,2,0,5,0,10,1,1,1,2,0,10,0,10,2,4,2,2,2,1,1,2,1,3,2,4,4,1,29,5,14,163,20,1,4,1,2,3
+2022-09-27 20:55:02,2022-09-27 21:15:05,0,100,1202,1,2022-09-27 21:15:05,R_vplP8fvErA5Uj1D,anonymous,ES-ES,1,1,1,0,5,0,10,5,2,4,1,2,5,10,10,20,1,1,3,2,10,10,10,10,2,4,3,2,2,1,3,2,1,3,2,4,4,1,41,6,14,163,20,1,2,3,1,4
+2022-09-27 21:10:08,2022-09-27 21:23:30,0,100,801,1,2022-09-27 21:23:30,R_1q9XneWamfAuX2G,anonymous,ES-ES,1,1,1,0,5,0,5,2,4,3,2,2,0,5,0,5,1,1,1,2,0,10,0,10,2,4,3,2,2,1,1,2,1,3,2,1,4,1,30,6,16,163,20,1,3,2,1,4
+2022-09-27 21:19:00,2022-09-27 21:31:11,0,100,731,1,2022-09-27 21:31:11,R_1loy2r4RQ4wqFof,anonymous,EN,1,1,3,0,5,0,10,5,1,5,3,1,5,10,10,20,1,1,3,2,10,20,10,20,2,3,1,1,1,1,3,5,1,3,2,3,5,1,46,6,23,163,20,1,1,3,4,2
+2022-09-27 21:25:00,2022-09-27 21:37:45,0,100,764,1,2022-09-27 21:37:45,R_ALGf3Yll5p1lZ29,anonymous,ES-ES,0.8999999761581421,1,3,0,5,0,10,5,4,1,1,2,5,500000,10,10000000000,3,1,1,3,10,10,10,10,2,2,5,2,3,1,1,2,1,3,2,1,3,1,28,6,18,169,26,1,4,3,2,1
+2022-09-27 21:24:47,2022-09-27 21:39:07,0,100,859,1,2022-09-27 21:39:07,R_e54pzudPdBcCe6B,anonymous,ES-ES,1,1,2,5,10,10,30,10,4,2,4,2,5,10,10,30,1,1,3,2,10,30,10,30,2,4,2,4,2,1,3,4,1,3,2,1,5,1,29,6,12,163,20,1,2,1,3,4
+2022-09-27 21:33:46,2022-09-27 21:49:14,0,100,928,1,2022-09-27 21:49:15,R_3PTebfr3qwzchUf,anonymous,ES-ES,0.8999999761581421,1,1,5,5,10,10,3,1,5,3,2,5,5,10,10,2,1,1,2,10,10,10,10,2,3,5,2,2,1,1,3,1,3,2,1,5,1,32,6,18,163,20,1,4,1,2,3
+2022-09-27 21:55:43,2022-09-27 22:13:19,0,100,1055,1,2022-09-27 22:13:19,R_2rPmx0zemj0mMV8,anonymous,ES-ES,1,1,3,0,0,10,10,4,1,5,5,2,5,5,10,10,3,1,2,1,5,10,10,10,2,5,1,5,3,1,2,2,1,3,2,1,5,2,37,5,16,163,20,1,4,3,1,2
+2022-09-27 22:03:18,2022-09-27 22:17:15,0,100,837,1,2022-09-27 22:17:15,R_2t9GMHN6MvKMMx2,anonymous,ES-ES,1,1,1,5,10,10,15,5,1,5,5,1,0,5,5,10,1,1,1,2,5,10,10,10,1,1,5,1,2,1,1,1,1,3,2,1,5,1,47,6,17,163,20,1,4,1,2,3
+2022-09-27 22:06:46,2022-09-27 22:26:27,0,100,1181,1,2022-09-27 22:26:27,R_8HpdXfsDV8TQBqh,anonymous,ES-ES,0.8999999761581421,1,1,5,10,10,20,10,2,4,5,2,5,15,10,20,1,1,3,1,10,20,10,30,2,4,4,2,2,1,3,2,1,3,2,4,4,1,31,6,16,163,20,1,4,3,2,1
+2022-09-27 22:25:34,2022-09-27 22:34:09,0,100,515,1,2022-09-27 22:34:09,R_1dcWuVgbS7izXk9,anonymous,ES-ES,1,1,1,5,10,10,15,4,4,3,2,2,5,10,10,15,1,1,1,2,5,10,10,15,2,5,2,1,2,1,1,2,1,3,2,4,5,1,40,5,20,163,20,1,2,3,1,4
+2022-09-27 22:24:36,2022-09-27 22:36:50,0,100,733,1,2022-09-27 22:36:52,R_2ZKqEVnSDsnBOl3,anonymous,ES-ES,1,1,1,0,5,10,10,10,1,5,5,2,5,5,10,10,1,1,3,2,10,10,10,10,2,1,5,5,2,1,3,3,1,3,2,2,5,1,50,7,18,185,20,1,2,1,3,4
+2022-09-27 22:29:02,2022-09-27 22:42:40,0,100,818,1,2022-09-27 22:42:40,R_3niLPLLdjYkbKwM,anonymous,ES-ES,1,1,1,0,5,0,10,2,1,5,5,1,5,5,5,10,1,1,3,1,10,10,10,10,1,3,3,3,2,1,1,2,1,3,2,1,4,1,22,6,18,163,20,1,1,3,2,4
+2022-09-27 22:26:07,2022-09-27 22:45:10,0,100,1143,1,2022-09-27 22:45:11,R_2pQ4AfLBjnFGbye,anonymous,EN,1,1,3,0,5,0,10,6,1,4,5,1,0,5,0,10,3,1,1,2,5,10,10,12,1,1,4,5,1,1,1,6,2,3,2,4,4,2,29,5,8,163,20,2,3,2,1,4
+2022-09-27 22:43:17,2022-09-27 22:55:21,0,100,724,1,2022-09-27 22:55:21,R_3GreNFq0gn02oc9,anonymous,ES-ES,1,1,1,5,5,10,10,2,1,5,5,1,5,6,10,11,1,1,3,2,10,11,10,11,1,4,1,3,2,1,3,2,1,3,2,1,5,1,24,6,18,163,20,1,4,2,1,3
+2022-09-27 22:44:45,2022-09-27 22:56:06,0,100,681,1,2022-09-27 22:56:07,R_1gH1m5gdo5NXJnj,anonymous,ES-ES,0.8999999761581421,1,1,0,5,0,10,9,2,5,3,1,5,5,5,5,1,1,3,2,10,10,10,10,1,2,4,3,2,1,3,6,1,3,2,4,5,1,32,6,2019,163,20,1,1,3,2,4
+2022-09-27 22:51:34,2022-09-27 23:00:06,0,100,512,1,2022-09-27 23:00:07,R_3GqPTDBJZSqnZ74,anonymous,EN,1,1,1,0,5,0,10,7,5,1,4,2,0,5,0,10,1,1,2,2,0,5,0,10,2,5,1,4,2,1,1,5,1,3,2,1,4,1,27,6,19,163,20,1,1,4,2,3
+2022-09-27 22:51:47,2022-09-27 23:00:53,0,100,545,1,2022-09-27 23:00:53,R_2Qg1TBGZLnnzAw6,anonymous,ES-ES,0.8999999761581421,1,1,5,10,10,15,5,4,4,1,2,5,10,10,15,1,1,3,2,10,15,10,20,2,4,4,1,2,1,3,3,1,3,2,1,4,1,20,1,15,163,20,1,4,2,1,3
+2022-09-27 22:50:27,2022-09-27 23:00:57,0,100,630,1,2022-09-27 23:00:58,R_1pt9ML1puBdNSKn,anonymous,ES-ES,1,1,1,0,5,0,10,10,1,5,1,2,0,5,0,10,1,1,2,2,10,10,10,10,2,5,1,1,2,2,1,3,1,3,2,4,5,1,47,6,18,163,20,1,4,1,3,2
+2022-09-27 22:48:39,2022-09-27 23:01:32,0,100,773,1,2022-09-27 23:01:33,R_doFbs42gWjLOAmt,anonymous,ES-ES,1,1,1,0,10,0,15,5,1,5,5,2,5,10,10,15,1,1,3,2,10,15,10,20,2,5,4,1,2,1,1,2,1,3,2,4,5,1,21,3,11,163,20,1,1,3,4,2
+2022-09-27 22:51:17,2022-09-27 23:03:27,0,100,729,1,2022-09-27 23:03:27,R_3IWrNK4CMQ3yKZp,anonymous,ES-ES,1,1,1,0,5,0,10,5,1,5,5,2,5,10,10,15,1,1,2,2,10,15,10,20,2,4,2,1,2,1,2,1,1,3,2,4,4,1,27,6,16,163,20,1,2,4,1,3
+2022-09-27 22:50:58,2022-09-27 23:08:00,0,100,1022,1,2022-09-27 23:08:02,R_3gGCR1eL4FaWbBL,anonymous,ES-ES,0.8999999761581421,1,3,0,7,0,12,5,1,5,1,2,0,5,0,10,3,1,3,3,0,10,0,10,2,1,5,1,3,1,3,2,1,3,2,1,5,1,60,6,18,163,20,1,2,1,3,4
+2022-09-27 22:56:09,2022-09-27 23:15:15,0,100,1146,1,2022-09-27 23:15:15,R_2pKOls0jD5YBxxq,anonymous,EN,0.8999999761581421,1,1,0,5,10,12,5,2,5,5,1,5,10,10,20,1,2,1,2,10,11,12,12,1,4,5,3,2,1,1,2,1,3,1,3,5,1,23,7,20,185,20,1,3,4,2,1
+2022-09-27 23:02:39,2022-09-27 23:16:03,0,100,803,1,2022-09-27 23:16:03,R_3qTDC5hUVUfUzrR,anonymous,ES-ES,1,1,1,0,4,0,9,4,1,5,3,1,5,5,10,10,1,1,2,2,5,5,10,10,1,4,3,2,2,1,3,3,1,3,2,1,3,1,30,6,17,163,20,1,3,4,1,2
+2022-09-27 23:08:33,2022-09-27 23:16:41,0,100,487,1,2022-09-27 23:16:41,R_3PBuVoDZVuvkqjU,anonymous,ES-ES,0.8999999761581421,1,1,0,5,0,5,5,5,3,3,1,0,10,0,10,1,1,1,2,0,10,0,10,1,5,2,3,1,1,1,3,1,3,2,2,5,1,25,6,21,163,20,1,3,2,1,4
+2022-09-27 23:11:09,2022-09-27 23:24:19,0,100,790,1,2022-09-27 23:24:21,R_80Je6br4JsLGxDH,anonymous,EN,1,1,1,0,5,0,10,15,5,5,1,2,0,5,0,10,1,1,2,2,0,10,0,10,2,5,2,1,2,1,3,10,1,3,3,4,5,1,41,6,26,187,20,1,2,1,4,3
+2022-09-27 23:16:29,2022-09-27 23:28:37,0,100,727,1,2022-09-27 23:28:37,R_32MiJvWdtyGJKlJ,anonymous,ES-ES,1,1,3,5,50,10,60,8,1,5,5,2,5,40,10,50,1,1,2,2,10,50,10,60,1,5,3,4,2,2,3,5,1,3,2,4,5,1,28,2,16,163,20,1,3,4,1,2
+2022-09-27 23:20:26,2022-09-27 23:29:18,0,100,532,1,2022-09-27 23:29:19,R_0vy6lo7TbE9duj7,anonymous,ES-ES,1,1,3,0,5,0,10,3,1,4,5,2,5,10,10,15,1,1,2,2,10,15,10,15,2,4,3,2,1,1,2,3,1,3,2,4,4,1,25,6,22,163,20,1,4,2,3,1
+2022-09-27 23:25:12,2022-09-27 23:37:07,0,100,714,1,2022-09-27 23:37:07,R_3GwAaA60w4JxntX,anonymous,ES-ES,0.8999999761581421,1,1,2.5,6,5,13,3,2,4,3,1,5,6,10,13,1,1,1,1,5,13,10,14,2,2,3,4,2,1,3,1.5,1,3,2,4,4,2,36,5,18,163,20,1,1,3,4,2
+2022-09-27 23:21:27,2022-09-27 23:40:22,0,100,1135,1,2022-09-27 23:40:24,R_3Rlskka3WIkZLVE,anonymous,ES-ES,0.8999999761581421,1,3,0,5,0,10,3,1,4,3,1,5,5,5,10,1,2,2,2,10,10,10,10,2,3,4,1,2,2,1,3,1,3,2,1,4,2,50,7,19,163,20,1,2,3,1,4
+2022-09-27 23:30:59,2022-09-27 23:46:05,0,100,906,1,2022-09-27 23:46:05,R_5oIJAm5y5d5yjm1,anonymous,ES-ES,0.8999999761581421,1,3,5,10,10,20,20,5,1,5,1,5,10,10,20,1,2,2,2,10,20,10,20,1,5,5,5,3,2,2,5,1,3,3,4,4,2,26,1,14,37,20,1,1,3,4,2
+2022-09-27 23:42:04,2022-09-27 23:51:42,0,100,577,1,2022-09-27 23:51:42,R_2V1ix1ykzsdrxlz,anonymous,ES-ES,0.8999999761581421,1,3,5,10,10,20,8,5,3,1,2,5,10,10,20,1,1,3,3,10,10,10,20,2,5,1,5,2,1,3,5,1,3,2,1,5,1,25,6,16,163,20,1,3,1,4,2
+2022-09-27 23:43:09,2022-09-27 23:51:55,0,100,525,1,2022-09-27 23:51:55,R_1jfwFBXK2FHceTL,anonymous,ES-ES,0.8999999761581421,1,2,0,5,0,10,10,3,3,3,2,0,5,0,10,3,1,3,2,0,10,0,10,2,3,3,3,3,1,3,5,1,3,2,2,5,1,43,6,16,163,20,1,1,4,3,2
+2022-09-28 00:06:35,2022-09-28 00:16:08,0,100,573,1,2022-09-28 00:16:08,R_2uwCQJwB6JWBa3P,anonymous,EN,1,1,1,5,10,10,20,3,4,5,3,2,5,10,10,20,1,1,2,2,10,20,10,20,2,5,1,4,1,1,2,3,1,3,2,4,5,1,21,7,16,163,20,1,2,4,3,1
+2022-09-28 00:08:42,2022-09-28 00:18:26,0,100,583,1,2022-09-28 00:18:26,R_3PbFdPufIJvbufO,anonymous,ES-ES,0.8999999761581421,1,1,0,5,0,10,2,1,5,5,2,5,10,10,15,1,2,1,2,10,10,10,10,2,1,5,5,2,2,1,1,1,3,2,1,3,1,56,4,15,163,20,1,4,1,3,2
+2022-09-28 00:24:19,2022-09-28 00:34:09,0,100,590,1,2022-09-28 00:34:11,R_3kOp4FeI7fK0JRL,anonymous,ES-ES,1,1,3,0,5,0,10,5,1,4,5,1,5,10,10,20,3,1,3,2,10,20,10,25,1,2,3,4,2,2,3,5,1,3,2,4,4,1,33,6,17,163,26,1,3,2,1,4
+2022-09-28 00:12:30,2022-09-28 00:35:26,0,100,1376,1,2022-09-28 00:35:27,R_ufA1PT7EWnKYVoJ,anonymous,ES-ES,1,1,1,0,5,0,10,3,2,4,2,2,5,5,10,10,1,1,2,2,5,10,10,10,2,3,4,2,2,1,1,2,1,3,2,1,4,1,40,6,16,163,20,1,3,1,2,4
+2022-09-28 00:31:18,2022-09-28 00:45:29,0,100,851,1,2022-09-28 00:45:30,R_2Ynf0Xe46Hv8rSh,anonymous,ES-ES,0.8999999761581421,1,2,0,20,0,50,7,1,5,5,2,5,25,10,60,1,1,2,2,10,30,10,30,2,3,5,4,2,2,2,4,1,3,2,1,5,1,22,6,9,163,20,1,1,2,4,3
+2022-09-28 01:04:23,2022-09-28 01:13:07,0,100,524,1,2022-09-28 01:13:08,R_1JVHWhmXp4buHKS,anonymous,ES-ES,1,1,1,5,5,10,10,8,5,1,5,1,5,5,10,10,1,1,1,2,5,5,10,10,1,5,1,5,2,1,1,3,1,3,2,1,5,1,46,6,25,163,20,1,1,3,4,2
+2022-09-28 01:04:31,2022-09-28 01:17:26,0,100,774,1,2022-09-28 01:17:26,R_1gOcycoK0lksptd,anonymous,ES-ES,0.8999999761581421,1,1,5,500,10,800,1.50,5,5,5,1,5,500,10,800,1,2,3,2,5,50,10,800,1,5,5,5,2,2,3,1.50,1,3,2,3,5,1,34,6,22,163,20,1,4,1,2,3
+2022-09-21 01:40:34,2022-09-21 01:41:30,0,8,56,0,2022-09-28 01:41:32,R_21BASR3aaiiUzZs,anonymous,EN,1,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,3,4
+2022-09-28 02:52:26,2022-09-28 03:01:24,0,100,538,1,2022-09-28 03:01:25,R_3lRZu9h9iFnCvbH,anonymous,ES-ES,1,1,3,0,10,0,20,5,4,4,1,2,0,10,0,20,1,1,2,1,5,15,10,30,2,5,3,1,3,2,2,5,1,3,2,1,5,1,27,6,17,163,20,1,4,1,2,3
+2022-09-28 04:31:47,2022-09-28 04:41:53,0,100,605,1,2022-09-28 04:41:53,R_0vTxc2ghSCkPA8p,anonymous,ES-ES,1,1,3,5,5,5,5,5,5,5,5,2,5,5,5,5,1,1,1,3,5,5,5,5,2,5,5,5,3,1,1,5,1,3,2,2,5,1,59,3,21,111,20,1,2,1,3,4
+2022-09-28 07:39:19,2022-09-28 07:57:30,0,100,1090,1,2022-09-28 07:57:30,R_XLHK6lPrhsCrC8N,anonymous,ES-ES,0.699999988079071,1,1,0,5,0,10,1,1,5,5,2,0,5,0,5,1,1,3,2,5,10,0,10,2,3,5,1,2,1,3,1,1,3,2,1,5,1,24,6,16,163,20,1,1,4,3,2
+2022-09-28 08:24:42,2022-09-28 08:41:19,0,100,997,1,2022-09-28 08:41:20,R_cZQS7EwymWgcDgB,anonymous,ES-ES,0.8999999761581421,1,1,0,5,0,10,7,1,5,1,2,5,10,5,15,1,1,2,2,10,15,15,20,2,2,4,1,2,1,2,5,4,4,2,4,3,2,22,6,16,163,20,1,3,2,1,4
+2022-09-28 08:03:28,2022-09-28 08:45:02,0,100,2493,1,2022-09-28 08:45:02,R_22XJ5slKj9gLIjo,anonymous,ES-ES,1,1,1,0,5,0,10,7,2,3,4,2,5,10,10,20,1,1,3,1,10,20,10,20,2,4,3,3,2,2,1,5,1,3,2,2,4,1,23,5,16,163,20,1,4,1,2,3
+2022-09-28 09:31:58,2022-09-28 09:42:28,0,100,629,1,2022-09-28 09:42:28,R_2YLGHNmB1dCyq70,anonymous,ES-ES,0.8999999761581421,1,1,5,15,10,15,3,4,2,4,2,5,15,10,15,1,1,1,2,5,15,10,15,2,4,2,4,2,1,1,2,1,3,2,1,3,1,42,6,22,163,20,1,4,3,2,1
+2022-09-28 09:44:46,2022-09-28 09:57:48,0,100,781,1,2022-09-28 09:57:48,R_xD6RtViSlY4MnQd,anonymous,ES-ES,1,1,1,0,5,0,10,4,3,5,5,1,5,10,10,20,1,1,3,3,5,10,5,15,1,3,4,4,2,1,3,4,1,3,2,1,5,1,50,6,24,163,20,1,4,3,1,2
+2022-09-28 09:52:11,2022-09-28 10:05:11,0,100,780,1,2022-09-28 10:05:11,R_3ISmI5a1BOt7Gkr,anonymous,ES-ES,1,1,3,0,6,0,12,10,4,4,4,2,5,7,10,15,1,1,1,2,5,10,10,15,2,5,5,5,2,1,1,5,1,3,2,4,4,2,25,7,21,163,20,1,1,2,4,3
+2022-09-28 10:19:14,2022-09-28 10:31:08,0,100,714,1,2022-09-28 10:31:08,R_1qdIo3n09Wf9J6B,anonymous,ES-ES,0.8999999761581421,1,1,0,5,0,10,20,1,5,2,1,5,5,10,10,1,1,2,2,5,5,10,10,1,1,5,1,2,2,2,3,1,3,2,1,5,1,40,6,21,163,20,1,2,1,4,3
+2022-09-28 10:33:00,2022-09-28 10:43:03,0,100,602,1,2022-09-28 10:43:04,R_1P6jGD6Ki8G28lr,anonymous,ES-ES,1,1,1,0,5,0,5,3,3,3,3,1,0,5,0,5,1,1,2,2,0,10,0,10,1,3,3,3,2,1,1,2,1,3,2,1,5,1,47,6,19,163,20,1,1,3,4,2
+2022-09-28 10:39:19,2022-09-28 10:52:31,0,100,792,1,2022-09-28 10:52:31,R_2V7rVGJQuWTKZqq,anonymous,ES-ES,0.8999999761581421,1,1,0,5,0,10,4,1,5,5,2,5,10,10,15,1,2,3,1,10,15,10,15,2,1,5,5,2,1,3,3,1,3,2,1,5,1,26,4,20,163,20,1,2,4,1,3
+2022-09-28 11:27:28,2022-09-28 11:42:17,0,100,889,1,2022-09-28 11:42:18,R_2w5k5v9TNhVJLHo,anonymous,ES-ES,0.8999999761581421,1,1,0,10,0,10,2,1,5,3,1,0,5,0,5,1,1,2,2,0,10,0,10,2,3,2,4,2,1,2,2,1,3,2,4,5,1,28,4,10,163,20,1,3,4,2,1
+2022-09-28 12:39:52,2022-09-28 12:51:04,0,100,671,1,2022-09-28 12:51:04,R_2SpNDBc9PcIGJPP,anonymous,ES-ES,0.8999999761581421,1,3,0,10,0,20,5,1,5,3,2,0,5,0,10,1,1,2,1,0,10,0,10,2,5,1,2,2,1,1,2,1,3,2,4,5,2,39,6,15,163,20,1,1,3,4,2
+2022-09-28 13:33:11,2022-09-28 13:42:29,0,100,557,1,2022-09-28 13:42:29,R_22nwj1hPiBHWMA3,anonymous,ES-ES,0.8999999761581421,1,1,0,5,0,10,5,1,4,3,1,5,10,10,20,1,1,3,1,10,20,10,20,1,4,2,2,1,2,3,2,1,3,2,4,5,2,48,7,15,163,20,1,3,4,1,2
+2022-09-28 13:32:28,2022-09-28 14:05:08,0,100,1959,1,2022-09-28 14:05:08,R_24H4vgFGVqx02oK,anonymous,ES-ES,1,1,3,5,5,10,10,2,2,4,4,1,5,10,10,20,1,1,3,2,10,20,10,20,1,2,4,5,2,1,3,2,1,3,2,1,5,1,38,6,20,163,26,1,3,4,2,1
+2022-09-28 15:02:45,2022-09-28 15:15:36,0,100,771,1,2022-09-28 15:15:36,R_2ZP1QFdqlIPzGTz,anonymous,ES-ES,0.8999999761581421,1,1,5,5,10,10,3,1,5,5,2,5,5,5,5,1,2,1,2,10,10,10,10,2,3,2,3,2,2,1,3,1,3,2,4,5,2,47,5,17,163,20,1,1,3,2,4
+2022-09-28 11:01:10,2022-09-28 15:44:57,0,100,17026,1,2022-09-28 15:44:58,R_1HTde123Aut6LGV,anonymous,EN,1,1,2,0,5,0,10,3,1,5,5,1,5,5,10,10,3,2,3,2,5,5,10,10,2,3,3,3,3,2,3,1,1,3,2,4,5,2,40,6,16,163,20,1,1,4,2,3
+2022-09-28 16:14:49,2022-09-28 16:25:44,0,100,654,1,2022-09-28 16:25:44,R_3RxwfqE3gACyXYo,anonymous,ES-ES,1,1,1,0,5,0,10,4,3,2,3,1,5,5,10,10,1,2,1,2,5,10,10,10,2,3,2,3,2,2,1,2,1,2,2,4,3,2,45,7,20,163,20,1,3,2,4,1
+2022-09-28 17:25:43,2022-09-28 17:35:21,0,100,577,1,2022-09-28 17:35:21,R_12ccYoQZe3cNz3p,anonymous,ES-ES,0.8999999761581421,1,3,0,5,0,10,6,5,2,4,1,0,5,0,10,1,1,1,2,10,20,10,20,1,4,1,4,3,1,1,3,1,3,2,4,5,1,47,6,7,163,20,1,3,1,4,2
+2022-09-28 18:56:05,2022-09-28 19:08:50,0,100,765,1,2022-09-28 19:08:51,R_25ZPT2E0DF7VX8Z,anonymous,ES-ES,1,1,2,5,5,10,10,3,1,5,4,1,5,5,5,10,1,1,2,2,10,10,10,10,1,3,4,2,2,1,2,2,1,3,2,4,5,2,35,3,20,163,20,1,4,1,2,3
+2022-09-28 21:27:28,2022-09-28 21:35:47,0,100,499,1,2022-09-28 21:35:47,R_279Jn18mhbfXf0k,anonymous,ES-ES,1,1,1,0,5,0,10,2,3,4,5,1,0,5,0,10,1,1,2,2,0,5,0,10,1,3,2,2,2,1,2,2,1,3,2,1,2,1,33,3,18,163,20,1,3,2,4,1
+2022-09-28 21:00:20,2022-09-28 22:33:19,0,100,5578,1,2022-09-28 22:33:19,R_2P5XFMkvcfTVXTR,anonymous,ES-ES,0.8999999761581421,1,3,0,0,0,0,3,2,5,5,2,0,5,0,5,1,1,2,2,10,10,10,10,2,2,3,5,2,1,1,3,1,3,2,1,3,2,22,7,17,163,20,1,4,1,3,2
+2022-09-28 23:40:20,2022-09-28 23:49:09,0,100,528,1,2022-09-28 23:49:09,R_3J7MycCSIE2NcaA,anonymous,ES-ES,0.8999999761581421,1,3,5,5,10,10,3,5,1,5,1,5,5,10,10,3,1,1,3,5,5,10,10,1,5,1,5,3,1,1,3,1,3,2,1,5,1,44,6,18,163,20,1,3,2,4,1
+2022-09-28 23:29:30,2022-09-29 00:02:27,0,100,1977,1,2022-09-29 00:02:27,R_12lINZFta7JU3BC,anonymous,ES-ES,1,1,1,0,5,0,5,6,1,5,5,1,0,5,0,10,2,1,1,2,0,10,0,15,1,4,3,1,1,1,3,2,1,3,3,4,5,1,24,6,17,163,20,1,3,2,1,4
+2022-09-28 23:52:40,2022-09-29 00:03:49,0,100,668,1,2022-09-29 00:03:49,R_2S0Jl1KjlAbQsjf,anonymous,ES-ES,0.8999999761581421,1,3,0,0,0,0,2,3,5,2,2,0,0,0,0,3,1,3,2,0,0,0,0,2,4,3,1,2,1,3,2,1,3,2,3,5,1,33,6,22,163,20,1,3,4,2,1
+2022-09-29 10:12:48,2022-09-29 10:26:55,0,100,846,1,2022-09-29 10:26:55,R_2uy8O9a9rxinKse,anonymous,ES-ES,0.8999999761581421,1,3,0,5,0,10,2,2,4,5,1,5,5,10,10,1,1,2,2,10,10,10,10,1,5,1,3,2,2,2,2,1,3,3,4,3,2,48,7,20,163,20,1,4,2,1,3
+2022-09-22 12:10:24,2022-09-22 12:11:28,0,11,64,0,2022-09-29 12:11:34,R_2BxHCBNDEm34Nql,anonymous,ES-ES,0.4000000059604645,1,,,,,,,,,,,,,,,,,,3,,,,,,,,,,,,,,,,,,,,,,,,,4,3,1,2
+2022-09-29 15:22:12,2022-09-29 15:30:58,0,100,525,1,2022-09-29 15:30:58,R_3iUX3eG7vH5ydF6,anonymous,ES-ES,0.8999999761581421,1,1,5,10,8,18,6,1,5,5,1,5,8,5,15,1,1,3,1,8,12,10,20,2,5,1,3,2,2,3,1.5,1,3,2,4,5,1,18,7,13,61,20,1,1,4,2,3
+2022-09-22 20:04:04,2022-09-22 20:04:19,0,8,14,0,2022-09-29 20:04:23,R_9HzylDfmsRBQZPz,anonymous,EN,1,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,2,1,3
+2022-09-29 21:55:49,2022-09-29 22:07:12,0,100,682,1,2022-09-29 22:07:12,R_2f7nQTL2Eso3NNF,anonymous,ES-ES,1,1,3,5,5,5,10,10,2,4,3,2,5,5,5,10,1,1,1,2,10,10,10,10,2,2,4,3,2,1,1,4,1,3,3,4,3,1,39,7,18,163,20,1,2,3,4,1
+2022-09-29 21:56:07,2022-09-29 22:12:01,0,100,954,1,2022-09-29 22:12:02,R_2f7DpEWHzknNHXt,anonymous,ES-ES,1,1,3,5,10,10,15,3,1,5,3,2,5,8,10,15,3,2,2,2,10,15,10,15,2,5,1,2,3,2,2,3,1,4,3,4,5,2,26,2,11,163,20,1,3,1,2,4
+2022-09-29 22:11:46,2022-09-29 22:23:23,0,100,696,1,2022-09-29 22:23:23,R_3rMU4RgbigdYEbu,anonymous,ES-ES,0.8999999761581421,1,3,0,0,0,0,2,5,1,5,1,0,5,0,5,3,1,2,3,0,10,0,10,1,5,1,5,3,1,2,2,1,3,2,1,5,1,40,2,27,163,20,1,3,2,4,1
+2022-09-29 22:15:03,2022-09-29 22:26:12,0,100,669,1,2022-09-29 22:26:12,R_38nfEFx3FexkALv,anonymous,ES-ES,1,1,3,0,50,0,50,3,2,5,1,2,0,100,0,100,1,1,1,2,0,100,0,100,2,3,5,1,3,1,1,3,1,3,2,4,5,1,33,5,18,163,20,1,1,3,4,2
+2022-09-29 22:25:16,2022-09-29 22:39:28,0,100,851,1,2022-09-29 22:39:28,R_2CxP7wBsNaT5PhL,anonymous,ES-ES,1,1,1,0,5,0,10,3,1,5,5,1,5,5,5,10,1,1,2,2,10,10,10,10,2,4,2,3,2,1,2,2,1,3,2,1,4,1,24,2,19,163,20,1,1,3,2,4
+2022-09-29 22:36:05,2022-09-29 22:47:54,0,100,709,1,2022-09-29 22:47:54,R_2qrbE5eg1unHrWD,anonymous,ES-ES,1,1,3,0,5,0,10,3,2,4,3,2,5,5,5,10,1,1,2,2,5,5,5,10,2,4,2,3,2,1,1,3,1,3,3,4,4,1,39,6,19,163,20,1,3,1,4,2
+2022-09-29 22:58:55,2022-09-29 23:14:11,0,100,915,1,2022-09-29 23:14:11,R_3kNca2Ivl1AQ4Bz,anonymous,ES-ES,0.8999999761581421,1,1,0,5,0,10,5,1,5,5,2,5,5,10,10,1,1,3,2,10,15,10,10,2,1,5,5,2,1,3,2,1,3,2,4,5,1,56,6,17,163,20,1,2,3,1,4
+2022-09-29 22:59:20,2022-09-29 23:22:58,0,100,1417,1,2022-09-29 23:22:58,R_40H6g24R6NAgoiB,anonymous,ES-ES,0.8999999761581421,1,1,0,5,0,10,500,1,5,5,2,0,5,0,10,1,1,3,2,0,10,0,10,2,4,2,3,1,1,3,50,1,3,1,4,5,1,54,6,17,163,26,1,2,3,4,1
+2022-09-30 00:16:28,2022-09-30 00:27:02,0,100,634,1,2022-09-30 00:27:02,R_RqczHttKASf9d9T,anonymous,ES-ES,1,1,1,0,5,0,10,2,2,3,4,1,0,5,0,10,1,1,2,2,0,10,0,10,1,4,4,3,2,1,3,2,1,3,3,4,3,1,43,5,16,163,20,1,1,4,2,3
+2022-09-30 00:14:15,2022-09-30 00:48:39,0,100,2063,1,2022-09-30 00:48:39,R_2uPXl29rXJ1nYbx,anonymous,EN,0.8999999761581421,1,3,5,10,10,15,2,1,5,5,2,5,10,10,15,3,2,1,2,10,10,10,15,2,1,5,5,3,2,1,0.50,1,3,2,3,5,1,45,6,12,138,8,1,1,3,4,2
+2022-09-30 00:55:56,2022-09-30 01:09:48,0,100,831,1,2022-09-30 01:09:48,R_xzL0wX9EPECHbmV,anonymous,ES-ES,1,1,3,0,5,0,10,8,1,4,4,2,5,5,5,10,1,1,2,2,10,10,10,10,2,4,3,2,2,1,1,3,1,3,3,4,4,1,50,7,15,163,20,1,4,3,2,1
+2022-09-30 01:19:58,2022-09-30 02:36:39,0,100,4601,1,2022-09-30 02:36:40,R_6Mq8bF8hhThnEI1,anonymous,ES-ES,1,1,1,0,0,0,0,5,5,1,4,1,0,0,0,0,1,1,3,2,0,5,0,10,1,5,1,4,3,2,2,2,1,3,3,3,4,1,36,1,22,163,20,1,3,2,4,1
+2022-09-30 04:29:05,2022-09-30 04:41:56,0,100,771,1,2022-09-30 04:41:57,R_2fjGp0M43cq8raH,anonymous,EN,0.8999999761581421,1,3,0,0,0,0,5,5,3,2,2,5,5,10,10,1,1,1,2,5,10,10,10,2,5,2,3,2,1,1,5,1,3,2,4,5,1,47,6,17,163,26,1,2,4,1,3
+2022-09-30 08:58:49,2022-09-30 09:21:22,0,100,1352,1,2022-09-30 09:21:22,R_1eUHSHnO0UqpsOl,anonymous,ES-ES,0.8999999761581421,1,3,0,5,0,10,3,3,5,1,2,0,5,0,10,3,1,3,2,0,10,0,10,2,5,5,1,3,1,3,2,1,3,2,4,2,1,38,4,16,163,20,1,3,2,4,1
+2022-09-30 09:25:19,2022-09-30 09:39:50,0,100,870,1,2022-09-30 09:39:50,R_3MsrpXSD6hkX6xA,anonymous,ES-ES,1,1,1,0,10,0,15,5,3,5,5,2,0,10,0,20,1,1,2,1,0,15,0,20,2,4,5,5,2,1,2,2,1,4,3,4,5,2,43,4,13,163,20,1,3,4,1,2
+2022-09-30 10:01:33,2022-09-30 10:08:28,0,100,415,1,2022-09-30 10:08:28,R_ANW4S8X1I81IdBD,anonymous,ES-ES,0.8999999761581421,1,3,5,20,10,30,5,5,1,4,2,5,20,10,30,3,1,2,3,5,20,10,30,2,5,1,4,3,1,2,2,1,3,3,1,5,1,36,6,25,163,20,1,4,2,3,1
+2022-09-30 10:20:54,2022-09-30 10:34:53,0,100,838,1,2022-09-30 10:34:53,R_3KpYV4KGrwE8NX0,anonymous,ES-ES,0.8999999761581421,1,3,0,5,0,10,5,1,5,3,2,5,5,5,10,3,1,2,2,5,10,10,10,2,4,3,2,2,1,1,5,1,3,2,1,5,1,38,6,20,163,20,1,1,2,4,3
+2022-09-30 10:49:03,2022-09-30 11:00:00,0,100,657,1,2022-09-30 11:00:00,R_83aZNEvIseZYL6x,anonymous,ES-ES,1,1,3,5,5,10,10,10,4,2,3,1,5,5,10,10,1,1,2,1,10,10,10,10,1,5,1,3,2,1,2,3,1,3,3,4,5,1,36,6,20,163,20,1,2,1,3,4
+2022-09-30 12:26:24,2022-09-30 12:53:51,0,100,1646,1,2022-09-30 12:53:51,R_yZKnpGRbJ5Yy2rv,anonymous,EN,1,1,3,0,5,0,10,2,1,5,5,1,5,5,5,10,1,1,3,2,10,10,10,10,1,4,5,1,2,2,3,2,1,3,3,4,4,1,38,6,21,163,26,1,1,3,4,2
+2022-09-30 12:52:42,2022-09-30 13:05:17,0,100,754,1,2022-09-30 13:05:18,R_UVza41jP98wPtVn,anonymous,ES-ES,1,1,1,5,5,5,5,4,1,5,3,2,5,5,10,10,1,1,2,1,10,10,10,10,2,4,1,4,2,1,2,2,1,3,2,3,5,1,55,6,18,163,20,1,4,1,3,2
+2022-09-30 15:34:36,2022-09-30 15:52:16,0,100,1059,1,2022-09-30 15:52:17,R_3M5njTqYMlchuWb,anonymous,ES-ES,0.8999999761581421,1,3,0,0,0,5,10,2,4,5,2,0,0,0,5,3,1,2,1,0,5,0,5,2,5,4,3,3,1,2,10,1,3,3,4,4,2,28,6,21,163,26,1,1,3,4,2
+2022-09-30 17:26:23,2022-09-30 17:35:39,0,100,556,1,2022-09-30 17:35:40,R_3e979pm04mtcb48,anonymous,ES-ES,1,1,1,0,10,0,15,12,3,5,5,2,5,10,5,20,1,1,1,1,5,10,5,20,2,3,4,1,2,1,1,3,1,3,3,4,3,1,32,5,15,163,20,1,4,1,2,3
+2022-09-23 17:36:23,2022-09-23 17:57:55,0,31,1292,0,2022-09-30 17:58:00,R_6VYV9jJ0kIlo5m9,anonymous,ES-ES,1,1,,,,,,,,,,,,,,,,,,2,10,10,10,10,1,,,,3,1,2,5,,,,,,,,,,,,,4,3,2,1
+2022-09-30 17:56:04,2022-09-30 18:14:31,0,100,1106,1,2022-09-30 18:14:31,R_240dWx1GNHzcbfJ,anonymous,ES-ES,1,1,1,0,5,0,5,2,5,1,5,2,0,5,0,5,1,1,3,2,0,5,0,10,2,5,1,5,2,2,3,2,1,3,1,4,5,1,57,6,22,163,20,1,1,3,4,2
+2022-09-30 18:27:12,2022-09-30 18:35:54,0,100,522,1,2022-09-30 18:35:54,R_31EnENiOoLCFV1M,anonymous,ES-ES,0.8999999761581421,1,1,5,5,5,10,5,5,1,1,1,5,5,5,10,2,2,3,2,5,5,5,10,1,5,1,1,2,2,3,5,1,3,2,4,5,1,52,6,18,163,20,1,1,2,3,4
+2022-09-30 14:54:01,2022-09-30 18:44:37,0,100,13835,1,2022-09-30 18:44:37,R_A1zxWBpbxmC2zrr,anonymous,ES-ES,0.8999999761581421,1,1,0,5,5,10,3,1,5,1,2,5,6,10,11,2,2,2,2,10,10,10,10,2,1,1,5,1,1,1,2,2,3,2,3,4,2,30,1,12,37,20,1,3,1,4,2
+2022-09-30 19:01:28,2022-09-30 19:16:01,0,100,872,1,2022-09-30 19:16:02,R_2zqHpTDW03iAmvw,anonymous,ES-ES,1,1,3,0,5,10,10,5,3,4,3,2,0,5,0,10,3,2,2,2,0,10,0,10,2,5,3,2,2,2,1,3,1,4,2,4,3,1,40,3,20,163,20,1,1,2,4,3
+2022-09-30 22:28:54,2022-09-30 22:47:08,0,100,1093,1,2022-09-30 22:47:08,R_3qKfAy8285CBauY,anonymous,ES-ES,1,1,3,0,5,0,10,5,2,4,4,2,5,5,5,5,3,1,2,3,10,10,10,10,2,2,4,4,3,1,1,2,1,3,2,4,4,1,45,5,20,163,20,1,1,3,4,2
+2022-10-01 11:00:09,2022-10-01 11:10:34,0,100,624,1,2022-10-01 11:10:34,R_6yg38DwTiqmlFi9,anonymous,ES-ES,0.8999999761581421,1,2,0,5,0,10,2,3,5,1,2,5,5,10,10,1,1,2,2,5,5,5,5,2,5,1,4,1,2,2,2,1,3,3,4,4,1,43,6,16,163,20,1,3,2,4,1
+2022-10-01 17:50:31,2022-10-01 18:01:06,0,100,634,1,2022-10-01 18:01:06,R_A5uH8IvxrPNmpk5,anonymous,ES-ES,0.8999999761581421,1,3,0,2.5,0,5,3,1,5,5,1,0,2.5,0,5,3,1,3,2,0,10,0,10,1,5,5,1,2,1,3,2,1,3,3,4,5,1,37,6,23,163,20,1,1,2,4,3
+2022-10-01 23:17:13,2022-10-01 23:30:44,0,100,810,1,2022-10-01 23:30:44,R_12M9zkT0uCTOtUw,anonymous,ES-ES,0.8999999761581421,1,3,5,5,10,10,6,3,3,3,2,5,5,10,10,1,1,2,1,10,10,10,10,2,3,5,3,3,1,2,3,1,3,2,4,3,2,53,6,18,163,20,1,4,2,3,1
+2022-10-01 23:17:04,2022-10-01 23:33:51,0,100,1006,1,2022-10-01 23:33:54,R_24f06V6VnvIC575,anonymous,ES-ES,0.8999999761581421,1,2,5,5,10,10,2,3,4,2,1,10,10,15,15,2,2,2,1,10,10,15,15,1,3,4,2,1,2,3,2,4,4,3,4,3,4,18,1,16,163,20,1,2,3,4,1
+2022-10-01 23:27:31,2022-10-01 23:34:40,0,100,429,1,2022-10-01 23:34:41,R_Pwwn1CONsdKzRFn,anonymous,ES-ES,1,1,1,0,5,0,10,3,1,3,3,2,0,5,0,10,1,1,1,2,0,10,0,10,2,3,1,3,2,2,1,3,1,3,2,1,4,1,41,5,15,163,20,1,4,1,3,2
+2022-10-01 23:17:06,2022-10-01 23:37:45,0,100,1239,1,2022-10-01 23:37:46,R_Xh4pTvYI6vnHlD3,anonymous,ES-ES,1,1,1,0,5,0,10,15,1,5,3,2,0,5,0,10,1,1,2,2,0,10,0,10,2,5,1,3,2,1,2,5,1,3,3,4,5,1,39,4,16,163,26,1,3,1,4,2
+2022-10-01 23:27:53,2022-10-01 23:42:18,0,100,864,1,2022-10-01 23:42:18,R_1C1MmIHz5BjRYV3,anonymous,ES-ES,1,1,3,5,10,10,15,2,3,3,3,2,5,10,5,10,1,1,2,2,5,10,10,15,2,3,3,3,2,1,2,2,1,3,3,4,3,4,32,7,17,163,20,1,1,4,3,2
+2022-10-01 23:18:54,2022-10-01 23:50:20,0,100,1886,1,2022-10-01 23:50:21,R_2aKKCT4axjN7bE6,anonymous,EN,0.8999999761581421,1,3,0,10,0,12,8,1,5,5,2,0,9,0,12,1,1,2,2,0,10,0,15,2,5,3,1,1,2,2,3,3,3,3,4,4,3,26,1,22,163,20,1,1,2,4,3
+2022-10-01 23:44:15,2022-10-02 00:00:28,0,100,973,1,2022-10-02 00:00:30,R_10BHJ9J8upacxHc,anonymous,ES-ES,1,1,3,5,5,10,10,5,3,3,3,2,5,15,10,20,1,2,3,2,5,10,10,10,2,3,3,3,3,2,3,3,1,3,3,4,3,1,42,3,19,163,20,1,1,3,4,2
+2022-10-01 23:50:20,2022-10-02 00:00:59,0,100,639,1,2022-10-02 00:00:59,R_1mlbOYyHP7FAqBG,anonymous,ES-ES,1,1,2,5,5,10,10,5,1,3,4,1,5,5,10,10,1,1,1,1,10,10,10,10,2,5,1,3,1,2,1,3,1,3,3,4,3,1,30,6,16,163,20,1,2,3,4,1
+2022-10-01 23:51:13,2022-10-02 00:04:36,0,100,803,1,2022-10-02 00:04:37,R_2AYiAEy6CFdFkmv,anonymous,ES-ES,1,1,1,5,5,5,10,5,5,1,3,1,5,5,5,10,1,1,1,2,5,10,10,10,1,5,1,3,2,1,1,3,1,3,2,1,4,1,43,5,15,163,20,1,1,2,4,3
+2022-10-01 23:57:20,2022-10-02 00:09:40,0,100,740,1,2022-10-02 00:09:42,R_1rDEQCCX98T3x3b,anonymous,ES-ES,0.8999999761581421,1,1,0,5,0,10,5,1,5,5,2,0,5,0,10,1,1,2,2,0,10,0,10,2,1,5,5,2,1,1,3,1,3,2,4,5,1,54,4,23,163,20,1,2,1,4,3
+2022-10-01 23:46:33,2022-10-02 00:10:29,0,100,1436,1,2022-10-02 00:10:29,R_3mlQAb0UUDhBn4l,anonymous,ES-ES,1,1,3,5,5,10,10,20,1,4,1,1,5,5,10,10,1,2,1,2,5,10,5,10,1,1,5,1,2,2,1,30,4,4,3,4,2,1,35,1,26,163,26,1,2,1,4,3
+2022-10-01 23:57:09,2022-10-02 00:13:00,0,100,951,1,2022-10-02 00:13:00,R_3fHsNAjopvoc7jX,anonymous,ES-ES,1,1,2,5,5,10,10,2.5,1,5,5,1,4,4,10,10,1,1,1,2,10,10,10,10,1,3,5,4,2,1,1,1.5,1,3,1,3,5,1,44,6,20,163,20,1,2,4,1,3
+2022-10-02 01:05:32,2022-10-02 01:23:13,0,100,1060,1,2022-10-02 01:23:14,R_1fiOyiNQ8GU8xEZ,anonymous,ES-ES,1,1,1,0,0,0,0,5,1,5,5,2,5,5,5,10,1,1,3,2,5,5,10,10,2,3,2,2,2,1,1,4,1,3,2,4,5,1,32,4,27,163,20,1,1,3,4,2
+2022-10-01 23:48:34,2022-10-02 08:46:50,0,100,32295,1,2022-10-02 08:46:50,R_2fk9yFh5f9yXLOx,anonymous,ES-ES,1,1,3,0,5,0,5,10,5,1,5,2,0,5,0,5,3,1,1,2,5,10,10,10,2,5,2,5,2,2,1,10,1,3,2,4,3,2,37,7,20,163,20,1,2,4,1,3
+2022-10-02 13:16:19,2022-10-02 13:29:29,0,100,790,1,2022-10-02 13:29:31,R_2yq4b7D3eucuKQh,anonymous,ES-ES,1,1,1,0,0,0,0,5,5,5,1,2,0,5,0,10,3,1,3,2,0,5,0,10,2,5,5,3,2,1,3,3,1,3,2,4,5,4,47,6,20,163,20,1,1,2,3,4
+2022-10-02 13:53:53,2022-10-02 14:12:06,0,100,1093,1,2022-10-02 14:12:06,R_UnY1CFXMN0w5Pvr,anonymous,ES-ES,0.8999999761581421,1,1,0,5,0,10,8,1,5,3,1,0,5,0,10,1,1,2,2,0,10,0,10,1,1,4,3,1,1,1,5,1,3,1,3,4,2,47,6,15,163,20,1,4,1,3,2
+2022-10-02 14:12:12,2022-10-02 14:29:41,0,100,1049,1,2022-10-02 14:29:43,R_1MPRZGlfX3XMRTP,anonymous,ES-ES,0.8999999761581421,1,2,0,5,0,5,2,3,3,1,2,0,5,0,5,2,1,2,2,5,10,5,10,2,3,3,1,2,1,1,2,1,3,3,4,4,1,48,6,19,163,20,1,1,2,3,4
+2022-10-02 14:25:54,2022-10-02 14:40:25,0,100,870,1,2022-10-02 14:40:25,R_3FV9CcCXPoWzbm8,anonymous,ES-ES,1,1,3,5,5,10,10,3,1,5,5,1,5,5,10,10,1,1,2,1,10,10,10,10,1,5,3,1,3,1,1,3,1,3,2,3,3,1,50,6,10,163,20,1,4,3,1,2
+2022-10-02 21:40:00,2022-10-02 21:51:16,0,100,676,1,2022-10-02 21:51:16,R_w4V5KlOgtyeaHhD,anonymous,ES-ES,0.8999999761581421,1,2,0,5,0,10,4,2,4,3,1,5,5,5,10,1,1,3,2,10,10,10,10,2,5,1,5,2,2,3,2,1,3,3,4,5,1,23,4,16,163,20,1,2,4,3,1
+2022-09-26 01:57:28,2022-09-26 01:57:46,0,6,17,0,2022-10-03 01:57:53,R_1Q6JuKOGAhTQLKQ,anonymous,EN,0.8999999761581421,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2022-09-26 15:47:44,2022-09-26 15:51:44,0,47,239,0,2022-10-03 15:51:45,R_1pJt4HWFQVv70hX,anonymous,EN,1,1,,,,,,,,,,,0,5,0,10,1,1,2,2,0,5,0,10,1,3,5,2,2,1,2,2,,,,,,,,,,,,,4,3,2,1
+2022-10-03 18:34:43,2022-10-03 18:48:53,0,100,849,1,2022-10-03 18:48:53,R_3kCg4UF9OLPj1a7,anonymous,ES-ES,1,1,1,0,5,0,10,5,2,3,2,2,5,10,10,15,1,2,2,2,5,10,10,15,2,4,2,2,2,1,1,2,1,4,3,4,5,2,26,4,20,163,26,1,4,3,1,2
+2022-09-26 19:51:59,2022-09-26 19:52:26,8,3,27,0,2022-10-03 19:52:30,R_0v3nOOvNZMbM7uN,anonymous,ES-ES,1,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2022-09-26 23:01:29,2022-09-26 23:14:31,0,53,781,0,2022-10-03 23:14:34,R_2c8jtQVo9XcHsaA,anonymous,ES-ES,1,1,2,0,5,0,10,8,5,1,3,2,0,5,0,10,1,1,1,2,,,,,,,,,2,1,1,1,,,,,,,,,,,,,1,2,4,3
+2022-10-04 07:36:02,2022-10-04 07:44:47,0,100,524,1,2022-10-04 07:44:47,R_1MLGnAXxDD10OXN,anonymous,ES-ES,1,1,1,0,7,0,12,3,1,2,2,2,0,7,0,12,1,2,1,1,0,7,0,12,2,1,2,2,2,2,1,1.5,3,3,3,1,3,1,22,4,17,163,20,1,2,3,4,1
+2022-10-04 10:55:56,2022-10-04 11:05:50,0,100,594,1,2022-10-04 11:05:51,R_R84J3Y8JQc6K06t,anonymous,ES-ES,0.8999999761581421,1,3,5,7,10,12,10,1,4,3,2,5,7,10,12,2,2,1,2,5,8,10,13,2,5,1,3,1,2,3,10,3,3,3,4,3,2,19,2,10,163,20,1,1,2,3,4
+2022-10-04 10:56:57,2022-10-04 11:07:29,0,100,631,1,2022-10-04 11:07:29,R_2OTj2ukwbRdtbfU,anonymous,ES-ES,1,1,3,0,0,0,0,3,5,1,4,1,0,5,0,10,1,1,3,2,0,10,0,10,1,5,1,3,2,1,3,1,4,4,2,4,4,2,22,1,16,163,20,1,4,3,1,2
+2022-10-04 11:19:32,2022-10-04 11:29:06,0,100,574,1,2022-10-04 11:29:06,R_24JcQjUW9RDtLX9,anonymous,ES-ES,0.8999999761581421,1,1,5,5,5,10,3,1,4,4,2,5,5,5,10,1,1,3,1,10,10,10,10,2,5,2,3,2,1,3,3,1,3,3,1,5,2,23,5,19,163,20,1,1,3,2,4
+2022-10-04 11:24:37,2022-10-04 11:32:23,0,100,465,1,2022-10-04 11:32:23,R_3erVDSGvD9eMl4p,anonymous,ES-ES,1,1,1,0,5,0,10,3,2,4,4,1,0,5,0,10,1,1,2,1,5,10,5,10,1,2,3,2,1,1,2,2,1,3,2,4,3,1,24,4,24,65,20,1,2,3,4,1
+2022-10-04 11:26:28,2022-10-04 11:38:36,0,100,728,1,2022-10-04 11:38:37,R_2U576qyvkEdStBB,anonymous,ES-ES,1,1,3,0,0,0,0,8,1,5,3,2,5,5,10,10,1,1,1,2,5,5,10,10,2,3,3,1,2,2,1,3,4,4,3,4,5,2,21,7,17,163,20,1,1,2,4,3
+2022-10-04 11:23:58,2022-10-04 11:40:39,0,100,1000,1,2022-10-04 11:40:39,R_qUVECrIOEX7NjzP,anonymous,EN,0.8999999761581421,1,3,0,5,0,10,4,2,4,4,1,5,5,5,10,1,1,2,1,10,10,10,10,1,5,3,3,3,1,2,2.5,1,3,2,4,4,2,24,3,19,48,20,1,4,2,3,1
+2022-10-04 11:41:13,2022-10-04 11:53:45,0,100,751,1,2022-10-04 11:53:45,R_3pop8466Inbmi94,anonymous,ES-ES,1,1,1,0,0,0,0,5,2,4,4,1,0,5,5,10,1,2,1,1,5,10,7,10,1,3,2,3,2,2,1,3.5,1,3,3,4,4,2,23,6,17,163,20,1,2,3,1,4
+2022-10-04 12:20:42,2022-10-04 12:30:48,0,100,605,1,2022-10-04 12:30:49,R_1obf5XNqmywhiJM,anonymous,ES-ES,1,1,2,5,5,10,10,4,1,5,3,1,5,5,10,10,2,2,3,1,5,5,10,10,1,3,2,1,2,2,3,2,4,2,3,4,5,2,20,7,15,163,20,1,1,3,2,4
+2022-10-04 12:29:55,2022-10-04 12:39:38,0,100,582,1,2022-10-04 12:39:38,R_3kFbKZNxPMYBiDO,anonymous,ES-ES,0.8999999761581421,1,1,5,5,5,5,3,4,1,5,1,5,5,5,5,1,1,3,2,10,10,10,10,1,4,1,5,2,1,3,2,1,3,3,1,5,2,51,6,23,163,20,1,3,2,4,1
+2022-10-04 13:28:24,2022-10-04 13:39:04,0,100,639,1,2022-10-04 13:39:05,R_2XbNHAew7gu8fLg,anonymous,ES-ES,0.8999999761581421,1,3,0,5,0,10,5,5,1,3,2,5,5,5,5,3,1,2,2,10,10,10,10,2,5,1,3,2,2,2,3,1,4,3,4,3,1,32,6,17,163,20,1,3,4,1,2
+2022-10-04 14:09:52,2022-10-04 14:22:13,0,100,740,1,2022-10-04 14:22:13,R_3oM8OdLwZ20PF4H,anonymous,ES-ES,0.8999999761581421,1,1,5,5,10,10,6,5,4,3,2,5,5,5,5,3,1,3,2,10,10,10,10,2,5,4,3,1,2,1,3,1,3,3,4,4,1,24,7,17,163,16,1,4,2,3,1
+2022-10-04 14:47:45,2022-10-04 14:59:19,0,100,693,1,2022-10-04 14:59:19,R_2cnkyFsgUgp8KFV,anonymous,ES-ES,1,1,1,0,2.5,0,2.5,2,1,5,5,1,5,5,5,10,2,1,3,2,5,5,5,5,1,1,5,3,2,1,3,2,1,3,2,1,5,1,33,6,20,163,26,1,4,1,2,3
+2022-10-04 14:49:58,2022-10-04 15:06:56,0,100,1017,1,2022-10-04 15:06:56,R_PFfuvoTD4D8qfRv,anonymous,EN,1,1,3,0,5,0,10,10,2,5,4,2,0,5,0,10,1,1,2,2,5,10,5,10,2,2,4,2,2,1,2,5,1,3,3,4,5,2,31,3,19,84,16,1,2,1,3,4
+2022-10-04 14:44:44,2022-10-04 15:11:38,0,100,1613,1,2022-10-04 15:11:38,R_2hGFcOWAjxAcS8V,anonymous,ES-ES,1,1,1,0,5,0,10,5,5,1,1,2,5,10,10,15,1,1,2,1,10,10,10,10,2,5,1,1,1,2,3,2,1,3,2,4,4,1,22,6,19,163,26,1,1,2,4,3
+2022-09-27 15:24:33,2022-09-27 15:30:17,0,50,343,0,2022-10-04 15:30:21,R_3mlUSnLA9W75bnF,anonymous,ES-ES,0.8999999761581421,1,3,,,,,,,,,,10,20,10,30,1,1,1,2,10,20,10,30,2,4,1,4,2,1,1,2,,,,,,,,,,,,,4,3,1,2
+2022-10-04 15:38:45,2022-10-04 15:48:31,0,100,585,1,2022-10-04 15:48:31,R_3ErG2D60RRtL53D,anonymous,ES-ES,0.699999988079071,1,3,0,5,0,10,5,1,3,4,1,0,5,0,10,3,1,3,2,0,8,0,13,2,5,2,4,2,2,3,1.20,1,3,2,4,3,2,28,3,23,163,20,1,2,4,1,3
+2022-10-04 15:36:47,2022-10-04 15:55:09,0,100,1101,1,2022-10-04 15:55:09,R_3DolYrk6AUswOFc,anonymous,ES-ES,1,1,3,0,5,0,10,5,1,5,5,1,0,5,0,10,1,1,2,3,0,10,0,10,1,1,5,5,2,2,1,3,4,3,3,4,3,2,25,6,15,163,20,1,1,3,4,2
+2022-10-04 15:53:09,2022-10-04 16:06:50,0,100,821,1,2022-10-04 16:06:50,R_1NESCFWKM1ybAnP,anonymous,EN,0.8999999761581421,1,3,5,5,10,10,5,1,5,3,1,5,5,10,10,1,2,1,2,10,10,10,10,2,3,2,1,2,2,1,2,1,3,2,1,4,2,37,2,23,163,26,1,2,1,4,3
+2022-10-04 15:54:22,2022-10-04 16:10:26,0,100,964,1,2022-10-04 16:10:27,R_1i4NkGId2NRJ1tQ,anonymous,ES-ES,1,1,1,5,5,10,10,4,3,4,2,2,5,5,10,10,1,1,3,2,5,5,10,10,2,3,4,2,2,2,3,3,1,3,2,4,4,1,29,3,26,163,20,1,4,1,2,3
+2022-10-04 15:38:20,2022-10-04 16:22:25,0,100,2645,1,2022-10-04 16:22:26,R_1KlQFOufLXi6LZf,anonymous,ES-ES,1,1,3,0,5,0,5,30,1,5,2,2,0,5,0,5,3,2,3,3,0,10,0,10,2,1,5,2,3,2,3,5,1,3,2,1,3,2,29,4,17,163,21,1,1,4,3,2
+2022-10-04 16:12:54,2022-10-04 16:38:59,0,100,1564,1,2022-10-04 16:38:59,R_ByUPnmsVUaMqcbT,anonymous,ES-ES,0.8999999761581421,1,1,0,5,0,5,5,1,5,3,2,5,5,5,5,1,1,1,2,5,5,10,10,2,3,5,2,3,1,1,2,1,3,2,4,4,2,30,6,17,163,19,1,2,1,3,4
+2022-10-04 16:53:02,2022-10-04 17:09:03,0,100,960,1,2022-10-04 17:09:03,R_29g2GNhXn7nc1bW,anonymous,ES-ES,1,1,1,5,5,10,10,13,5,3,2,1,5,5,10,10,1,2,3,2,7,8,12,15,1,5,3,3,2,2,1,5,4,3,2,4,5,1,18,3,17,163,20,1,3,2,1,4
+2022-10-04 18:37:20,2022-10-04 18:47:02,0,100,581,1,2022-10-04 18:47:02,R_2xxaVaaOT7uRAjv,anonymous,ES-ES,1,1,1,0,5,10,10,1,1,5,4,1,0,5,10,10,1,2,2,2,0,5,10,10,1,1,5,4,2,2,2,1,1,3,3,4,4,3,20,1,14,163,20,1,3,2,4,1
+2022-09-27 18:59:14,2022-09-27 18:59:57,0,8,43,0,2022-10-04 19:00:00,R_27kiXRpLSy6MPC3,anonymous,ES-ES,1,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,2,1,4
+2022-10-04 19:07:27,2022-10-04 19:17:15,0,100,587,1,2022-10-04 19:17:15,R_2YQwokPrpsOjP3j,anonymous,ES-ES,1,1,1,5,5,5,5,5,1,5,3,2,5,5,5,5,1,1,3,1,10,10,10,10,2,4,1,4,2,1,3,5,1,3,2,4,5,1,34,6,20,163,20,1,3,2,1,4
+2022-09-27 19:40:30,2022-09-27 19:40:52,0,8,21,0,2022-10-04 19:40:54,R_2Cfc6SVq7FGvFCM,anonymous,ES-ES,0.8999999761581421,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,1,4,2
+2022-09-27 19:40:17,2022-09-27 19:40:54,0,11,37,0,2022-10-04 19:40:55,R_3kgLj8NNo1cnlAm,anonymous,ES-ES,1,1,,,,,,,,,,,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,,2,4,1,3
+2022-09-27 19:37:04,2022-09-27 19:41:55,0,56,291,0,2022-10-04 19:41:58,R_3NF1fiMA3yaRESk,anonymous,ES-ES,0.8999999761581421,1,1,5,5,10,10,,,,,,5,5,10,10,1,1,2,2,5,5,10,10,2,4,2,1,3,1,2,3,,,,,,,,,,,,,4,1,3,2
+2022-09-27 19:46:39,2022-09-27 19:47:18,0,11,39,0,2022-10-04 19:47:28,R_z2ymxOKLeT61Spz,anonymous,ES-ES,1,1,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,3,2
+2022-09-27 19:46:59,2022-09-27 19:50:22,0,39,203,0,2022-10-04 19:50:24,R_3PYLLHDIAqxy4Aa,anonymous,ES-ES,0.8999999761581421,1,2,,,,,,,,,,0,5,0,10,2,1,1,1,0,5,0,10,2,3,1,1,,,,,,,,,,,,,,,,,3,2,1,4
+2022-09-27 19:54:04,2022-09-27 19:56:29,0,19,144,0,2022-10-04 19:56:33,R_3k19Wic4iABR1JW,anonymous,EN,0.8999999761581421,1,1,10,100,10,100,20,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,2,3,4
+2022-09-27 20:03:21,2022-09-27 20:12:56,0,39,574,0,2022-10-04 20:13:00,R_vet8VyEVLElFHzj,anonymous,ES-ES,0.8999999761581421,1,1,5,20,10,50,5,4,3,3,2,,,,,,,,2,,,,,,,,,2,1,3,2,,,,,,,,,,,,,2,4,3,1
+2022-09-27 20:15:08,2022-09-27 20:15:59,8,3,50,0,2022-10-04 20:16:00,R_9X3G5kxNhr4P1Lj,anonymous,ES-ES,0.8999999761581421,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2022-09-27 20:22:22,2022-09-27 20:29:08,0,50,406,0,2022-10-04 20:29:15,R_1pKJI7bornFVMCE,anonymous,ES-ES,1,1,1,,,,,,,,,,0,10,0,20,1,1,2,2,0,10,0,10,1,1,3,5,2,1,2,2,,,,,,,,,,,,,4,1,2,3
+2022-09-27 20:34:24,2022-09-27 20:44:19,0,44,594,0,2022-10-04 20:44:22,R_1F4XPb4Am1txV8a,anonymous,ES-ES,1,1,2,0,20,0,20,3,1,5,4,2,5,15,10,25,1,,,,,,,,,,,,2,1,1,1.5,,,,,,,,,,,,,1,3,4,2
+2022-09-27 20:46:28,2022-09-27 21:01:17,0,50,889,0,2022-10-04 21:01:18,R_124lJJ2Drl3HK47,anonymous,ES-ES,0.8999999761581421,1,3,0,5,0,10,3,3,3,3,2,,,,,,,,2,10,10,10,10,2,5,1,3,2,1,1,1,,,,,,,,,,,,,1,4,3,2
+2022-09-27 21:02:36,2022-09-27 21:03:26,0,8,50,0,2022-10-04 21:03:30,R_2Phckzlo8cuONdX,anonymous,ES-ES,1,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,3,4
+2022-09-27 21:03:00,2022-09-27 21:03:58,0,11,58,0,2022-10-04 21:04:01,R_2eaRdPr5zERV9J2,anonymous,ES-ES,0.8999999761581421,1,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,3,2
+2022-09-27 21:24:30,2022-09-27 21:25:46,0,14,76,0,2022-10-04 21:25:53,R_9tLocWNsjr5wuT7,anonymous,ES-ES,1,1,,,,,,,,,,,,,,,,,,,,,,,,,,,2,2,,,,,,,,,,,,,,,4,3,2,1
+2022-09-27 21:30:22,2022-09-27 21:32:18,0,33,115,0,2022-10-04 21:32:24,R_2wEIFDVewJAjSOi,anonymous,ES-ES,1,1,,,,,,,,,,,5,5,10,10,1,1,1,,,,,,,,,,2,1,1,1,,,,,,,,,,,,,3,2,4,1
+2022-09-27 21:28:36,2022-09-27 21:32:25,0,11,229,0,2022-10-04 21:32:27,R_21pnLp2mh7ojnOc,anonymous,ES-ES,0.8999999761581421,1,,,,,,,,,,,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,,4,3,1,2
+2022-09-27 21:26:02,2022-09-27 21:33:37,0,61,455,0,2022-10-04 21:33:45,R_DoTkvTuGYRFi28F,anonymous,ES-ES,1,1,1,5,7,7,10,2,1,5,5,1,5,8,7,10,2,1,3,1,7,9,10,13,1,,,,2,1,3,1,,,,,,,,,,,,,2,1,4,3
+2022-09-27 21:25:48,2022-09-27 21:34:20,0,67,511,0,2022-10-04 21:34:23,R_WiHnEF9x73HYPRL,anonymous,ES-ES,0.8999999761581421,1,1,5,15,10,25,5,2,4,3,1,5,15,10,25,1,1,1,2,5,10,10,25,1,1,2,3,2,1,1,3.5,,,,,,,,,,,,,1,3,4,2
+2022-09-27 21:34:31,2022-09-27 21:39:00,0,53,268,0,2022-10-04 21:39:03,R_1M0TIKqeoLw1G8A,anonymous,ES-ES,0.8999999761581421,1,2,5,10,10,20,5,1,4,5,2,5,10,10,20,1,1,2,2,,,,,,,,,2,1,2,3,,,,,,,,,,,,,2,1,4,3
+2022-09-27 21:39:45,2022-09-27 21:40:36,0,11,50,0,2022-10-04 21:40:38,R_3efOKAb4O8ePsV0,anonymous,ES-ES,1,1,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,4,2
+2022-09-27 21:39:44,2022-09-27 21:41:12,0,11,88,0,2022-10-04 21:41:14,R_2QQ9pWgaEa4LzkO,anonymous,ES-ES,0.8999999761581421,1,,,,,,,,,,,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,,2,3,1,4
+2022-09-27 21:45:22,2022-09-27 21:45:44,0,8,21,0,2022-10-04 21:45:44,R_RXGkWPo0SE9uwZr,anonymous,ES-ES,0.8999999761581421,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,1,2,4
+2022-09-27 21:47:46,2022-09-27 21:50:41,0,19,174,0,2022-10-04 21:50:41,R_1DPcoZ9WyCwF9A4,anonymous,ES-ES,1,1,,,,,,,,,,,0,20,0,20,1,1,,,,,,,,,,,,,,,,,,,,,,,,,,,3,1,4,2
+2022-09-27 22:31:28,2022-09-27 22:37:22,0,67,353,0,2022-10-04 22:37:28,R_2cuBLlXREoiqA2p,anonymous,ES-ES,1,1,2,0,5,0,10,5,1,1,1,1,5,10,10,20,2,2,3,2,10,20,10,20,1,2,2,1,2,2,3,5,,,,,,,,,,,,,3,1,2,4
+2022-09-27 22:40:59,2022-09-27 22:41:18,0,8,19,0,2022-10-04 22:41:23,R_1LGpdJ8EzqQOJhB,anonymous,ES-ES,1,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,1,2,3
+2022-09-27 22:51:09,2022-09-27 22:52:35,0,17,85,0,2022-10-04 22:52:38,R_bkihhboUNea8Y6Z,anonymous,ES-ES,1,1,,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,2,,,,,,,,,,,,,,2,3,4,1
+2022-09-27 23:00:10,2022-09-27 23:00:51,0,11,41,0,2022-10-04 23:00:54,R_uwUsA4U2qq7ZGkV,anonymous,ES-ES,1,1,,,,,,,,,,,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,,4,3,1,2
+2022-09-27 23:00:22,2022-09-27 23:01:11,8,11,49,0,2022-10-04 23:01:12,R_3FPBvcvMPgb7Vlu,anonymous,ES-ES,1,1,,,,,,,,,,,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,,3,4,1,2
+2022-10-04 22:58:08,2022-10-04 23:01:46,0,100,217,1,2022-10-04 23:01:46,R_22MtdyklnOoIIik,anonymous,ES-ES,1,1,1,0,5,0,10,5,1,4,3,2,5,5,5,10,2,1,3,2,5,10,10,10,2,1,4,3,2,1,3,3,1,3,2,4,5,2,31,7,22,163,16,1,3,1,2,4
+2022-09-27 23:14:57,2022-09-27 23:21:23,0,31,386,0,2022-10-04 23:21:29,R_22JNxowu2CbeypS,anonymous,ES-ES,1,1,,,,,,,,,,,3,5,5,8,1,2,,,,,,,,,,,3,2,2,2,,,,,,,,,,,,,4,2,3,1
+2022-09-28 00:04:25,2022-09-28 00:08:20,0,31,234,0,2022-10-05 00:08:27,R_2bTcXA3hXdETSMd,anonymous,ES-ES,1,1,,,,,,,,,,,,,,,,,,2,0,10,0,10,2,,,,3,2,2,2,,,,,,,,,,,,,4,3,2,1
+2022-09-28 00:03:01,2022-09-28 00:09:24,0,44,383,0,2022-10-05 00:09:30,R_3O1CtQMGdyENEJZ,anonymous,ES-ES,1,1,3,5,5,10,10,4,,,,,,,,,,,,2,5,5,10,10,1,3,4,2,1,2,3,4,,,,,,,,,,,,,3,4,2,1
+2022-09-28 01:03:10,2022-09-28 01:03:41,0,11,31,0,2022-10-05 01:03:42,R_3hbbmcCc16KpkEb,anonymous,ES-ES,1,1,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,4,2
+2022-09-28 06:57:33,2022-09-28 06:59:10,0,19,97,0,2022-10-05 06:59:15,R_21A4BvJGDFgfHRq,anonymous,ES-ES,0.4000000059604645,1,,,,,,,,,,,5,15,5,20,3,1,,,,,,,,,,,,,,,,,,,,,,,,,,,4,1,3,2
+2022-09-28 07:12:24,2022-09-28 07:12:44,0,8,20,0,2022-10-05 07:12:46,R_8kXzMARxOfmxSG5,anonymous,EN,1,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,1,2,3
+2022-10-05 08:22:22,2022-10-05 08:33:05,0,100,643,1,2022-10-05 08:33:05,R_2ZVO7X5d8TlZUUq,anonymous,ES-ES,1,1,1,0,5,0,10,5,2,5,4,2,0,5,0,10,1,1,3,2,0,5,5,10,2,4,2,1,2,1,3,4,1,3,2,2,3,1,24,6,21,163,20,1,1,3,4,2
+2022-09-28 09:00:11,2022-09-28 09:05:57,0,50,345,0,2022-10-05 09:06:06,R_1ePkbqYvoT0Ly0I,anonymous,ES-ES,1,1,1,,,,,,,,,,5,5,10,10,2,1,1,1,10,10,10,10,2,5,5,1,2,1,1,3,,,,,,,,,,,,,4,1,3,2
+2022-09-28 09:07:01,2022-09-28 09:15:13,0,31,491,0,2022-10-05 09:15:17,R_3PiSvYmG3lGRNxI,anonymous,ES-ES,0.8999999761581421,1,,,,,,,,,,,,,,,,,,2,10,15,10,20,2,4,5,1,2,1,3,,,,,,,,,,,,,,4,3,1,2
+2022-10-05 09:56:27,2022-10-05 10:07:33,0,100,665,1,2022-10-05 10:07:33,R_2PBXN41gGHqHDc1,anonymous,ES-ES,0.8999999761581421,1,1,0,5,0,10,5,4,3,2,2,5,5,10,10,1,1,1,2,10,10,10,10,2,3,4,2,2,1,1,2.5,1,3,2,1,3,2,53,3,25,163,20,2,3,1,2,4
+2022-10-05 09:58:18,2022-10-05 10:08:26,0,100,607,1,2022-10-05 10:08:26,R_ulhQ9iBO7I1vr7b,anonymous,ES-ES,1,1,2,5,5,10,10,3,1,5,5,2,5,5,10,10,1,1,3,2,10,10,10,10,2,5,5,1,2,2,3,3,1,3,2,1,5,2,36,6,18,163,20,1,4,2,1,3
+2022-10-05 09:57:59,2022-10-05 10:10:09,0,100,729,1,2022-10-05 10:10:09,R_3QPJhPv69ITnOmf,anonymous,ES-ES,1,1,1,0,5,0,10,5,1,5,5,2,5,5,5,10,1,1,1,1,5,10,10,10,2,1,5,5,2,1,1,3,1,3,2,4,4,1,38,6,17,163,20,1,4,3,1,2
+2022-10-05 10:01:33,2022-10-05 10:12:42,0,100,669,1,2022-10-05 10:12:43,R_2uQJPOWgSg3s0rM,anonymous,ES-ES,1,1,1,0,5,0,10,4,1,5,3,2,0,5,0,10,1,1,2,2,0,10,0,10,2,4,2,4,2,1,1,4,1,3,2,1,4,1,29,6,18,163,20,1,4,2,3,1
+2022-10-05 09:59:24,2022-10-05 10:16:41,0,100,1036,1,2022-10-05 10:16:41,R_SZBV60pTqmnQUU1,anonymous,ES-ES,1,1,2,0,5,0,10,3,1,5,5,2,0,5,0,10,1,2,3,1,0,10,0,10,2,4,2,4,2,2,3,3,1,3,2,4,5,2,35,6,20,163,20,1,2,1,3,4
+2022-09-28 10:14:01,2022-09-28 10:14:31,0,11,29,0,2022-10-05 10:17:35,R_25YInmRnZms1mV7,anonymous,EN,0.8999999761581421,1,,,,,,,,,,,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,,2,3,1,4
+2022-10-05 10:06:29,2022-10-05 10:18:10,0,100,700,1,2022-10-05 10:18:10,R_1IS02TDJcdEZkBT,anonymous,EN,1,1,2,0,10,5,20,10,1,4,5,2,5,15,5,20,2,1,1,1,10,20,10,25,2,3,2,4,2,1,1,7,1,3,2,1,3,1,27,6,10,17,20,1,3,4,2,1
+2022-10-05 10:00:01,2022-10-05 10:22:06,0,100,1324,1,2022-10-05 10:22:06,R_1dphX6X3TlVACeH,anonymous,EN,0.8999999761581421,1,1,0,5,0,10,5,2,5,4,1,0,5,0,10,1,1,2,1,0,10,0,10,2,5,4,2,2,2,2,3,1,3,2,3,5,2,26,6,20,9,20,1,2,1,3,4
+2022-09-28 10:15:46,2022-09-28 10:20:16,0,31,269,0,2022-10-05 10:23:03,R_pEmV8YXWrkateyl,anonymous,ES-ES,0.8999999761581421,1,,,,,,,,,,,0,5,0,10,1,1,,,,,,,,,,,2,2,3,1.5,,,,,,,,,,,,,4,2,3,1
+2022-10-05 10:09:35,2022-10-05 10:23:38,0,100,843,1,2022-10-05 10:23:39,R_VPw0N6ybVYSMc93,anonymous,ES-ES,1,1,2,0,0,0,5,4,2,5,5,2,5,5,5,10,1,1,2,1,10,10,10,10,2,4,2,4,2,1,1,2,1,3,2,3,4,1,30,6,20,65,26,1,2,1,3,4
+2022-10-05 10:15:22,2022-10-05 10:25:00,0,100,578,1,2022-10-05 10:25:00,R_3MDT9R37isnTlt8,anonymous,ES-ES,0.8999999761581421,1,1,0,25,0,50,10,3,2,3,2,0,25,0,50,1,1,1,2,0,25,0,50,2,5,1,5,2,1,1,2,1,3,2,1,4,1,29,6,21,163,20,1,2,1,3,4
+2022-10-05 10:06:55,2022-10-05 10:25:56,0,100,1140,1,2022-10-05 10:25:56,R_Os3rtboL6qNDfrz,anonymous,ES-ES,0.8999999761581421,1,2,0,5,0,10,10,4,3,2,2,5,10,10,20,2,1,2,2,5,15,10,25,2,5,1,1,2,2,1,10,1,3,2,4,4,1,22,1,10,163,26,1,2,1,3,4
+2022-10-05 10:16:28,2022-10-05 10:30:26,0,100,837,1,2022-10-05 10:30:26,R_1OUGYzEofqLHv5z,anonymous,ES-ES,0.8999999761581421,1,1,0,5,0,10,5,1,5,5,2,5,10,10,10,1,1,2,2,10,15,10,15,2,2,4,2,2,2,2,5,1,3,2,3,5,1,45,6,18,163,20,1,2,3,1,4
+2022-09-28 10:38:37,2022-09-28 10:39:00,0,8,22,0,2022-10-05 10:39:04,R_R7Smcr71TMflnHP,anonymous,ES-ES,0.8999999761581421,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,1,2,3
+2022-09-28 10:44:18,2022-09-28 10:47:06,0,25,167,0,2022-10-05 10:47:09,R_2ttxlY1MIFYbdGI,anonymous,ES-ES,1,1,3,,,,,,,,,,,,,,,,,2,5,10,10,15,1,5,1,1,,,,,,,,,,,,,,,,,2,4,1,3
+2022-10-05 10:39:46,2022-10-05 10:48:09,0,100,502,1,2022-10-05 10:48:09,R_0BeihZpoWqEs9Pz,anonymous,ES-ES,1,1,2,0,0,0,0,8,1,5,5,1,0,5,0,10,2,2,2,1,0,10,0,10,2,4,1,3,2,1,1,3,1,3,3,4,5,2,27,4,16,163,20,1,4,2,1,3
+2022-10-05 10:30:13,2022-10-05 10:53:18,0,100,1384,1,2022-10-05 10:53:18,R_1FLEYiJZuvBOABs,anonymous,ES-ES,1,1,2,0,10,0,20,3,2,4,4,2,0,10,0,20,1,1,1,1,0,20,0,20,2,3,3,2,2,1,1,3,1,3,2,1,4,1,23,7,16,65,20,1,1,3,2,4
+2022-09-28 10:52:04,2022-09-28 10:54:06,0,11,121,0,2022-10-05 10:54:08,R_1f70cdwS6Zr2RUW,anonymous,EN,1,1,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,2,3
+2022-09-28 10:53:18,2022-09-28 10:55:18,0,17,119,0,2022-10-05 10:55:21,R_2SJOXB5qfbJXsP5,anonymous,ES-ES,1,1,2,0,5,0,10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,4,2
+2022-09-28 10:49:42,2022-09-28 10:55:29,0,61,347,0,2022-10-05 10:55:33,R_3D7npDWB13ju6FC,anonymous,ES-ES,0.8999999761581421,1,3,5,10,10,15,5,1,5,3,2,5,10,10,15,1,1,,2,5,10,10,15,2,4,1,3,2,2,2,3,,,,,,,,,,,,,3,4,2,1
+2022-09-28 11:17:01,2022-09-28 11:19:25,0,22,143,0,2022-10-05 11:20:15,R_elKRG1MxltrdsM9,anonymous,ES-ES,1,1,,,,,,,,,,,5,5,10,10,1,1,3,,,,,,,,,,,,,,,,,,,,,,,,,,3,1,4,2
+2022-10-05 11:04:55,2022-10-05 11:21:37,0,100,1002,1,2022-10-05 11:21:37,R_3EKdk99g60x6iMW,anonymous,ES-ES,0.8999999761581421,1,1,0,5,0,10,5,1,5,5,2,0,5,0,10,1,1,2,2,0,10,0,10,2,4,2,4,2,1,1,1,1,3,2,4,5,1,21,6,15,163,20,1,1,4,2,3
+2022-10-05 11:14:01,2022-10-05 11:29:07,0,100,906,1,2022-10-05 11:29:09,R_3NWXRFnkDwljHw9,anonymous,ES-ES,1,1,1,5,7,10,12,4,1,5,2,2,5,10,10,15,1,1,1,2,5,10,10,15,2,1,5,3,2,1,1,2,1,3,2,4,4,1,29,6,20,163,20,1,3,1,4,2
+2022-10-05 11:25:16,2022-10-05 11:33:46,0,100,509,1,2022-10-05 11:33:47,R_vq0mmOqdEvM8z6x,anonymous,ES-ES,0.8999999761581421,1,1,0,5,0,10,20,3,3,3,2,5,7,10,15,1,1,1,2,10,15,10,15,2,3,3,3,2,2,1,5,4,4,3,4,3,2,33,5,13,163,20,1,2,1,3,4
+2022-10-05 11:27:44,2022-10-05 11:39:15,0,100,690,1,2022-10-05 11:39:15,R_suvHaxp1S6m9svT,anonymous,ES-ES,1,1,1,0,10,0,10,5,4,4,3,1,0,10,0,15,1,1,2,2,5,15,5,15,2,4,4,3,2,1,2,3,1,3,2,4,3,1,28,6,17,163,20,1,2,4,1,3
+2022-10-05 10:50:21,2022-10-05 12:09:16,0,100,4734,1,2022-10-05 12:09:16,R_1kTVhX0B9tUxM0p,anonymous,ES-ES,1,1,1,0,15,0,20,20,1,5,2,1,0,15,0,25,1,1,1,2,0,25,0,25,1,5,1,1,1,1,1,10,1,3,2,4,4,1,44,6,25,163,26,1,1,4,2,3
+2022-10-05 11:21:02,2022-10-05 12:11:52,0,100,3050,1,2022-10-05 12:11:53,R_279AHyMSvSQe0t6,anonymous,ES-ES,1,1,2,0,5,5,10,6,2,3,1,1,5,6,10,10,3,1,3,2,7,8,10,10,1,2,3,2,2,2,3,3,1,3,1,1,5,1,18,2,12,163,18,1,4,2,1,3
+2022-09-28 12:23:09,2022-09-28 12:28:54,0,53,345,0,2022-10-05 12:28:56,R_2Bgv9jcSm29klqc,anonymous,ES-ES,1,1,1,0,5,0,10,2,1,5,3,2,0,5,0,10,1,1,2,2,,,,,,,,,3,1,2,2,,,,,,,,,,,,,1,2,4,3
+2022-09-28 12:44:42,2022-09-28 12:50:50,0,47,368,0,2022-10-05 12:50:59,R_10N5xwObdNCcpSn,anonymous,ES-ES,0.800000011920929,1,3,5,20,10,30,20,2,4,4,2,5,15,10,30,1,1,,,,,,,,,,,1,1,2,10,,,,,,,,,,,,,2,3,4,1
+2022-10-05 12:46:59,2022-10-05 13:09:12,0,100,1332,1,2022-10-05 13:09:12,R_1C7v1ZzOxjrz5WY,anonymous,ES-ES,0.800000011920929,1,3,0,5,0,10,6,1,5,3,2,5,8,5,10,1,1,3,3,10,15,10,15,2,4,5,1,2,1,3,5,2,4,3,4,3,2,18,7,13,163,26,1,3,4,2,1
+2022-10-05 13:04:27,2022-10-05 13:14:33,0,100,605,1,2022-10-05 13:14:33,R_1n6HWN0g3SnQ79K,anonymous,ES-ES,0.8999999761581421,1,1,0,5,0,10,3,1,5,3,2,5,5,5,10,1,1,3,2,10,10,10,10,2,3,3,1,2,2,1,2,1,3,3,4,5,2,19,6,13,163,20,1,3,1,4,2
+2022-10-04 11:18:55,2022-10-05 13:16:06,0,100,93430,1,2022-10-05 13:16:06,R_s524ftpshRjXm93,anonymous,ES-ES,1,1,1,0,5,0,10,4,1,4,4,1,0,5,0,10,2,2,3,1,5,10,5,10,2,3,3,2,2,1,1,3,1,4,3,4,4,2,19,3,13,163,20,1,4,1,3,2
+2022-10-05 13:04:27,2022-10-05 13:17:32,0,100,784,1,2022-10-05 13:17:32,R_31XAyODr99d9gQD,anonymous,ES-ES,1,1,3,0,5,0,10,5,1,5,1,1,5,5,10,10,1,2,3,2,10,10,10,10,1,1,5,1,3,2,3,3,1,3,2,1,5,2,34,6,16,163,20,1,3,1,2,4
+2022-10-05 12:59:31,2022-10-05 13:20:46,0,100,1274,1,2022-10-05 13:20:46,R_2YazqRUqjd280TD,anonymous,ES-ES,1,1,3,3,5,5,10,3,1,4,3,1,3,5,5,10,1,1,3,2,3,5,5,10,1,4,1,4,2,1,1,2,1,3,3,4,5,2,18,2,12,163,20,1,1,3,2,4
+2022-09-28 13:02:33,2022-09-28 13:27:18,0,47,1485,0,2022-10-05 13:27:20,R_1F9bsIdQ6mZdGgk,anonymous,ES-ES,0.8999999761581421,1,2,0,20,0,25,0,,,,,0,20,0,25,2,1,2,2,0,20,0,25,2,4,1,2,,,,,,,,,,,,,,,,,3,1,2,4
+2022-10-05 13:10:55,2022-10-05 13:39:37,0,100,1722,1,2022-10-05 13:39:38,R_p3sE5Cb41PjdTcl,anonymous,ES-ES,1,1,1,0,10,0,15,4,1,5,5,2,0,10,0,15,1,1,2,2,0,10,0,15,2,5,2,4,2,2,2,3,1,3,2,4,4,1,18,6,12,163,26,1,1,2,4,3
+2022-10-05 13:00:46,2022-10-05 13:42:58,0,100,2532,1,2022-10-05 13:43:00,R_1rNtoG3Vl19dsTF,anonymous,EN,0.8999999761581421,1,3,0,5,0,10,10,4,2,3,1,5,5,10,10,1,1,3,2,5,10,10,15,2,4,2,3,3,2,1,12,2,4,3,4,4,2,28,3,19,163,20,1,4,3,2,1
+2022-09-28 14:01:59,2022-09-28 14:06:56,0,47,296,0,2022-10-05 14:06:57,R_1DT2nN7AGEkxrzt,anonymous,ES-ES,1,1,1,0,7,0,12,3,2,4,4,2,0,7,10,12,1,2,3,2,5,10,10,10,,,,,,,,,,,,,,,,,,,,,1,2,3,4
+2022-10-05 14:21:36,2022-10-05 14:30:22,0,100,526,1,2022-10-05 14:30:23,R_3fNVsaWTNxXePan,anonymous,ES-ES,0.8999999761581421,1,1,0,2.5,0,3,5,1,5,4,1,0,2.5,0,3,2,1,1,2,0,2.5,0,3,1,1,5,4,2,1,1,5,2,3,2,1,4,2,18,6,13,163,26,1,1,2,4,3
+2022-09-28 15:18:19,2022-09-28 15:19:19,0,11,59,0,2022-10-05 15:19:22,R_56dOE9EmxZ5T4Ot,anonymous,ES-ES,1,1,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,2,3
+2022-10-05 15:11:21,2022-10-05 15:19:27,0,100,486,1,2022-10-05 15:19:28,R_a5eyScCnBCdNJXX,anonymous,ES-ES,0.8999999761581421,1,1,5,5,10,10,3,1,5,5,2,5,20,10,30,1,1,1,1,5,10,10,20,2,5,2,4,2,1,2,3,1,3,2,1,4,1,30,6,16,163,20,1,4,3,1,2
+2022-10-05 15:21:34,2022-10-05 15:39:24,0,100,1070,1,2022-10-05 15:39:26,R_xfn8yGjLoedNfOx,anonymous,EN,0.8999999761581421,1,3,5,10,10,20,9,3,4,2,1,0,10,5,15,3,2,3,2,5,15,10,20,2,4,1,4,3,1,3,4,1,3,2,1,4,1,24,6,11,169,20,1,1,4,2,3
+2022-09-28 15:42:03,2022-09-28 15:42:56,0,8,52,0,2022-10-05 15:42:59,R_1mDU8HfnNOv71W0,anonymous,ES-ES,1,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,2,1,4
+2022-09-28 15:51:44,2022-09-28 15:56:14,0,36,269,0,2022-10-05 15:56:19,R_1NDDvr4eruPZFfc,anonymous,ES-ES,0.8999999761581421,1,,,,,,,,,,,5,10,5,10,1,1,1,1,,,,,,,,,1,1,1,3.5,,,,,,,,,,,,,4,2,3,1
+2022-10-05 15:55:22,2022-10-05 16:05:51,0,100,629,1,2022-10-05 16:05:51,R_3DeBdPdGJ7mwDCY,anonymous,ES-ES,1,1,1,5,5,5,5,8,4,2,4,2,5,5,10,10,1,1,3,2,5,10,10,10,2,4,2,4,2,1,3,5,1,3,2,4,4,1,26,6,20,163,20,1,4,2,1,3
+2022-09-28 16:03:39,2022-09-28 16:10:43,0,50,423,0,2022-10-05 16:10:47,R_25AVKTtsjsB2c2s,anonymous,ES-ES,0.8999999761581421,1,1,5,10,10,20,10,3,5,2,2,,,,,,,,2,5,10,10,20,2,3,5,2,2,1,1,10,,,,,,,,,,,,,3,4,1,2
+2022-10-05 16:03:23,2022-10-05 16:19:58,0,100,995,1,2022-10-05 16:19:58,R_24MmwgNWtXa3zMf,anonymous,EN,0.8999999761581421,1,1,0,5,0,10,2,1,5,4,1,0,10,5,15,1,1,2,2,10,10,10,15,1,2,4,4,2,1,2,2,1,3,3,4,5,1,24,3,21,163,20,1,3,1,2,4
+2022-10-05 16:32:37,2022-10-05 16:44:35,0,100,717,1,2022-10-05 16:44:35,R_WqTuJb5UF70KfT3,anonymous,ES-ES,1,1,3,0,7,0,15,2,1,5,3,2,5,8,10,17,1,1,3,1,5,10,10,15,2,4,4,2,3,1,3,2,1,3,3,4,4,1,31,6,20,163,20,1,3,1,4,2
+2022-10-05 16:41:20,2022-10-05 16:53:22,0,100,722,1,2022-10-05 16:53:23,R_abZ2FEKCwQG8eqt,anonymous,ES-ES,1,1,2,5,10,10,15,2,1,1,3,1,7,10,12,15,1,1,2,2,15,20,15,20,1,1,1,3,2,1,2,2,3,3,3,4,3,1,18,2,12,163,26,1,1,4,2,3
+2022-10-05 16:48:10,2022-10-05 16:59:24,0,100,673,1,2022-10-05 16:59:25,R_sC2Hpz32hFIT3lT,anonymous,ES-ES,0.8999999761581421,1,1,10,15,10,15,30,4,2,5,1,10,14,10,15,1,2,2,2,10,20,15,25,1,3,3,5,2,2,2,15,1,3,3,4,5,1,27,1,15,37,20,1,1,3,4,2
+2022-10-05 17:50:14,2022-10-05 18:10:12,0,100,1198,1,2022-10-05 18:10:12,R_baBM8F0WUhM3tdv,anonymous,ES-ES,1,1,1,0,5,0,10,3,4,2,5,1,5,6,5,12,1,2,2,2,5,6,5,12,2,2,4,5,2,2,2,2.5,1,3,3,4,4,1,19,7,14,163,26,1,4,3,1,2
+2022-09-28 18:09:06,2022-09-28 18:15:06,0,53,360,0,2022-10-05 18:15:09,R_3CKtQsoaxyUEzVp,anonymous,ES-ES,0.8999999761581421,1,1,5,5,10,10,5,1,5,1,2,5,5,10,10,1,2,1,2,,,,,,,,,1,1,1,2,,,,,,,,,,,,,1,3,4,2
+2022-09-28 18:47:27,2022-09-28 18:55:32,0,56,484,0,2022-10-05 18:55:34,R_1DpZU9qXMhz4L6Y,anonymous,ES-ES,1,1,2,5,5,10,10,,,,,,5,7,10,10,1,1,2,2,5,5,10,10,2,3,2,5,2,2,1,3,,,,,,,,,,,,,4,1,2,3
+2022-09-28 20:46:49,2022-09-28 21:10:14,0,8,1405,0,2022-10-05 21:10:22,R_1d65Pd9WYD7oAIv,anonymous,ES-ES,1,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,4,3
+2022-10-05 11:10:13,2022-10-05 22:33:07,0,100,40974,1,2022-10-05 22:33:08,R_1jqTdDglwwwA2oo,anonymous,ES-ES,0.8999999761581421,1,1,0,5,5,10,2,3,5,2,2,0,5,5,10,1,2,3,2,0,5,5,10,2,3,2,1,2,2,3,2,1,3,2,4,4,1,31,6,18,163,20,1,2,3,4,1
+2022-09-28 22:33:39,2022-09-28 22:40:20,0,33,400,0,2022-10-05 22:40:21,R_2rwpl3rjVb1VFXS,anonymous,ES-ES,1,1,,,,,,,,,,,5,10,5,15,3,2,,2,10,15,10,15,2,2,3,5,,,,,,,,,,,,,,,,,3,2,1,4
+2022-09-28 22:36:38,2022-09-28 22:40:31,0,31,232,0,2022-10-05 22:40:33,R_3enyidufVeO35ar,anonymous,ES-ES,0.8999999761581421,1,,,,,,,,,,,,,,,,,,2,5,10,10,10,2,,,,2,2,3,2,,,,,,,,,,,,,4,3,2,1
+2022-09-28 22:59:00,2022-09-28 23:10:36,0,50,695,0,2022-10-05 23:10:40,R_3q8nn2gAvDEkvUg,anonymous,ES-ES,1,1,1,5,5,5,5,5,5,5,5,2,,,,,,,,2,10,10,10,10,2,5,1,5,2,1,2,5,,,,,,,,,,,,,3,4,2,1
+2022-10-05 23:05:22,2022-10-05 23:20:32,0,100,909,1,2022-10-05 23:20:33,R_3j8azKJlsSRoP3n,anonymous,ES-ES,1,1,1,0,10,0,20,2,1,5,5,1,0,10,0,20,1,1,2,2,0,15,0,20,1,1,5,4,2,2,2,2,1,3,3,4,2,2,54,3,15,61,20,1,3,4,1,2
+2022-10-06 00:06:29,2022-10-06 00:20:17,0,100,828,1,2022-10-06 00:20:19,R_2D5HBeTYey8OViG,anonymous,ES-ES,1,1,3,0,5,0,10,4,1,5,5,1,0,5,0,5,3,1,1,2,0,10,0,10,1,1,4,5,2,1,1,2,2,3,3,4,4,2,24,2,16,163,26,1,4,1,2,3
+2022-10-05 23:59:34,2022-10-06 00:24:06,0,100,1472,1,2022-10-06 00:24:07,R_22YsLZLpUcZAPbG,anonymous,ES-ES,1,1,1,0,0,0,0,5,4,5,2,2,0,5,0,10,1,1,2,2,0,5,0,10,2,4,5,1,2,1,1,4,1,3,2,1,5,1,24,2,23,163,20,1,1,2,3,4
+2022-10-06 05:52:17,2022-10-06 06:04:39,0,100,742,1,2022-10-06 06:04:40,R_3gw2qGUYwR5zClX,anonymous,ES-ES,0.8999999761581421,1,1,5,5,10,10,5,5,1,1,1,5,5,10,10,1,1,1,2,5,5,10,10,2,5,1,1,1,1,1,5,1,3,3,1,4,1,58,6,14,163,20,1,2,1,4,3
+2022-10-06 07:01:35,2022-10-06 07:13:49,0,100,734,1,2022-10-06 07:13:49,R_OrNraMkQbQPv2x3,anonymous,ES-ES,1,1,3,0,5,0,10,0,4,4,2,2,0,5,0,10,1,2,3,2,0,10,0,10,1,5,4,2,2,2,1,2,1,3,2,4,5,1,30,6,20,163,26,1,2,3,4,1
+2022-10-06 07:30:31,2022-10-06 07:30:43,0,100,11,1,2022-10-06 07:30:43,R_1eV5iScbQBUO0JC,anonymous,ES-ES,0.8999999761581421,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2022-10-06 07:30:56,2022-10-06 07:41:55,0,100,658,1,2022-10-06 07:41:56,R_1ezodCbm2YaBhOd,anonymous,ES-ES,0.800000011920929,1,3,0,5,0,10,2,3,5,2,1,5,7,5,10,3,1,2,3,10,13,10,15,1,3,5,2,3,1,2,2,1,3,2,4,5,1,32,6,18,36,20,1,4,2,3,1
+2022-10-06 13:01:51,2022-10-06 13:12:40,0,100,649,1,2022-10-06 13:12:41,R_2zRO2I3sMjKQX0N,anonymous,ES-ES,1,1,3,0,0,0,0,4,1,5,5,2,0,5,0,10,1,1,3,2,0,5,0,10,2,5,1,5,2,1,1,2,1,3,2,4,4,1,47,6,16,163,26,1,3,4,2,1
+2022-10-06 13:23:39,2022-10-06 13:34:52,0,100,673,1,2022-10-06 13:34:53,R_svPmOB1wYWWkzxT,anonymous,ES-ES,1,1,1,0,5,0,5,5,1,3,3,1,0,5,0,10,1,1,1,2,0,10,0,10,1,1,3,3,2,2,1,5,1,3,2,4,4,2,24,6,17,163,20,1,4,1,3,2
+2022-10-06 13:25:17,2022-10-06 13:41:00,0,100,943,1,2022-10-06 13:41:01,R_PusEiGF6c7veAKJ,anonymous,ES-ES,0.8999999761581421,1,1,5,8,10,15,3,1,5,3,2,5,10,10,15,1,1,3,1,10,10,10,15,1,3,3,1,2,1,1,2,1,4,3,4,3,2,22,3,16,163,20,1,1,3,4,2
+2022-10-06 13:34:41,2022-10-06 13:43:22,0,100,521,1,2022-10-06 13:43:23,R_xlrABQGUjUiw1Q5,anonymous,ES-ES,0.8999999761581421,1,1,5,10,10,15,8,3,5,2,1,5,10,10,15,1,2,1,2,5,10,10,15,1,4,2,4,2,2,1,5,1,3,2,4,4,2,18,1,13,163,20,1,2,1,3,4
+2022-10-06 13:34:46,2022-10-06 13:43:58,0,100,551,1,2022-10-06 13:43:58,R_2zvDpvPM8eObgxP,anonymous,ES-ES,1,1,1,0,5,0,10,5,2,5,5,1,5,10,10,15,1,1,1,2,5,15,10,15,1,3,2,5,2,1,1,2,4,4,3,4,5,2,20,7,14,163,20,1,1,3,4,2
+2022-10-06 14:26:13,2022-10-06 14:56:38,0,100,1825,1,2022-10-06 14:56:39,R_3HY3FMqCIdAegXH,anonymous,ES-ES,1,1,3,5,7,10,15,5,3,4,2,2,5,7,10,15,3,2,3,2,5,7,10,15,2,5,1,3,1,1,3,5,1,3,1,4,4,2,19,7,13,163,20,1,1,2,4,3
+2022-10-06 15:36:23,2022-10-06 15:44:49,0,100,506,1,2022-10-06 15:44:50,R_2v34qsM3LNmkTUB,anonymous,ES-ES,0.8999999761581421,1,3,5,5,10,10,2,3,4,2,1,5,5,10,10,3,2,3,3,5,5,10,10,1,3,3,2,3,2,1,2,1,1,2,1,3,2,24,7,18,163,20,1,4,3,1,2
+2022-10-06 16:17:29,2022-10-06 16:30:46,0,100,796,1,2022-10-06 16:30:46,R_Q0meHryKl0CbFaF,anonymous,ES-ES,1,1,1,5,9.50,10,14.50,5,1,5,2,2,5,9.50,10,14.50,1,1,1,1,5,9.50,10,14.50,2,4,1,3,2,1,1,3.50,1,1,3,1,4,2,25,2,17,163,20,1,2,3,4,1
+2022-10-06 16:31:48,2022-10-06 16:54:20,0,100,1352,1,2022-10-06 16:54:22,R_3HBKrgmYwW3TsSw,anonymous,ES-ES,0.8999999761581421,1,1,5,5,10,10,5,1,5,5,2,5,5,10,10,1,1,1,2,5,5,10,10,2,1,5,5,2,1,1,3,1,3,3,4,5,2,25,7,14,163,20,1,1,2,4,3
+2022-10-06 16:47:29,2022-10-06 16:57:51,0,100,621,1,2022-10-06 16:57:51,R_T1pjrSqYjx5G3At,anonymous,ES-ES,0.8999999761581421,1,3,0,5,0,10,3,1,5,5,2,0,10,0,20,3,2,3,3,0,10,0,20,2,1,5,1,2,2,1,3,4,4,3,4,3,2,26,3,10,163,20,1,4,3,2,1
+2022-10-06 17:08:47,2022-10-06 17:20:05,0,100,677,1,2022-10-06 17:20:06,R_1dDZx4S1ochBp0B,anonymous,ES-ES,0.8999999761581421,1,1,0,5,0,10,3.5,1,5,5,2,5,7,10,15,3,1,3,2,10,10,10,10,2,5,3,1,2,1,3,2,1,3,3,4,5,2,24,6,18,163,20,1,2,3,1,4
+2022-10-06 16:37:42,2022-10-06 18:10:36,0,100,5574,1,2022-10-06 18:10:36,R_UEfNfGctwo84xl7,anonymous,EN,0.8999999761581421,1,3,0,5,0,10,10,1,3,1,2,5,5,5,10,3,2,1,2,10,15,10,15,2,1,3,1,3,2,1,5,1,3,1,1,3,1,23,6,17,17,9,1,3,4,2,1
+2022-10-06 18:17:27,2022-10-06 18:37:57,0,100,1229,1,2022-10-06 18:37:57,R_u4T0QuuA7Z77ROV,anonymous,ES-ES,0.8999999761581421,1,1,5,5,5,10,5,1,5,3,2,2.5,5,5,10,1,1,3,2,5,10,10,10,1,5,3,1,2,2,3,4,1,4,3,4,4,2,24,6,16,163,20,1,4,3,1,2
+2022-10-06 18:34:05,2022-10-06 18:42:00,0,100,474,1,2022-10-06 18:42:00,R_1djkMizNFl42uTS,anonymous,ES-ES,1,1,1,3,6,5,12,2,5,1,5,2,3,6,5,12,1,1,3,2,3,6,5,12,1,4,5,5,1,2,3,2,1,1,2,4,5,1,18,4,12,163,20,1,4,1,2,3
+2022-10-06 19:02:04,2022-10-06 19:17:59,0,100,954,1,2022-10-06 19:17:59,R_3LjWKmOPP9RdA4r,anonymous,ES-ES,0.8999999761581421,1,3,5,30,5,30,2.5,5,5,5,2,10,35,10,35,2,1,2,2,10,35,10,35,2,2,4,5,2,1,2,2,1,4,3,4,3,2,24,1,11,163,20,1,4,3,2,1
+2022-10-06 19:40:49,2022-10-06 19:52:16,0,100,686,1,2022-10-06 19:52:16,R_zV8w4lMhK928ZMJ,anonymous,ES-ES,,1,1,5,10,5,10,7,1,1,1,2,5,6,10,12,1,1,2,2,5,10,10,10,2,1,1,1,1,1,2,2,1,3,2,1,4,2,26,7,18,163,20,1,3,1,2,4
+2022-10-06 20:24:28,2022-10-06 20:45:05,0,100,1237,1,2022-10-06 20:45:06,R_1IZueVXKYDERNOl,anonymous,ES-ES,1,1,1,0,5,0,10,4,1,2,1,1,0,5,0,10,1,2,1,3,6,10,5,10,2,1,1,1,3,2,2,5,1,4,3,2,3,2,65,2,8,163,20,1,1,3,4,2
+2022-10-06 21:47:28,2022-10-06 22:03:42,0,100,973,1,2022-10-06 22:03:42,R_2qCWodicoQlPZlD,anonymous,ES-ES,0.8999999761581421,1,1,0,5,0,10,4,3,2,3,2,0,5,5,10,1,1,3,2,5,10,10,10,2,3,3,2,2,1,3,2,1,3,2,4,4,1,40,5,16,163,20,1,1,4,2,3
+2022-10-06 22:16:51,2022-10-06 22:29:01,0,100,730,1,2022-10-06 22:29:03,R_3DnMtCRcjeyu05s,anonymous,ES-ES,0.8999999761581421,1,1,5,5,10,10,2,1,5,5,1,5,5,10,10,1,2,1,1,10,10,10,10,1,4,2,2,1,2,1,1,1,3,2,4,4,1,38,6,13,163,20,1,1,4,3,2
+2022-10-06 22:59:01,2022-10-06 23:13:57,0,100,895,1,2022-10-06 23:13:57,R_1BRunk2tdajwuie,anonymous,ES-ES,1,1,1,0,10,0,20,5,3,4,2,2,5,10,10,20,1,1,3,2,10,10,10,20,2,3,4,2,2,1,3,2.5,1,3,2,1,5,1,36,6,17,163,20,1,3,2,4,1
+2022-10-06 23:41:34,2022-10-07 00:38:38,0,100,3423,1,2022-10-07 00:38:39,R_1jGLODxrYIyEbT3,anonymous,ES-ES,1,1,1,0,15,0,30,2,5,1,1,1,5,15,10,30,1,1,2,2,0,15,0,30,1,5,1,1,1,1,2,2,1,3,2,4,4,1,47,5,14,163,20,1,3,2,4,1
+2022-10-07 00:50:08,2022-10-07 00:58:13,0,100,484,1,2022-10-07 00:58:13,R_2YKCViDyCxsdXKc,anonymous,ES-ES,0.8999999761581421,1,1,5,7,10,12,2.5,5,1,3,2,5,7,10,12,1,1,1,2,5,8,10,12,2,1,3,5,1,1,1,2.5,3,4,2,4,4,4,18,6,13,163,20,1,2,3,1,4
+2022-10-07 01:50:26,2022-10-07 02:03:12,0,100,765,1,2022-10-07 02:03:12,R_1P4UuouxTwFK6gW,anonymous,ES-ES,1,1,3,0,40,0,40,5,5,1,1,1,0,40,0,40,3,2,2,2,0,40,0,40,1,5,1,1,3,2,2,3,1,1,2,4,5,1,47,6,15,163,20,1,3,4,2,1
+2022-10-07 03:14:50,2022-10-07 03:30:38,0,100,947,1,2022-10-07 03:30:39,R_3PaxwwEP6XZkUeY,anonymous,ES-ES,1,1,3,0,0,0,0,2.5,1,5,3,1,5,5,10,10,1,2,2,2,7.5,7.5,10,10,1,4,2,3,2,2,2,2.5,4,4,3,4,4,2,20,7,14,163,20,1,2,1,3,4
+2022-10-07 07:17:51,2022-10-07 07:35:04,0,100,1032,1,2022-10-07 07:35:04,R_Cgn2S9pnvKWbsSR,anonymous,ES-ES,1,1,3,5,7,10,12,2,1,4,5,1,5,7,10,12,1,1,1,3,10,10,10,10,2,3,5,2,3,2,1,2,1,3,2,4,5,2,24,1,17,163,16,1,3,1,4,2
+2022-10-07 09:19:45,2022-10-07 09:30:56,0,100,670,1,2022-10-07 09:30:56,R_27CLqHrIq4NRtGv,anonymous,ES-ES,1,1,1,0,5,0,10,5,3,3,3,2,5,5,10,10,1,1,1,1,10,10,10,10,2,4,3,3,2,1,1,5,1,3,2,4,4,2,57,3,18,163,20,1,3,1,2,4
+2022-10-07 10:19:44,2022-10-07 10:40:06,0,100,1222,1,2022-10-07 10:40:06,R_2z5X3uDXesWfqMZ,anonymous,ES-ES,0.8999999761581421,1,1,0,10,0,15,10,1,5,5,2,5,10,10,15,1,1,2,1,10,15,10,15,2,3,5,3,2,1,2,3,1,3,2,4,3,2,37,4,4,163,20,1,2,3,1,4
+2022-10-07 11:10:33,2022-10-07 11:17:59,0,100,446,1,2022-10-07 11:17:59,R_AcwIZBtKloDlftT,anonymous,ES-ES,0.8999999761581421,1,1,0,5,0,10,3,2,3,4,2,0,5,0,10,1,1,2,2,5,10,5,10,2,3,3,4,2,1,2,3,1,3,2,1,3,1,26,3,14,163,20,1,2,1,4,3
+2022-10-07 11:58:11,2022-10-07 11:58:19,0,100,7,1,2022-10-07 11:58:19,R_26gnQNxh7QUBjWi,anonymous,ES-ES,0.8999999761581421,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2022-10-07 11:43:35,2022-10-07 12:03:53,0,100,1217,1,2022-10-07 12:03:53,R_3JfaLQ2czrZxUTv,anonymous,ES-ES,1,1,1,5,10,5,10,3,1,4,3,1,5,10,5,10,1,1,2,3,10,15,10,15,2,1,4,4,3,1,2,3,1,3,2,4,4,1,34,4,12,163,20,1,1,2,4,3
+2022-10-07 12:26:40,2022-10-07 12:38:04,0,100,683,1,2022-10-07 12:38:04,R_3Rl6MyDHNMzpK7x,anonymous,ES-ES,1,1,2,5,10,10,15,2,1,1,1,1,5,10,10,15,1,2,1,2,5,10,10,15,1,1,1,1,2,2,1,2,1,3,2,1,3,1,26,1,10,163,20,1,3,2,4,1
+2022-10-07 14:10:51,2022-10-07 14:26:58,0,100,967,1,2022-10-07 14:26:59,R_2xyMB9gW2lRvAzD,anonymous,ES-ES,1,1,3,0,10,0,20,1,3,1,3,1,5,10,10,20,3,1,3,3,10,20,10,20,1,3,1,3,3,1,3,1,1,3,3,4,4,1,51,6,15,163,20,1,2,1,3,4
+2022-10-07 14:45:13,2022-10-07 14:55:28,0,100,614,1,2022-10-07 14:55:28,R_bPWXjRBLbORREpH,anonymous,ES-ES,0.8999999761581421,1,1,5,5,10,10,2,1,5,1,2,5,5,10,10,3,1,3,2,5,5,10,10,2,1,5,5,1,2,3,2,1,3,2,1,4,1,51,7,16,163,20,1,4,1,3,2
+2022-10-07 16:54:59,2022-10-07 17:14:49,0,100,1189,1,2022-10-07 17:14:49,R_1Lpa8SK3sQlLNem,anonymous,ES-ES,1,1,1,0,5,0,10,3,1,5,5,2,5,5,10,10,1,1,2,2,10,10,10,10,2,4,5,1,2,2,3,3,1,3,2,4,5,1,28,6,16,163,20,1,2,3,1,4
+2022-10-07 17:28:30,2022-10-07 17:39:11,0,100,640,1,2022-10-07 17:39:11,R_OyaUtEIe0Wk5QR3,anonymous,ES-ES,1,1,1,5,15,10,20,2,1,5,5,1,5,10,10,20,2,2,1,2,10,10,10,20,2,5,1,4,2,2,1,2,1,3,2,2,4,2,29,6,17,163,20,1,1,3,4,2
+2022-10-07 18:18:40,2022-10-07 18:34:27,0,100,947,1,2022-10-07 18:34:29,R_3MAQTbes8yBhrDA,anonymous,EN,1,1,3,0,5,0,10,7,2,5,5,1,5,5,5,10,3,2,1,3,10,10,10,10,1,5,1,5,3,2,2,5,1,3,2,1,3,1,29,6,14,185,20,1,1,4,3,2
+2022-09-30 21:37:40,2022-09-30 21:42:12,0,22,272,0,2022-10-07 21:42:16,R_6eTDL3hsjSfCgal,anonymous,ES-ES,1,1,3,0,10,0,10,10,1,1,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,4,2
+2022-09-30 22:43:47,2022-09-30 22:45:06,0,8,79,0,2022-10-07 22:45:12,R_31bI1eHvQMKDqIF,anonymous,ES-ES,1,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,2,1,4
+2022-10-07 23:10:46,2022-10-07 23:21:23,0,100,636,1,2022-10-07 23:21:23,R_3Dby5uOOYDclb7x,anonymous,ES-ES,0.8999999761581421,1,1,0,0,0,0,5,1,5,5,2,0,5,0,10,1,1,1,2,0,5,0,10,2,1,5,5,2,2,1,5,1,3,2,2,5,1,33,6,27,163,20,1,2,1,4,3
+2022-10-07 23:31:09,2022-10-07 23:44:07,0,100,778,1,2022-10-07 23:44:08,R_2RV1jlR6RUpOTw0,anonymous,ES-ES,0.8999999761581421,1,1,5,5,5,10,3,2,4,5,1,5,5,5,10,1,1,3,2,5,10,10,12,1,5,1,2,2,1,3,3,4,4,3,4,4,2,18,7,12,163,26,1,2,3,4,1
+2022-10-01 00:18:54,2022-10-01 00:21:09,0,8,135,0,2022-10-08 00:21:15,R_1DJdEEbc1uqR0UU,anonymous,ES-ES,1,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,4,3
+2022-10-08 00:27:50,2022-10-08 00:41:43,0,100,832,1,2022-10-08 00:41:43,R_uaziOOYskHtjSAp,anonymous,ES-ES,1,1,3,0,0,0,5,3,5,1,5,2,0,0,0,0,3,1,2,3,0,5,0,10,2,5,1,5,2,1,2,300,1,3,2,4,4,1,47,4,15,163,20,1,1,3,2,4
+2022-10-01 00:59:45,2022-10-01 01:02:54,0,25,189,0,2022-10-08 01:02:57,R_wY7JOic2BVluGT7,anonymous,ES-ES,1,1,,,,,,,,,,,0,5,0,10,1,2,1,2,,,,,,,,,,,,,,,,,,,,,,,,,4,1,2,3
+2022-09-30 21:27:08,2022-10-01 01:28:41,0,28,14493,0,2022-10-08 01:28:47,R_2QtvL0gAAxAOclf,anonymous,ES-ES,1,1,,,,,,,,,,,,,,,,,,2,0,5,0,10,2,5,1,5,2,1,,,,,,,,,,,,,,,4,3,1,2
+2022-10-08 03:44:21,2022-10-08 03:54:57,0,100,636,1,2022-10-08 03:54:57,R_1jKdMqjlyiPsZFk,anonymous,ES-ES,0.8999999761581421,1,1,0,5,0,10,5,4,4,2,1,5,10,10,20,1,1,3,1,10,15,10,15,1,5,1,5,3,2,3,5,1,3,3,4,4,2,30,6,9,163,20,1,3,4,1,2
+2022-10-08 12:09:13,2022-10-08 12:27:55,0,100,1121,1,2022-10-08 12:27:55,R_1jUONXiKyVuP313,anonymous,ES-ES,1,1,3,0,5,0,10,5,1,5,1,1,0,5,10,10,3,1,1,2,10,10,10,10,2,3,3,1,2,1,1,3,1,3,3,4,5,1,31,7,25,163,20,1,1,3,2,4
+2022-10-01 14:52:55,2022-10-01 14:57:02,0,28,247,0,2022-10-08 14:57:05,R_3lYoaWbhTwofnxG,anonymous,ES-ES,0.8999999761581421,1,,,,,,,,,,,,,,,,,,2,10,20,10,20,2,2,3,3,3,1,,,,,,,,,,,,,,,3,4,1,2
+2022-10-01 16:24:18,2022-10-01 16:32:05,0,39,466,0,2022-10-08 16:32:09,R_25BLvDojPhorhiG,anonymous,ES-ES,0.8999999761581421,1,1,0,4,0,8,5,2,3,2,1,,,,,,,,2,,,,,,,,,2,1,3,5,,,,,,,,,,,,,1,4,3,2
+2022-10-08 16:18:00,2022-10-08 16:33:10,0,100,909,1,2022-10-08 16:33:11,R_RtaLq1KWmDRbyTf,anonymous,ES-ES,1,1,1,0,5,0,10,7,3,3,3,1,0,5,0,10,1,1,2,2,0,5,0,10,1,5,1,3,2,1,3,7,1,4,3,4,3,2,30,6,18,163,20,1,2,1,3,4
+2022-10-01 16:58:48,2022-10-01 17:04:50,0,50,361,0,2022-10-08 17:04:59,R_3h3dr2rk6GXD30o,anonymous,ES-ES,1,1,1,,,,,,,,,,5,5,10,10,2,1,2,2,5,5,10,10,1,1,5,5,2,1,2,2,,,,,,,,,,,,,4,3,1,2
+2022-10-01 19:20:48,2022-10-01 19:34:08,0,67,800,0,2022-10-08 19:34:13,R_2wnIp8B9KeL1U2T,anonymous,ES-ES,0.8999999761581421,1,1,5,5,10,10,15,3,5,3,1,5,5,10,10,1,2,2,1,5,5,10,10,1,5,1,5,3,2,2,2,,,,,,,,,,,,,4,2,3,1
+2022-10-08 20:36:30,2022-10-08 20:49:40,0,100,790,1,2022-10-08 20:49:40,R_oXI9wc65zDXs05r,anonymous,ES-ES,1,1,3,5,5,5,5,0,5,1,1,2,5,5,5,5,1,1,2,2,10,10,10,10,2,5,1,5,3,1,2,2.50,1,3,2,1,3,2,62,7,13,163,20,1,2,3,4,1
+2022-10-08 21:21:57,2022-10-08 21:29:42,0,100,464,1,2022-10-08 21:29:42,R_eJ9vQQmrIPijsPf,anonymous,ES-ES,1,1,1,0,5,10,15,3,3,3,3,2,0,5,10,15,1,1,3,2,10,10,10,10,2,5,1,3,3,1,3,1,1,3,3,3,3,2,34,5,15,163,20,1,1,2,3,4
+2022-10-01 23:20:41,2022-10-01 23:39:35,0,53,1134,0,2022-10-08 23:39:41,R_WATIUMNfOPcufQZ,anonymous,EN,1,1,3,0,10,0,20,6,1,4,3,1,0,10,0,20,1,1,2,3,,,,,,,,,2,1,1,3,,,,,,,,,,,,,2,3,4,1
+2022-10-08 23:58:07,2022-10-09 00:11:00,0,100,772,1,2022-10-09 00:11:00,R_2wcb5bAsdpBKRGm,anonymous,ES-ES,0.8999999761581421,1,3,0,5,0,10,5,2,4,5,1,0,5,0,10,3,2,2,2,0,10,0,10,1,2,4,5,2,2,2,2,4,4,3,4,3,4,39,5,20,4,26,1,2,3,4,1
+2022-10-01 23:43:52,2022-10-02 00:34:49,0,28,3057,0,2022-10-09 00:34:51,R_72JuUTSJEuQM6wF,anonymous,ES-ES,0.8999999761581421,1,3,0,10,0,15,10,1,5,5,2,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,1,3,2,4
+2022-10-09 00:49:05,2022-10-09 00:57:52,0,100,527,1,2022-10-09 00:57:54,R_1OitbZsg4Bj5uwQ,anonymous,ES-ES,1,1,3,0,5,0,10,5,5,1,3,2,0,5,0,10,1,1,1,2,0,5,0,10,2,5,1,3,1,1,1,5,4,3,3,4,4,1,32,6,20,163,20,1,4,2,3,1
+2022-10-09 10:33:23,2022-10-09 10:42:49,0,100,565,1,2022-10-09 10:42:49,R_u2JWrQAnCYxxSWl,anonymous,ES-ES,1,1,3,0,0,0,0,2.5,1,5,5,1,5,5,5,10,1,1,2,2,10,10,10,10,1,3,4,3,2,1,2,2.5,1,3,3,4,4,1,30,6,22,163,26,1,3,2,1,4
+2022-10-09 18:18:14,2022-10-09 18:33:14,0,100,899,1,2022-10-09 18:33:14,R_wSQRV2jmnPGMNtT,anonymous,ES-ES,0.8999999761581421,1,2,5,5,5,10,5,2,4,3,2,5,5,5,10,2,2,2,2,5,5,5,10,2,3,4,3,1,2,2,3,1,3,3,4,3,2,37,2,18,163,20,1,4,1,3,2
+2022-10-09 18:33:36,2022-10-09 19:37:23,0,100,3827,1,2022-10-09 19:37:24,R_sZQpDJlwM9dYm1r,anonymous,ES-ES,1,1,3,5,5,10,10,5,3,3,1,2,5,5,10,10,3,1,1,2,10,10,10,10,2,5,5,5,2,2,1,5,1,4,3,4,5,2,65,1,10,163,20,1,2,3,4,1
+2022-10-09 20:57:54,2022-10-09 21:00:44,0,100,170,1,2022-10-09 21:00:44,R_YREPNvhif6vh3Bn,anonymous,ES-ES,1,1,1,5,5,7,3,4,1,2,3,1,1,1,11,1,2,2,1,1,1,1,1111,1,1,1,2,3,1,2,1,1,2,2,3,1,3,3,111,3,1,15,6,2,1,2,4,3
+2022-10-09 20:52:42,2022-10-09 21:03:17,0,100,635,1,2022-10-09 21:03:17,R_2yr6xQmHiXJxzeh,anonymous,ES-ES,0.8999999761581421,1,2,5,10,10,20,10,1,5,5,1,5,10,10,20,1,1,2,2,10,20,10,20,1,3,3,3,2,1,2,5,1,3,2,1,4,1,55,6,15,163,20,1,1,2,4,3
+2022-10-09 23:26:49,2022-10-09 23:34:54,0,100,485,1,2022-10-09 23:34:56,R_3ksQvEpPuU98kKF,anonymous,ES-ES,1,1,3,0,5,0,10,4,1,3,5,2,5,10,10,15,3,1,2,2,5,15,10,15,2,5,1,4,3,1,2,3,1,3,2,1,4,1,41,6,18,163,20,1,2,3,1,4
+2022-10-10 01:55:47,2022-10-10 02:33:30,0,100,2262,1,2022-10-10 02:33:32,R_We5PP1vAp8D0Ay5,anonymous,ES-ES,0.8999999761581421,1,1,5,10,10,15,6,1,5,5,1,5,10,10,15,1,2,2,2,10,10,10,10,1,2,4,3,2,2,2,4,4,4,3,4,5,2,24,6,19,163,20,1,2,1,4,3
+2022-10-10 05:21:42,2022-10-10 05:34:23,0,100,760,1,2022-10-10 05:34:23,R_3dXq2a8Q5arjTAo,anonymous,ES-ES,0.8999999761581421,1,1,0,5,0,5,5,5,4,3,2,0,5,0,5,1,1,2,2,0,10,0,10,2,5,4,3,2,1,2,5,1,3,2,2,5,1,28,5,17,163,20,1,3,4,2,1
+2022-10-10 12:45:23,2022-10-10 13:12:21,0,100,1618,1,2022-10-10 13:12:22,R_6WjjnWTRIKaMrlv,anonymous,EN,1,1,1,0,7,0,12,5,1,5,4,1,5,10,7,15,1,1,3,1,10,10,10,15,1,4,4,5,2,2,3,2,1,3,2,4,4,1,21,6,15,163,20,1,4,3,2,1
+2022-10-10 13:25:37,2022-10-10 13:41:22,0,100,944,1,2022-10-10 13:41:23,R_2y3CrqCu5ZfKgJi,anonymous,ES-ES,1,1,1,5,5,5,5,2,1,5,3,2,5,5,10,10,1,1,2,2,5,10,10,10,2,1,1,1,2,1,1,2,2,3,3,2,3,2,60,6,16,163,20,1,2,4,1,3
+2022-10-10 13:48:56,2022-10-10 14:03:32,0,100,875,1,2022-10-10 14:03:32,R_25A8wFdk1AHR11B,anonymous,ES-ES,1,1,3,0,10,5,20,1,3,4,4,2,0,10,0,20,1,1,2,2,5,15,0,20,2,4,4,4,2,1,2,1,1,3,3,4,4,1,20,7,15,163,20,1,2,4,3,1
+2022-10-10 14:26:11,2022-10-10 15:08:43,0,100,2552,1,2022-10-10 15:08:43,R_33kfhVJOfuMzeZU,anonymous,ES-ES,0.8999999761581421,1,3,5,5,10,10,3,2,4,2,1,5,5,10,10,2,2,1,2,5,10,10,10,1,2,4,1,2,2,1,3,1,3,3,4,5,1,28,4,22,163,20,1,2,4,1,3
+2022-10-10 16:03:11,2022-10-10 16:13:18,0,100,607,1,2022-10-10 16:13:19,R_3I4apCSsoLNzN0G,anonymous,ES-ES,0.8999999761581421,1,3,5,20,10,20,3,2,4,4,2,5,20,10,20,1,2,1,2,10,40,10,40,2,4,2,2,2,1,1,2,3,3,2,4,4,1,19,6,13,163,20,1,4,1,3,2
+2022-10-10 16:54:54,2022-10-10 17:09:17,0,100,862,1,2022-10-10 17:09:18,R_3JCpUsULqJNUz8k,anonymous,ES-ES,0.8999999761581421,1,3,0,5,0,10,3,2,4,4,2,5,5,10,10,1,2,3,2,5,10,10,10,2,4,4,2,2,2,3,3,4,4,3,4,5,2,24,2,18,163,20,1,4,1,2,3
+2022-10-10 14:25:59,2022-10-10 17:25:00,0,100,10741,1,2022-10-10 17:25:01,R_2i9hqJSxAdkRSdb,anonymous,EN,1,1,1,0,0,0,5,6,1,4,4,1,5,5,10,10,1,1,2,2,5,10,10,10,1,5,2,2,2,2,2,2,1,3,3,3,4,1,28,6,24,163,20,1,2,3,1,4
+2022-10-03 18:34:02,2022-10-03 18:34:30,0,11,27,0,2022-10-10 18:34:34,R_1Nn8bHBJlRnf5p6,anonymous,ES-ES,0.8999999761581421,1,,,,,,,,,,,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,,2,4,1,3
+2022-10-10 13:15:26,2022-10-10 21:30:11,0,100,29684,1,2022-10-10 21:30:11,R_74FQ9cpEH0kPkbv,anonymous,ES-ES,1,1,3,0,5,0,10,8,1,5,2,2,5,5,10,10,3,1,2,2,5,5,10,10,2,5,1,2,2,2,3,3,1,3,2,4,4,2,20,6,17,163,20,1,2,3,4,1
+2022-10-11 10:40:57,2022-10-11 10:57:48,0,100,1011,1,2022-10-11 10:57:48,R_24hB2bwECvNqOgr,anonymous,ES-ES,1,1,3,0,5,0,7,4,2,4,5,2,0,5,0,7,1,2,1,2,0,10,0,10,2,4,2,1,1,2,1,3,1,3,3,4,4,1,20,7,13,163,20,1,4,3,2,1
+2022-10-11 11:21:35,2022-10-11 11:39:39,0,100,1083,1,2022-10-11 11:39:39,R_ZgD9uwEyV6PHhRf,anonymous,ES-ES,1,1,3,0,5,0,10,3,2,5,3,2,0,5,10,10,3,1,2,2,0,10,0,10,2,5,2,2,2,1,2,2,1,3,2,4,5,1,30,6,25,163,20,1,1,2,4,3
+2022-10-11 11:45:04,2022-10-11 11:53:46,0,100,521,1,2022-10-11 11:53:46,R_3CJ9qqthrrlECeh,anonymous,ES-ES,1,1,1,0,5,0,10,3,1,4,2,2,0,5,0,10,1,2,2,2,0,5,0,10,1,4,2,2,2,2,1,2,1,4,1,4,4,2,30,2,22,163,20,1,1,4,3,2
+2022-10-11 11:49:05,2022-10-11 11:54:29,0,100,323,1,2022-10-11 11:54:29,R_2qz80MUuJCjOXtc,anonymous,ES-ES,1,1,1,0,5,0,10,6,5,2,3,2,0,5,0,5,1,1,3,2,5,5,5,10,2,5,2,3,2,1,3,3,1,3,2,1,4,2,38,5,30,163,20,1,4,1,3,2
+2022-10-11 11:48:19,2022-10-11 12:00:13,0,100,713,1,2022-10-11 12:00:13,R_3dLEhrpyLXF2mcf,anonymous,ES-ES,1,1,2,0,5,0,10,5,2,5,5,2,5,5,10,10,1,1,2,2,5,10,10,10,2,5,1,4,2,1,2,2,1,3,3,1,4,1,37,3,18,163,20,1,2,4,3,1
+2022-10-11 11:52:42,2022-10-11 12:09:46,0,100,1024,1,2022-10-11 12:09:46,R_2VrVXHzROfVJ0mf,anonymous,ES-ES,1,1,3,0,5,0,10,2,1,5,4,2,5,5,5,5,3,1,3,2,10,10,10,10,2,2,4,4,2,1,3,2,1,3,3,4,4,1,31,6,18,163,20,1,2,3,1,4
+2022-10-11 12:06:17,2022-10-11 12:13:18,0,100,421,1,2022-10-11 12:13:18,R_2ttxNoWLYYUqEz2,anonymous,ES-ES,1,1,1,0,5,0,10,3,5,1,2,2,0,5,0,10,1,1,2,2,0,10,0,10,2,5,1,2,2,1,2,1,1,3,2,4,3,1,44,6,18,163,20,1,4,1,2,3
+2022-10-11 12:19:39,2022-10-11 12:34:49,0,100,909,1,2022-10-11 12:34:49,R_3OeKqOXMThLEBFH,anonymous,ES-ES,1,1,1,0,0,0,0,3,2,5,5,2,0,5,0,5,1,1,2,2,0,5,0,10,2,3,4,2,3,2,2,1.50,1,2,2,4,4,2,56,7,17,163,20,1,1,4,3,2
+2022-10-11 12:24:39,2022-10-11 12:38:46,0,100,846,1,2022-10-11 12:38:46,R_2AKomYAyZI60yWE,anonymous,ES-ES,1,1,1,0,5,0,10,10,2,5,4,2,5,5,10,10,1,2,2,2,5,5,10,10,2,3,4,2,2,2,3,5,1,3,3,4,4,2,33,5,18,163,26,1,1,4,2,3
+2022-10-11 12:23:47,2022-10-11 12:43:59,0,100,1211,1,2022-10-11 12:43:59,R_3qmrRq8XWQXoDsF,anonymous,ES-ES,0.8999999761581421,1,1,0,10,0,20,4,1,5,5,2,5,10,10,20,1,1,2,2,10,10,10,20,2,2,4,5,2,1,1,2,1,3,2,4,4,1,37,7,18,163,20,1,4,1,2,3
+2022-10-11 12:34:02,2022-10-11 12:46:05,0,100,723,1,2022-10-11 12:46:06,R_d6hFRh0uO4sFTtD,anonymous,ES-ES,0.8999999761581421,1,1,0,5,0,10,2,1,5,3,1,0,5,0,10,1,1,2,2,0,5,0,10,2,4,2,2,2,1,2,1,1,3,2,4,5,1,37,6,20,163,20,1,3,1,2,4
+2022-10-11 12:36:15,2022-10-11 12:50:05,0,100,829,1,2022-10-11 12:50:07,R_3kcG5cSYNiJ3clF,anonymous,ES-ES,1,1,3,0,5,0,10,4,2,4,5,1,0,5,0,10,1,2,2,2,5,10,5,10,1,4,2,3,2,2,2,2,1,3,2,4,4,1,39,6,17,163,20,1,3,2,1,4
+2022-10-04 12:38:37,2022-10-04 12:56:29,0,61,1071,0,2022-10-11 12:56:30,R_2wz4OCCLD9TeZEo,anonymous,ES-ES,1,1,1,5,5,10,10,50,4,3,1,2,5,5,10,10,1,1,3,2,10,10,10,10,2,,,,2,2,1,4,,,,,,,,,,,,,1,3,4,2
+2022-10-11 12:47:14,2022-10-11 12:59:01,0,100,707,1,2022-10-11 12:59:01,R_1Luj74bxr0hVMif,anonymous,ES-ES,1,1,1,0,0,0,0,3,1,5,5,1,0,5,0,10,1,1,2,1,0,10,0,10,1,1,4,2,2,1,2,2,1,4,3,4,4,1,26,4,23,163,20,1,3,1,2,4
+2022-10-11 13:00:32,2022-10-11 13:09:46,0,100,553,1,2022-10-11 13:09:46,R_3hm8fVQeY1ol1wm,anonymous,ES-ES,0.8999999761581421,1,1,0,5,0,10,2,1,4,4,2,0,5,0,10,1,1,3,2,0,10,0,10,2,4,4,2,2,1,3,2,1,3,2,4,4,1,33,6,17,163,20,1,2,3,4,1
+2022-10-11 13:07:10,2022-10-11 13:15:58,0,100,528,1,2022-10-11 13:16:00,R_2wzxYByD8NgObOf,anonymous,ES-ES,0.8999999761581421,1,1,0,5,0,10,3,4,2,4,2,0,5,0,10,1,2,2,2,0,5,0,10,2,4,2,4,2,2,2,2,1,3,3,4,4,1,46,6,23,163,20,1,3,2,1,4
+2022-10-04 13:22:51,2022-10-04 13:24:32,0,17,101,0,2022-10-11 13:24:33,R_1jOKQJ6OR1Xfcf5,anonymous,EN,1,1,,,,,,,,,,,5,5,10,10,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,4,3
+2022-10-11 13:43:02,2022-10-11 13:53:36,0,100,633,1,2022-10-11 13:53:36,R_2xAe02UVXB4wLD0,anonymous,ES-ES,1,1,1,0,5,0,10,3,1,5,5,1,5,5,5,10,1,1,1,1,5,5,10,10,1,5,1,5,2,1,1,3,1,3,2,4,5,2,36,6,22,163,26,1,3,2,1,4
+2022-10-04 15:00:11,2022-10-04 15:08:19,0,50,488,0,2022-10-11 15:08:20,R_O7t3tAV1q8PURhv,anonymous,ES-ES,1,1,3,0,5,0,10,8,3,3,2,1,,,,,,,,2,10,10,10,10,1,3,3,2,3,2,1,8,,,,,,,,,,,,,3,4,2,1
+2022-10-04 15:22:18,2022-10-04 15:27:36,0,39,318,0,2022-10-11 15:27:38,R_2ZCc7SHa457rVPi,anonymous,ES-ES,1,1,1,5,20,10,50,2,1,5,3,1,,,,,,,,2,,,,,,,,,2,1,2,2,,,,,,,,,,,,,2,4,3,1
+2022-10-11 15:58:45,2022-10-11 16:18:59,0,100,1213,1,2022-10-11 16:18:59,R_UAeY4SVWKVutTCp,anonymous,ES-ES,0.8999999761581421,1,3,0,5,0,10,3,2,4,2,1,5,5,10,10,1,1,3,2,5,5,10,10,1,3,3,3,2,1,3,3,1,4,3,4,3,2,41,6,14,163,20,1,3,4,1,2
+2022-10-11 16:11:41,2022-10-11 16:22:40,0,100,658,1,2022-10-11 16:22:42,R_3KGQFgyLFoPzWsY,anonymous,ES-ES,1,1,1,5,7,10,12,5,4,3,2,2,5,7,10,12,1,2,3,2,5,7,10,12,2,5,3,2,2,2,3,2,1,3,3,1,5,1,26,3,18,163,20,1,4,3,1,2
+2022-10-11 16:51:26,2022-10-11 17:02:55,0,100,689,1,2022-10-11 17:02:56,R_23Wtc6DMA4Sn1qq,anonymous,ES-ES,1,1,1,0,5,0,10,3,4,2,2,2,0,5,10,10,1,2,2,2,5,10,10,10,2,4,3,3,2,2,2,2,1,3,2,1,4,1,50,6,20,163,20,1,4,3,2,1
+2022-10-04 18:36:38,2022-10-04 18:37:12,0,11,33,0,2022-10-11 18:37:13,R_3MojyKEsnpF50rx,anonymous,ES-ES,0.800000011920929,1,,,,,,,,,,,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,,4,3,1,2
+2022-10-11 19:15:06,2022-10-11 19:25:05,0,100,599,1,2022-10-11 19:25:06,R_T5ZvFjSuy0pMURX,anonymous,ES-ES,0.8999999761581421,1,1,0,5,0,10,5,4,5,1,2,5,1,10,20,3,1,3,2,10,20,10,20,2,5,1,5,2,1,3,3,1,3,2,3,5,1,34,6,15,163,20,1,1,2,3,4
+2022-10-11 21:39:21,2022-10-11 21:49:44,0,100,622,1,2022-10-11 21:49:44,R_2EzUDqZ5ItDU3bY,anonymous,ES-ES,1,1,1,0,5,0,10,2,1,4,2,1,5,5,10,10,1,1,2,2,5,5,10,10,2,2,1,1,2,2,2,2,1,3,3,4,5,1,29,4,20,163,20,1,4,2,3,1
+2022-10-11 23:55:19,2022-10-12 00:07:37,0,100,737,1,2022-10-12 00:07:37,R_1MRNE3xtKJf2F1l,anonymous,ES-ES,1,1,1,0,5,0,10,5,1,4,4,1,5,5,5,10,1,1,3,2,10,10,10,10,1,1,3,4,2,1,3,5,1,3,2,4,4,2,39,6,16,163,20,1,2,4,1,3
+2022-10-12 00:10:02,2022-10-12 00:34:04,0,100,1441,1,2022-10-12 00:34:04,R_3O0OanpSzyj62MM,anonymous,ES-ES,1,1,1,0,0,0,0,15,4,4,5,2,5,5,5,5,1,1,3,1,10,10,10,10,2,5,1,5,2,2,1,10,1,3,2,4,4,1,59,6,20,163,20,1,4,2,1,3
+2022-10-12 01:07:07,2022-10-12 01:16:27,0,100,560,1,2022-10-12 01:16:27,R_3fq3P5VRlQsgi8s,anonymous,ES-ES,1,1,3,0,5,0,10,5,1,5,3,1,5,5,10,10,3,1,3,2,10,10,10,10,1,3,2,4,2,1,3,3,1,3,2,4,5,2,30,6,16,163,20,1,3,4,1,2
+2022-10-05 09:58:24,2022-10-05 09:58:30,8,3,6,0,2022-10-12 09:58:40,R_r9KY3rrqdsdwdjz,anonymous,ES-ES,0.8999999761581421,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2022-10-05 09:58:34,2022-10-05 09:58:56,0,3,21,0,2022-10-12 09:58:59,R_2726xDavELsDObO,anonymous,ES-ES,0.8999999761581421,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2022-10-12 09:52:46,2022-10-12 10:00:02,0,100,436,1,2022-10-12 10:00:03,R_3p3eFjtik2fUmrQ,anonymous,ES-ES,1,1,1,5,5,10,10,3,3,4,5,2,5,5,10,10,1,1,3,2,5,5,10,10,2,4,3,5,2,1,3,3,1,3,2,1,3,1,40,6,16,163,20,1,4,1,3,2
+2022-10-12 09:48:41,2022-10-12 10:00:22,0,100,700,1,2022-10-12 10:00:22,R_2eP9HZBXcyOrw85,anonymous,ES-ES,1,1,3,0,5,0,10,4,1,5,5,2,0,5,0,10,3,2,1,2,0,5,0,10,2,4,4,1,2,2,1,4,1,4,3,4,4,2,49,5,18,163,20,1,3,1,2,4
+2022-10-05 10:05:11,2022-10-05 10:07:15,0,17,124,0,2022-10-12 10:07:18,R_2Yrexm7LHugBxBH,anonymous,ES-ES,0.8999999761581421,1,3,0,0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,2,4,3
+2022-10-05 10:11:52,2022-10-05 10:12:46,0,6,54,0,2022-10-12 10:12:47,R_3mY56TlUjyuXorf,anonymous,ES-ES,0.8999999761581421,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2022-10-05 10:14:57,2022-10-05 10:16:16,0,11,79,0,2022-10-12 10:16:17,R_2Y9roqTEcPu8tsL,anonymous,EN,0.8999999761581421,1,,,,,,,,,,,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,,4,3,1,2
+2022-10-05 10:00:06,2022-10-05 10:18:42,0,36,1116,0,2022-10-12 10:18:51,R_2EykxiLdzcF7xp9,anonymous,ES-ES,0.8999999761581421,1,2,,,,,,,,,,5,10,10,20,1,1,2,,,,,,,,,,2,1,1,2.50,,,,,,,,,,,,,3,2,4,1
+2022-10-05 10:19:35,2022-10-05 10:22:42,0,19,186,0,2022-10-12 10:22:52,R_1o84ATswBXgwNbQ,anonymous,EN,0.8999999761581421,1,1,3,5,3,10,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,4,3,2
+2022-10-05 10:36:17,2022-10-05 10:36:26,0,3,9,0,2022-10-12 10:36:30,R_1pxkGBypovdeDiC,anonymous,EN,1,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2022-10-05 10:29:40,2022-10-05 10:37:19,0,50,459,0,2022-10-12 10:37:23,R_1MX89WuBaXqyC83,anonymous,ES-ES,1,1,3,0,5,0,10,3,2,4,1,2,,,,,,,,2,0,5,0,10,2,4,2,1,3,2,2,2,,,,,,,,,,,,,1,4,3,2
+2022-10-05 10:47:04,2022-10-05 10:47:35,0,8,31,0,2022-10-12 10:47:38,R_RCRjz7q6J7P2Rd7,anonymous,ES-ES,0.8999999761581421,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,1,4,2
+2022-10-05 10:41:43,2022-10-05 10:52:31,0,17,647,0,2022-10-12 10:52:33,R_1jTirk2YiiYIjQv,anonymous,EN,1,1,,,,,,,,,,,,,,,,,,,,,,,,,,,1,1,1,,,,,,,,,,,,,,3,2,4,1
+2022-10-05 10:46:47,2022-10-05 10:54:31,0,61,463,0,2022-10-12 10:54:34,R_3G9a7ITMU3zFGb2,anonymous,ES-ES,,1,1,0,5,0,10,2,2,5,1,2,0,5,0,10,1,1,,2,0,10,0,10,2,3,5,1,2,1,1,2,,,,,,,,,,,,,2,4,3,1
+2022-10-05 10:53:37,2022-10-05 11:15:36,0,53,1318,0,2022-10-12 11:15:38,R_ULt0i57bVZWvE4x,anonymous,ES-ES,1,1,1,5,7,5,10,3,1,4,5,2,5,7,10,12,1,1,1,2,5,5,10,12,2,3,4,1,,,,,,,,,,,,,,,,,1,3,2,4
+2022-10-05 11:05:43,2022-10-05 11:20:14,0,31,870,0,2022-10-12 11:20:35,R_1gMWZoA9SAQoNP9,anonymous,ES-ES,1,1,3,5,6,10,12,2,1,5,5,2,,,,,,,,,,,,,,,,,2,1,,,,,,,,,,,,,,,1,3,4,2
+2022-10-05 11:44:09,2022-10-05 11:47:06,0,28,177,0,2022-10-12 11:54:45,R_qOUnyTBsgWsnAd3,anonymous,ES-ES,1,1,1,5,10,5,20,4,5,1,3,1,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,,1,4,2,3
+2022-10-05 11:51:34,2022-10-05 11:51:54,0,8,20,0,2022-10-12 11:57:38,R_pu9f2cZdAQcR8OJ,anonymous,ES-ES,1,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,2,4
+2022-10-05 12:48:37,2022-10-05 12:50:46,0,8,128,0,2022-10-12 12:50:53,R_3m1w6U0APRhm947,anonymous,ES-ES,0.8999999761581421,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,1,4,2
+2022-10-05 12:50:01,2022-10-05 12:51:51,0,11,109,0,2022-10-12 12:51:52,R_3qVujrRs7X7NEit,anonymous,ES-ES,0.8999999761581421,1,,,,,,,,,,,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,,3,2,1,4
+2022-10-05 12:48:58,2022-10-05 13:01:28,0,17,750,0,2022-10-12 13:01:30,R_3eaj9hr7EtNvSFe,anonymous,ES-ES,0.8999999761581421,1,,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,3,,,,,,,,,,,,,,3,4,2,1
+2022-10-05 12:48:25,2022-10-05 13:12:46,0,3,1461,0,2022-10-12 13:12:49,R_2RO3ojOFlaLykPB,anonymous,ES-ES,1,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2022-10-05 13:12:55,2022-10-05 13:24:51,0,50,716,0,2022-10-12 13:24:53,R_2y1rKriP0UGFMoq,anonymous,ES-ES,1,1,3,3,5,5,10,2,1,5,3,1,,,,,,,,2,3,5,5,10,1,3,3,3,1,1,2,2,,,,,,,,,,,,,2,4,3,1
+2022-10-05 13:49:49,2022-10-05 13:51:40,0,11,111,0,2022-10-12 13:51:46,R_28RGR6MXURbUKox,anonymous,ES-ES,0.699999988079071,1,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,2,4
+2022-10-05 12:53:44,2022-10-05 13:56:26,0,97,3761,0,2022-10-12 13:56:28,R_1NzB7aWw63FoMuy,anonymous,ES-ES,0.8999999761581421,1,1,0,5,0,10,5,1,5,5,1,5,8,10,15,1,2,1,2,10,15,10,15,1,2,5,3,2,2,1,2.50,4,3,2,2,5,2,18,7,12,163,20,,4,1,2,3
+2022-10-05 14:12:53,2022-10-05 14:15:27,0,17,153,0,2022-10-12 14:15:28,R_Dje18CzsrJISU5X,anonymous,ES-ES,0.8999999761581421,1,,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,2,,,,,,,,,,,,,,2,3,4,1
+2022-10-05 14:14:52,2022-10-05 14:16:13,0,11,80,0,2022-10-12 14:16:16,R_1NCkDHHB5lqYSZ4,anonymous,ES-ES,1,1,,,,,,,,,,,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,,4,3,1,2
+2022-10-05 13:57:09,2022-10-05 14:35:28,0,36,2299,0,2022-10-12 14:35:29,R_3Kq0bJYGe6JQIOw,anonymous,ES-ES,1,1,,,,,,,,,,,10,10,15,15,1,1,2,2,,,,,,,,,2,1,2,2,,,,,,,,,,,,,4,2,3,1
+2022-10-05 14:39:07,2022-10-05 14:39:50,0,11,42,0,2022-10-12 14:39:55,R_3rTfCszFtbYtBPX,anonymous,ES-ES,1,1,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,2,4,3
+2022-10-05 15:26:09,2022-10-05 15:28:00,0,22,110,0,2022-10-12 15:28:06,R_xyhS71MYcKyZGi5,anonymous,ES-ES,0.8999999761581421,1,,,,,,,,,,,,,,,,,,3,,,,,,,,,2,2,2,2,,,,,,,,,,,,,3,4,2,1
+2022-10-05 15:39:02,2022-10-05 15:47:06,0,53,483,0,2022-10-12 15:47:10,R_3KOati1Klj3qTWo,anonymous,ES-ES,1,1,1,0,3,0,6,5,4,4,3,2,0,5,0,10,1,1,2,2,,,,,,,,,2,1,1,2,,,,,,,,,,,,,3,2,4,1
+2022-10-05 15:46:18,2022-10-05 15:55:18,0,67,539,0,2022-10-12 15:55:20,R_wLcXUtf8j4xQdYl,anonymous,ES-ES,0.8999999761581421,1,2,5,10,5,20,5,1,4,2,1,5,10,10,20,1,1,1,2,10,20,10,20,2,4,3,2,2,1,1,3,,,,,,,,,,,,,1,4,2,3
+2022-10-05 10:39:36,2022-10-05 16:40:38,0,11,21661,0,2022-10-12 16:40:39,R_3lDIRT4DVGZq8bv,anonymous,ES-ES,1,1,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,3,4,1,2
+2022-10-12 16:46:35,2022-10-12 16:57:33,0,100,658,1,2022-10-12 16:57:34,R_2WUQFKVM7oLsvXB,anonymous,ES-ES,1,1,3,5,5,10,10,2,5,4,4,1,5,5,10,10,1,1,2,2,5,10,10,10,1,5,4,4,1,1,2,2,1,3,2,2,3,2,57,6,15,163,20,1,4,1,2,3
+2022-10-05 16:10:16,2022-10-05 17:47:18,0,53,5821,0,2022-10-12 17:47:21,R_stiKy5A1ctENU7n,anonymous,ES-ES,0.8999999761581421,1,3,0,5,0,10,5,2,4,4,1,0,5,0,10,1,1,3,3,,,,,,,,,2,1,3,5,,,,,,,,,,,,,1,3,4,2
+2022-10-05 19:51:36,2022-10-05 19:57:56,0,25,379,0,2022-10-12 19:57:57,R_2QstVz5zexPqltO,anonymous,ES-ES,1,1,,,,,,,,,,,5,5,10,10,1,1,3,2,,,,,,,,,,,,,,,,,,,,,,,,,4,1,2,3
+2022-10-05 21:20:46,2022-10-05 21:30:08,0,50,561,0,2022-10-12 21:30:10,R_3HLiNjw5vBTTpPx,anonymous,ES-ES,0.8999999761581421,1,1,0,0,0,0,3,1,5,5,,0,5,0,5,1,1,2,2,0,0,0,0,1,4,2,1,,,,,,,,,,,,,,,,,3,2,1,4
+2022-10-13 07:38:26,2022-10-13 07:54:05,0,100,938,1,2022-10-13 07:54:06,R_1OkqJf6Tb635zZz,anonymous,ES-ES,0.8999999761581421,1,2,0,5,0,10,5,2,5,5,2,5,5,10,10,3,1,1,2,10,10,10,10,2,5,1,5,3,1,1,5,1,3,1,4,4,1,37,5,20,163,20,1,1,2,4,3
+2022-10-06 10:16:05,2022-10-06 10:23:55,0,36,469,0,2022-10-13 10:23:57,R_2f1zsuCRPlIlOFs,anonymous,ES-ES,1,1,3,5,5,10,10,3,1,4,3,2,5,5,10,10,3,2,,,,,,,,,,,,,,,,,,,,,,,,,,,1,2,4,3
+2022-10-06 12:26:08,2022-10-06 12:26:27,0,8,18,0,2022-10-13 12:26:33,R_2uQaRWKZOt9Mefe,anonymous,ES-ES,0.8999999761581421,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,3,4,2
+2022-10-06 13:22:32,2022-10-06 13:31:35,0,50,542,0,2022-10-13 13:31:41,R_2arc2QsuUSWfyIz,anonymous,ES-ES,0.8999999761581421,1,1,0,20,0,40,3,4,3,3,1,0,10,0,40,1,1,1,,,,,,,,,,2,1,1,3,,,,,,,,,,,,,1,3,4,2
+2022-10-06 13:26:46,2022-10-06 13:42:31,0,81,945,0,2022-10-13 13:42:32,R_1dzZ9HGiIwkjVeT,anonymous,ES-ES,1,1,2,5,10,5,15,5,3,4,1,1,5,10,5,15,2,2,1,2,5,10,10,15,1,4,3,5,1,2,1,10,1,3,2,4,3,,,,,,,,2,4,1,3
+2022-10-06 14:11:37,2022-10-06 14:12:11,8,3,33,0,2022-10-13 14:12:12,R_12zK28Nq6kOyeXp,anonymous,ES-ES,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2022-10-13 14:03:02,2022-10-13 14:24:56,0,100,1314,1,2022-10-13 14:24:56,R_eQnNr6rxFqwEtnX,anonymous,ES-ES,1,1,1,0,10,0,20,2,1,5,5,2,0,10,0,20,1,2,3,2,5,10,5,20,2,1,5,5,2,2,3,0.50,4,4,3,4,3,1,30,6,15,163,20,1,3,2,4,1
+2022-10-13 14:13:49,2022-10-13 14:25:14,0,100,684,1,2022-10-13 14:25:14,R_3gSnpxQ0bKvwPBP,anonymous,EN,1,1,1,0,5,0,5,8,1,5,5,1,5,5,5,5,1,1,2,2,10,10,10,10,1,5,5,2,2,1,2,3,1,3,3,4,5,1,33,5,8,163,20,1,4,1,3,2
+2022-10-06 15:10:36,2022-10-06 15:18:44,0,58,487,0,2022-10-13 15:18:48,R_3VQ7x1fLxr3krxD,anonymous,ES-ES,1,1,3,5,10,10,20,4,,,,,5,10,10,20,1,2,2,2,10,15,10,20,1,5,3,1,2,2,2,4,,,,,,,,,,,,,4,2,3,1
+2022-10-06 16:32:08,2022-10-06 16:37:10,0,42,302,0,2022-10-13 16:37:16,R_3n2UYumGSkUJXll,anonymous,ES-ES,1,1,1,0,5,0,15,3,3,3,3,1,5,10,10,15,1,2,3,2,,,,,,,,,,,,,,,,,,,,,,,,,2,1,3,4
+2022-10-06 16:33:23,2022-10-06 16:54:15,0,53,1252,0,2022-10-13 16:54:15,R_1ihsYKaAUbyo4e5,anonymous,ES-ES,0.8999999761581421,1,1,0,4,5,10,5,4,3,3,1,0,4,5,10,1,1,1,1,,,,,,,,,1,1,1,5,,,,,,,,,,,,,3,1,4,2
+2022-10-06 13:29:38,2022-10-06 18:52:22,0,19,19363,0,2022-10-13 18:52:25,R_2VaIUUMQjvluSnh,anonymous,ES-ES,1,1,,,,,,,,,,,5,5,10,10,1,2,,,,,,,,,,,,,,,,,,,,,,,,,,,3,1,2,4
+2022-10-06 22:13:56,2022-10-06 22:20:14,0,47,378,0,2022-10-13 22:20:21,R_2rDfrHBF5RX8vpS,anonymous,ES-ES,0.8999999761581421,1,3,0,0,0,10,5,3,2,3,2,,,,,,,,2,0,0,10,10,2,,,,2,1,1,5,,,,,,,,,,,,,1,4,3,2
+2022-10-06 22:18:47,2022-10-06 22:21:59,0,44,191,0,2022-10-13 22:22:01,R_1n7SYkb3hiAwR3a,anonymous,ES-ES,1,1,1,0,0,0,0,3,,,,,5,5,5,5,2,1,2,,,,,,,,,,2,1,2,3,,,,,,,,,,,,,3,1,4,2
+2022-10-14 04:31:59,2022-10-14 04:41:07,0,100,547,1,2022-10-14 04:41:07,R_x4PCuiNdTv8P0tP,anonymous,ES-ES,0.8999999761581421,1,3,5,5,10,10,3,1,5,4,2,5,10,10,15,1,2,2,2,10,15,10,15,2,3,4,2,1,1,1,3,4,4,3,4,5,2,27,5,18,84,20,1,2,3,1,4
+2022-10-07 08:18:07,2022-10-07 08:20:04,0,22,117,0,2022-10-14 08:20:11,R_3DqJneKxNSpMwyx,anonymous,ES-ES,1,1,,,,,,,,,,,,,,,,,,3,20,20,20,20,2,5,1,3,,,,,,,,,,,,,,,,,3,2,1,4
+2022-10-07 09:54:31,2022-10-07 09:59:23,0,25,292,0,2022-10-14 09:59:26,R_2798IAX8mgCvWz6,anonymous,ES-ES,1,1,1,,,,,,,,,,,,,,,,,2,10,10,15,15,1,2,5,1,,,,,,,,,,,,,,,,,2,4,1,3
+2022-10-07 11:00:01,2022-10-07 11:06:48,0,39,406,0,2022-10-14 11:06:49,R_2EEiCqc0RKL4rT8,anonymous,ES-ES,0.8999999761581421,1,3,0,5,0,10,5,1,5,5,2,,,,,,,,2,,,,,,,,,3,1,1,3,,,,,,,,,,,,,2,4,3,1
+2022-10-07 11:09:31,2022-10-07 11:10:22,0,11,51,0,2022-10-14 11:10:28,R_1iqeKbDcIzm7L5a,anonymous,ES-ES,0.8999999761581421,1,,,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,2,3,1,4
+2022-10-14 11:16:50,2022-10-14 11:41:24,0,100,1474,1,2022-10-14 11:41:26,R_2YDISOBZFXOHjbh,anonymous,ES-ES,1,1,2,5,5,10,10,3,1,5,5,2,5,5,10,10,3,1,3,2,5,10,10,10,2,2,4,5,2,1,3,2,1,4,3,4,5,1,26,6,20,163,20,1,3,4,1,2
+2022-10-07 13:20:30,2022-10-07 13:38:25,0,61,1075,0,2022-10-14 13:38:28,R_111Qli0pW0Na5RX,anonymous,ES-ES,1,1,2,0,5,0,10,2.50,5,2,1,1,0,5,0,10,1,1,2,2,0,5,0,5,1,,,,2,1,2,2.50,,,,,,,,,,,,,3,1,4,2
+2022-10-14 18:31:12,2022-10-14 18:40:46,0,100,573,1,2022-10-14 18:40:47,R_3fQ2JhjcTXEkHZX,anonymous,ES-ES,0.8999999761581421,1,1,5,5,10,10,4,3,5,4,2,5,5,10,10,1,1,3,2,10,10,10,10,2,5,3,3,1,1,3,3,1,3,2,4,4,1,28,6,19,163,20,1,4,3,1,2
+2022-10-07 19:54:58,2022-10-07 19:57:35,0,22,157,0,2022-10-14 19:57:37,R_2b41ShsnNAFgfzo,anonymous,ES-ES,0.8999999761581421,1,,,,,,,,,,,,,,,,,,2,,,,,,,,,2,2,1,3,,,,,,,,,,,,,4,3,2,1
+2022-10-07 20:17:20,2022-10-07 20:32:10,0,58,890,0,2022-10-14 20:32:20,R_1hTiVKur8wivINX,anonymous,ES-ES,0.8999999761581421,1,3,5,5,5,5,3,,,,,0,5,0,5,1,1,3,2,10,10,10,10,2,5,1,3,2,1,3,3,,,,,,,,,,,,,4,2,3,1
+2022-10-07 22:43:20,2022-10-07 22:44:01,0,11,40,0,2022-10-14 22:44:04,R_2q7CN2bMor95vRM,anonymous,ES-ES,1,1,,,,,,,,,,,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,,4,2,1,3
+2022-10-07 23:19:23,2022-10-07 23:30:30,0,11,666,0,2022-10-14 23:30:34,R_1OqsepKqNgDtEYC,anonymous,ES-ES,1,1,,,,,,,,,,,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,,2,4,1,3
+2022-10-15 00:20:35,2022-10-15 00:21:16,0,100,41,1,2022-10-15 00:21:16,R_5je8sYSsRbFw6wV,anonymous,ES-ES,1,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2022-10-08 03:57:39,2022-10-08 03:57:59,0,6,19,0,2022-10-15 03:58:02,R_2aRE53fjAQBvcbT,anonymous,ES-ES,0.8999999761581421,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2022-10-08 17:34:34,2022-10-08 17:39:10,0,33,275,0,2022-10-15 17:39:17,R_XUrUqP6QZNOK7eN,anonymous,ES-ES,1,1,,,,,,,,,,,,,,,,,,2,5,5,10,10,2,5,1,2,2,2,3,3,,,,,,,,,,,,,4,3,1,2
+2022-10-09 19:46:26,2022-10-09 19:50:26,0,36,239,0,2022-10-16 19:50:31,R_PvVdrkJkK95I0Kd,anonymous,ES-ES,0.8999999761581421,1,3,,,,,,,,,,5,5,5,5,3,2,2,,,,,,,,,,1,2,2,2,,,,,,,,,,,,,3,1,4,2
+2022-10-09 22:52:32,2022-10-09 22:52:43,0,3,10,0,2022-10-16 22:52:49,R_3CUX5RaxzFEkNGT,anonymous,ES-ES,0.8999999761581421,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2022-10-10 11:27:53,2022-10-10 11:36:14,8,8,501,0,2022-10-17 10:11:02,R_2RVU6t4vyQAhrKk,anonymous,ES-ES,0.8999999761581421,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,3,1,4
+2022-10-10 21:04:19,2022-10-10 21:13:11,0,33,531,0,2022-10-17 10:11:06,R_9SvzeCYtw6osHyV,anonymous,ES-ES,1,1,1,5,8,8,12,2,3,2,1,2,5,8,8,12,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,2,4,3
+2022-10-11 11:49:38,2022-10-11 11:50:39,8,11,60,0,2022-10-17 10:11:09,R_C9RfoK4UUMYLCUh,anonymous,ES-ES,1,1,,,,,,,,,,,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,,2,3,1,4
+2022-10-11 12:41:31,2022-10-11 12:42:18,0,3,46,0,2022-10-17 10:11:12,R_3L5YMyE7Eet9Qlq,anonymous,ES-ES,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2022-10-11 12:54:38,2022-10-11 12:55:36,0,11,57,0,2022-10-17 10:11:16,R_Z7xfZCEAWA0lFTP,anonymous,ES-ES,1,1,,,,,,,,,,,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,,2,4,1,3
+2022-10-11 12:12:56,2022-10-11 12:18:15,0,47,318,0,2022-10-17 10:11:28,R_2dLc8W1tpapLmIz,anonymous,ES-ES,0.8999999761581421,1,1,0,0,0,10,4,4,5,3,,5,5,5,10,1,1,2,,,,,,,,,,2,1,2,2,,,,,,,,,,,,,3,1,4,2
+2022-10-11 14:17:09,2022-10-11 14:33:28,0,81,978,0,2022-10-17 10:11:29,R_2zdSHCQNSt0KUNm,anonymous,ES-ES,1,1,1,0,5,0,10,4,1,5,5,1,2.5,5,5,10,1,2,3,2,5,10,5,10,1,5,2,4,2,2,3,2,4,4,3,4,3,,,,,,,,2,1,4,3
+2022-10-11 14:17:14,2022-10-11 14:17:40,8,3,26,0,2022-10-17 10:11:36,R_1Nw6wUWviAdD97w,anonymous,ES-ES,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2022-10-11 14:26:01,2022-10-11 14:27:12,0,11,71,0,2022-10-17 10:11:37,R_21tBvftUtBT4aim,anonymous,ES-ES,1,1,,,,,,,,,,,,,,,,,,3,,,,,,,,,,,,,,,,,,,,,,,,,3,2,1,4
+2022-10-11 18:16:11,2022-10-11 18:20:37,0,36,265,0,2022-10-17 10:11:42,R_x3l0E3TXFA0BrsR,anonymous,ES-ES,1,1,,,,,,,,,,,5,5,10,10,1,1,2,2,,,,,,,,,2,1,1,1.5,,,,,,,,,,,,,4,1,3,2
+2022-10-12 08:43:00,2022-10-12 08:44:14,8,8,73,0,2022-10-17 10:11:46,R_2PbBBDnpwGGVYbi,anonymous,ES-ES,1,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,1,3,2
+2022-10-11 14:57:47,2022-10-11 14:58:29,8,8,41,0,2022-10-17 10:11:53,R_1IaVbqvzFTTP8nf,anonymous,ES-ES,0.8999999761581421,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,1,3,4
+2022-10-12 20:53:34,2022-10-12 20:53:59,8,3,24,0,2022-10-17 10:11:57,R_2R99DbyDqGziodM,anonymous,ES-ES,0.8999999761581421,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2022-10-13 06:40:13,2022-10-13 06:53:09,0,25,775,0,2022-10-17 10:12:03,R_3R8ADQuZf7DuhpT,anonymous,ES-ES,1,1,,,,,,,,,,,5,10,5,15,1,2,3,3,,,,,,,,,,,,,,,,,,,,,,,,,4,1,2,3
+2022-10-17 01:29:26,2022-10-17 02:44:33,0,11,4507,0,2022-10-17 10:12:07,R_2E5c9O8ME44EsqJ,anonymous,ES-ES,1,1,,,,,,,,,,,,,,,,,,2,,,,,,,,,,,,,,,,,,,,,,,,,2,3,1,4
+2022-10-22 11:35:20,2022-10-22 11:47:31,0,100,731,1,2022-10-22 11:47:33,R_1obzLgjpiPBrOoZ,anonymous,ES-ES,1,1,3,0,5,0,10,10,1,5,5,1,0,5,0,10,1,1,2,2,10,10,10,10,1,5,1,1,2,2,1,5,1,3,1,4,5,1,42,6,20,163,20,1,2,1,4,3
+2022-10-22 16:20:39,2022-10-22 16:36:25,0,100,945,1,2022-10-22 16:36:26,R_1dK8cJQq9cwQ9kE,anonymous,ES-ES,1,1,1,0,5,0,10,3.5,1,5,5,1,5,5,10,10,1,1,2,2,10,10,10,10,1,3,5,2,2,2,2,2,1,4,3,4,4,1,22,2,15,163,20,1,3,2,1,4
+2022-10-22 16:50:25,2022-10-22 17:03:41,0,100,796,1,2022-10-22 17:03:41,R_2c7n6RHQzbHHA9V,anonymous,ES-ES,1,1,1,0,5,0,10,2,1,4,3,2,5,5,10,10,1,1,1,2,5,5,10,10,2,1,4,3,2,1,1,2,4,4,3,4,4,2,44,5,18,163,20,1,3,4,2,1
+2022-10-22 19:25:46,2022-10-22 19:39:30,0,100,824,1,2022-10-22 19:39:31,R_3LXDmtydhwAHMK2,anonymous,EN,1,1,3,0,5,0,10,3,1,5,5,2,0,5,0,10,3,1,3,3,0,10,0,10,2,5,1,5,1,2,3,2,1,3,2,4,4,1,29,6,22,163,20,1,1,3,4,2
+2022-10-23 10:13:42,2022-10-23 10:28:30,0,100,887,1,2022-10-23 10:28:30,R_Ocy3O1yXkPdzH45,anonymous,ES-ES,0.8999999761581421,1,3,0,10,0,20,5,1,5,3,2,5,10,10,15,1,1,2,1,10,20,10,20,2,5,1,5,2,1,2,3,1,3,3,4,5,1,38,4,19,163,20,1,4,1,2,3
+2022-10-25 21:06:09,2022-10-25 21:18:24,0,100,734,1,2022-10-25 21:18:24,R_3hFUQdsvn6h7yDH,anonymous,ES-ES,1,1,3,0,5,0,10,2,1,1,1,1,0,5,0,5,1,1,2,2,0,10,0,10,1,5,1,1,2,2,2,2,1,3,2,1,4,1,61,6,20,163,20,1,2,4,3,1
+2022-11-01 19:51:04,2022-11-01 20:05:28,0,100,863,1,2022-11-01 20:05:30,R_3peZESrPyZAvp6u,anonymous,ES-ES,,1,3,0,5,0,10,10,5,1,3,2,5,10,5,15,1,2,1,2,0,5,0,10,2,5,1,5,3,1,1,2,1,3,2,4,4,1,58,6,20,163,20,1,1,4,2,3

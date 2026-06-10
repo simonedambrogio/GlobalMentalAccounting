@@ -2197,7 +2197,132 @@ Number of participants: `r n_participants`
 
 #### Within- vs Between-Subjects Comparison
 
-For the Jacket, Play, and Plane scenarios (between-subjects in the original studies), we re-estimate each effect using a single, randomly selected condition per participant and compare it with the within-subjects estimate. The code below builds the random split, fits the between-subjects pooled model, and reports the 95% credible interval of the difference (within − between).
+For the Jacket, Play, and Plane scenarios (between-subjects in the original studies), we probe whether our within-subjects design affected the estimates in two ways: (i) a between-subjects test based on the first condition each participant encountered, and (ii) a robustness check using a single, randomly selected condition per participant.
+
+##### First condition presented (between subjects)
+
+The raw Qualtrics exports record the order in which the four scenario blocks were presented. The two conditions of each of these scenarios were always placed in different blocks, so the recorded block order identifies which condition each participant encountered first. Keeping only the response to the first-encountered condition yields a between-subjects design with random assignment, free from carryover from the other condition. The code below reconstructs the presentation order, fits the between-subjects pooled model on the first-encountered responses, and reports the 95% credible interval of the difference (within − between).
+
+```{r block-presentation-order}
+#| code-summary: "Block presentation order from the raw Qualtrics exports"
+#| cache: true
+
+# Position (1-4) at which each scenario block was shown to each participant.
+# Block contents (confirmed against the QSF):
+#   block 1 (FL_14): MrAB1, Game1, Drink1, Gym1, Jacket1
+#   block 2 (FL_15): Game2, MrAB2, Play2, Plane2
+#   block 3 (FL_16): MrAB3, Game3, Jacket2, Gym2
+#   block 4 (FL_17): MrAB4, Play1, Plane1, Drink2
+block_order <- map_dfr(
+  list.files("../Data/raw", pattern = "\\.csv$", full.names = TRUE),
+  function(f){
+    dat <- suppressWarnings(read.csv(f, check.names = FALSE))
+    dat <- dat[3:nrow(dat), ] # drop question text and ImportId rows
+    do_cols <- sort(grep("FL_5_DO_FL_1[4-7]", names(dat), value = TRUE))
+    out <- dat[, do_cols]
+    names(out) <- c("pos_block1", "pos_block2", "pos_block3", "pos_block4")
+    out$subject <- dat$ResponseId
+    out
+  }) %>%
+  filter(if_all(starts_with("pos_"), ~ . != "")) %>%
+  mutate(across(starts_with("pos_"), as.numeric)) %>%
+  as_tibble()
+```
+
+```{r first-condition-between-subjects}
+#| code-summary: "First-condition (between-subjects) computation"
+#| cache: true
+
+between_first_condition <- function(data, condition_col, conditions,
+                                    condition_blocks, m_within, original) {
+
+  # Keep, for each participant, only the condition they encountered first
+  data_first <- data %>%
+    mutate(condition = .data[[condition_col]]) %>%
+    filter(!(Country %in% countries2remove), attention_check_grater_than_3) %>%
+    dplyr::select(Country, subject, condition, response) %>% as_tibble() %>%
+    inner_join(block_order, by = "subject") %>%
+    mutate(first_condition = ifelse(
+      .data[[condition_blocks[1]]] < .data[[condition_blocks[2]]],
+      conditions[1], conditions[2])) %>%
+    filter(condition == first_condition)
+
+  # Per-country log odds-ratio (theta) and its standard error
+  databetween_theta <- data_first %>%
+    group_by(Country) %>%
+    summarise(
+      n1 = sum(response == 1 & condition == conditions[1]),
+      n0 = sum(response == 0 & condition == conditions[1]),
+      m1 = sum(response == 1 & condition == conditions[2]),
+      m0 = sum(response == 0 & condition == conditions[2]),
+      theta    = log((n1 / n0) / (m1 / m0)),
+      se_theta = sqrt(1 / n1 + 1 / n0 + 1 / m1 + 1 / m0),
+      .groups = "drop")
+
+  # Between-subjects pooled effect (aggregated theta per country)
+  m_between <- brm(theta | se(se_theta) ~ 1 + (1 | Country),
+                   prior = prior_string("normal(0,2.5)", class = "Intercept"),
+                   data = databetween_theta, iter = 20000, seed = 123, refresh = 0)
+
+  # Pooled-effect posterior, within vs between, and CI of their difference
+  within_samples  <- as.numeric(prepare_predictions(m_within)$dpars$mu$fe$b)
+  between_samples <- as.numeric(prepare_predictions(m_between)$dpars$mu$fe$b)
+  ci <- quantile(within_samples - between_samples, probs = c(0.025, 0.975))
+
+  df <- rbind(data.frame(post = between_samples, type = "between"),
+              data.frame(post = within_samples,  type = "within"))
+  p <- ggplot(df, aes(post, color = type, fill = type)) +
+    geom_density(alpha = 0.2, linewidth = 2) +
+    geom_vline(xintercept = original, color = "#472E7CFF", linewidth = 2) +
+    scale_color_manual(values = c("#FFC857", "#2A9D8F")) +
+    scale_fill_manual(values = c("#FFC857", "#2A9D8F")) +
+    theme_pubr() +
+    theme(legend.position = "none", axis.title = element_text(size = 18),
+          axis.text = element_text(size = 16), title = element_text(size = 20)) +
+    labs(y = "Density", x = "Posterior log(Odd-Ratio)", color = NULL, fill = NULL) +
+    scale_x_continuous(limits = c(0, 2.5))
+
+  list(n = nrow(data_first), estimate = fixef(m_between), ci = ci, plot = p)
+}
+
+jacket_first <- between_first_condition(data_Jacket, "price",  c("low", "high"),
+                                        c("pos_block1", "pos_block3"), mJacket, original_theta$Jacket$theta)
+play_first   <- between_first_condition(data_Play,   "loss",   c("cash", "ticket"),
+                                        c("pos_block2", "pos_block4"), mPlay,   original_theta$Play$theta)
+plane_first  <- between_first_condition(data_Plane,  "coupon", c("purchased", "free"),
+                                        c("pos_block4", "pos_block2"), mPlane,  original_theta$Plane$theta)
+```
+
+```{r first-condition-table}
+#| code-summary: "First-condition (between-subjects) estimates and difference CIs"
+
+fc <- dplyr::bind_rows(
+  data.frame(study = "Jacket", as.data.frame(jacket_first$estimate), lower = jacket_first$ci[1], upper = jacket_first$ci[2]),
+  data.frame(study = "Play",   as.data.frame(play_first$estimate),   lower = play_first$ci[1],   upper = play_first$ci[2]),
+  data.frame(study = "Plane",  as.data.frame(plane_first$estimate),  lower = plane_first$ci[1],  upper = plane_first$ci[2]))
+
+fc %>%
+  transmute(Study = study,
+            `Between-subjects estimate` = sprintf("%.2f [%.2f, %.2f]", Estimate, Q2.5, Q97.5),
+            `Within − between difference` = sprintf("[%.2f, %.2f]", lower, upper)) %>%
+  kbl(caption = "<b>First-condition (between-subjects) comparison: posterior means and 95% CIs</b>",
+      format = "html", row.names = FALSE, table.attr = "style='width:70%;'") %>%
+  kable_classic(html_font = "Cambria") %>%
+  kable_material(c("striped", "hover"))
+```
+
+```{r first-condition-figures}
+#| layout-ncol: 3
+#| fig-cap: "Posterior distributions of the within-subjects (teal) and first-condition between-subjects (yellow) pooled effect for the Jacket, Play, and Plane scenarios; the vertical line marks the original effect."
+
+jacket_first$plot
+play_first$plot
+plane_first$plot
+```
+
+##### Random single response (robustness check)
+
+We additionally re-estimate each effect using a single, randomly selected condition per participant and compare it with the within-subjects estimate. The code below builds the random split, fits the between-subjects pooled model, and reports the 95% credible interval of the difference (within − between).
 
 ```{r within-between-subjects}
 #| code-summary: "Within- vs between-subjects computation"
