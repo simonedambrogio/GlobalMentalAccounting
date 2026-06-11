@@ -1,9 +1,9 @@
-## The robustness of mental accounting: A global perspective
+## Mental Accounting Replication Study
 
-In this repository, we provide code and data to analyse the *Final* study described in a paper titled "The robustness of mental accounting: A global perspective" (2025). We also provide code and data to analyse the *Pilot* study and the codes to run the *Power Analysis* and the *Analysis Plan*.
+In this repository, we provide code and data to analyse the *Final* study described in a paper titled "The Robustness of Mental Accounting Across 21 Countries" (2026). We also provide code and data to analyse the *Pilot* study and the codes to run the *Power Analysis* and the *Analysis Plan*.
 
 ## Demo
-Click [here](https://run.pavlovia.org/JDMLAB/mmar-demo/) to access a web-page that includes a demo with a small dataset that only includes the Plane study and the first three countries: Austria, Brazil, and Canada. Source code: Demo/index.qmd. You can execute it on your machine using the command ``` quarto render Demo/index.qmd ```. The file should be rendered in less than 5 minutes on a "normal" desktop computer.
+Click [here](https://simonedambrogio.github.io/GlobalMentalAccounting/Demo) to access a web-page that includes a demo with a small dataset that only includes the Plane study and the first three countries: Austria, Brazil, and Canada. Source code: Demo/index.qmd. You can execute it on your machine using the command ``` quarto render Demo/index.qmd ```. The file should be rendered in less than 5 minutes on a "normal" desktop computer.
 
 ## Analysis Study
 
@@ -17,7 +17,7 @@ Preregistered Data: Analysis Study/Data/Preregistered
 Data with no exclusion criterion: Analysis Study/Data
 
 ## Other Analyses
-Click on the following [links](https://run.pavlovia.org/JDMLAB/mmar-supplementary) to access a webpage that includes code used for the [Power Analysis](https://run.pavlovia.org/JDMLAB/mmar-supplementary/Power%20Analysis.html), [Analysis Plan](https://run.pavlovia.org/JDMLAB/mmar-supplementary/Analysis%20Plan.html), and [Pilot](https://run.pavlovia.org/JDMLAB/mmar-supplementary/Compare%20Pilot%20Version.html) (Source code: Other Analyses/).
+Click on the following links to access webpages that include the code used for the [Power Analysis](https://simonedambrogio.github.io/GlobalMentalAccounting/PowerAnalysis), [Analysis Plan](https://simonedambrogio.github.io/GlobalMentalAccounting/AnalysisPlan), and [Pilot](https://simonedambrogio.github.io/GlobalMentalAccounting/Pilot) (Source code: Other Analyses/).
 
 ---
 
