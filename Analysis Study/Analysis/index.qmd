@@ -1,5 +1,5 @@
 ---
-title: "Multicountry Replication Study"
+title: "Mental Accounting Replication Study"
 format: 
   html:
     code-fold: true
