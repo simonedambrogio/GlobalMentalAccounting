@@ -9973,6 +9973,15 @@ cowplot::plot_grid(
 
 ```
 
+```{r figure2b-gdp-slope}
+#| code-summary: "Statistics"
+gdp_slope <- round(fixef(bm1)["r_Intercept", "Estimate"], 2)
+gdp_lo    <- round(fixef(bm1)["r_Intercept", "Q2.5"], 2)
+gdp_hi    <- round(fixef(bm1)["r_Intercept", "Q97.5"], 2)
+```
+
+Figure 2B: the slope (logistic growth rate) of the association between GDP per capita and mental accounting is `r gdp_slope`, 95% CI [`r gdp_lo`, `r gdp_hi`].
+
 ### Linear
 
 ```{r plot-all-linear}
@@ -10088,16 +10097,6 @@ cowplot::plot_grid(
   labels = LETTERS[1:2], label_size = 20, label_y = 0.93
 )
 ```
-
-```{r figure2b-gdp-slope}
-#| include: false
-gdp_slope <- round(fixef(bm1)["r_Intercept", "Estimate"], 2)
-gdp_lo    <- round(fixef(bm1)["r_Intercept", "Q2.5"], 2)
-gdp_hi    <- round(fixef(bm1)["r_Intercept", "Q97.5"], 2)
-```
-
-Figure 2B: the slope (logistic growth rate) of the association between GDP per capita and mental accounting is `r gdp_slope`, 95% CI [`r gdp_lo`, `r gdp_hi`].
-
 
 ### GDP per Capita
 
