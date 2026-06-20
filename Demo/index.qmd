@@ -8,6 +8,7 @@ format:
     fig-format: svg
     code-block-border-left: "#31BAE9" # 5A6570
     link-external-newwindow: true
+    html-math-method: katex
 knitr:
   opts_chunk:
     warning: false
