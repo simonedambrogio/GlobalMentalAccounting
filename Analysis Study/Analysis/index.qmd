@@ -1,5 +1,12 @@
 ---
-title: "Mental Accounting Replication Study"
+title: "The Robustness of Mental Accounting Across 21 Countries"
+author:
+  - name: "Simone D'Ambrogio"
+    email: simonedambrogio67@gmail.com
+    affiliation:
+      - name: University of Oxford
+        department: Experimental Psychology
+    orcid: 0000-0001-9030-8145
 format: 
   html:
     code-fold: true
@@ -9,6 +16,8 @@ format:
     code-block-border-left: "#31BAE9" # 5A6570
     link-external-newwindow: true
     html-math-method: katex
+    include-after-body: github-author-link.html
+
 knitr:
   opts_chunk:
     warning: false
@@ -9809,168 +9818,226 @@ bm1 <- fit_and_save_nlbmGDPxCapita()
 ```
 
 ```{r plot-all-nonlinear}
-#| fig-width: 10
-#| fig-height: 4.5
+#| fig-width: 11
+#| fig-height: 9
 #| code-summary: "Plot"
 #| warning: false
 
-### Non-Linear GDP -----
-f <- function(x, K, r, x0) K / (1 + exp(-r * (x-x0)))
+# Figure 2 - Individual Differences + GDP
+# Mirrors scr/country-level-analysis/figure-2.R so the report and the article
+# figure share the same plotting style.
+#   Panel A: Financial Literacy | Education | Age | Income
+#            (per-scenario credible intervals + Overall posterior).
+#   Panel B: GDP growth rate ridge + GDP logistic curve + flag legend.
+library(ggflags)
+nlgdp <- bm1  # non-linear GDP model (named bm1 earlier in this report)
 
-bm1 <- readRDS("scr/country-level-analysis/models/Others/nlbmGDPxCapita.rds")
+# Configuration ------------------------------------------------------------
+linear_preds <- c("zFinancialLiteracy", "zEducation", "zAge", "zIncome")
+predictor_labels <- c(
+  zFinancialLiteracy = "Financial Literacy",
+  zEducation = "Education",
+  zAge = "Age",
+  zIncome = "Income",
+  gdp = "GDP per Capita"
+)
+predictor_colors <- c(
+  zFinancialLiteracy = "#B07AA1",
+  zEducation = "#F28E2B",
+  zAge = "#59A14F",
+  zIncome = "#E15759",
+  gdp = "#4E79A7"
+)
 
-plot_nlgdp <- df %>% 
-  filter(family!="binomial1") %>% 
-  group_by(Country) %>% 
-  mutate(choensd=mean(choensd)) %>% 
-  filter(row_number()==1) %>% 
+study_names <- rownames(ranef(mAll)$study[, , 1])
+x_levels <- c(" ", study_names, " ", "Overall")
+
+# Extract posteriors: linear predictors ------------------------------------
+draws <- as_draws_df(mAll)
+study_posteriors_lin <- map_dfr(linear_preds, function(pred) {
+  fe_col <- paste0("b_", pred)
+  map_dfr(study_names, function(s) {
+    re_col <- paste0("r_study[", s, ",", pred, "]")
+    tibble(estimate = draws[[fe_col]] + draws[[re_col]], study = s, predictor = pred)
+  })
+})
+fe_posteriors_lin <- map_dfr(linear_preds, function(pred) {
+  fe_col <- paste0("b_", pred)
+  tibble(estimate = draws[[fe_col]], study = "Overall", predictor = pred)
+})
+
+# Extract posteriors: GDP growth rate (r) ----------------------------------
+draws_gdp <- as_draws_df(nlgdp)
+study_posteriors_gdp <- map_dfr(study_names, function(s) {
+  re_col <- paste0("r_study__r[", s, ",Intercept]")
+  tibble(estimate = draws_gdp[["b_r_Intercept"]] + draws_gdp[[re_col]], study = s, predictor = "gdp")
+})
+fe_posteriors_gdp <- tibble(estimate = draws_gdp[["b_r_Intercept"]], study = "Overall", predictor = "gdp")
+
+# Combine posteriors -------------------------------------------------------
+study_posteriors <- bind_rows(study_posteriors_lin, study_posteriors_gdp)
+fe_posteriors <- bind_rows(fe_posteriors_lin, fe_posteriors_gdp)
+study_posteriors$study <- factor(study_posteriors$study, levels = x_levels)
+fe_posteriors$study <- factor(fe_posteriors$study, levels = x_levels)
+
+# Pre-compute intervals ----------------------------------------------------
+intervals <- study_posteriors %>%
+  group_by(study, predictor) %>%
+  summarise(
+    q025 = quantile(estimate, 0.025),
+    q10  = quantile(estimate, 0.10),
+    q25  = quantile(estimate, 0.25),
+    med  = median(estimate),
+    q75  = quantile(estimate, 0.75),
+    q90  = quantile(estimate, 0.90),
+    q975 = quantile(estimate, 0.975),
+    .groups = "drop"
+  )
+
+# Helper: make interval panel ----------------------------------------------
+make_panel <- function(pred_name, show_y = TRUE, show_x = TRUE,
+                       ylimits = NULL, flip = FALSE,
+                       show_zero_line = TRUE) {
+  int_data <- intervals %>% filter(predictor == pred_name)
+  fe_data <- fe_posteriors %>% filter(predictor == pred_name)
+  clr <- predictor_colors[[pred_name]]
+
+  p <- ggplot() +
+    geom_linerange(data = int_data, aes(x = study, ymin = q025, ymax = q975),
+                   color = clr, linewidth = 2, alpha = 0.3) +
+    geom_linerange(data = int_data, aes(x = study, ymin = q10, ymax = q90),
+                   color = clr, linewidth = 2, alpha = 0.5) +
+    geom_linerange(data = int_data, aes(x = study, ymin = q25, ymax = q75),
+                   color = clr, linewidth = 2, alpha = 0.8) +
+    geom_point(data = int_data, aes(x = study, y = med), color = clr, size = 1.5) +
+    stat_halfeye(data = fe_data, aes(x = study, y = estimate),
+                 fill = clr, color = clr, alpha = 0.5,
+                 .width = 0.95, slab_color = NA, point_size = 2.5,
+                 adjust = 0.5, width = 0.6) +
+    {if (show_zero_line) geom_hline(yintercept = 0, linewidth = 0.2, color = "gray")} +
+    ggtitle(predictor_labels[[pred_name]]) +
+    theme_pubr() +
+    theme(
+      text = element_text(size = 15, family = "Arial"),
+      axis.text.x = element_text(angle = 45, vjust = 1, hjust = 1),
+      legend.position = "none",
+      plot.title = element_text(hjust = 0.5, size = 13)
+    ) +
+    labs(x = NULL) +
+    scale_y_continuous(guide = "prism_offset") +
+    scale_x_discrete(breaks = c(study_names, "Overall"), guide = "prism_offset", drop = FALSE)
+
+  if (show_y) {
+    if (pred_name == "gdp") {
+      p <- p + labs(y = "Growth Rate")
+    } else {
+      p <- p + labs(y = "Beta Estimate")
+    }
+  } else {
+    p <- p + labs(y = NULL)
+  }
+
+  if (flip && !is.null(ylimits)) {
+    p <- p + coord_flip(ylim = ylimits)
+  } else if (flip) {
+    p <- p + coord_flip()
+  } else if (!is.null(ylimits)) {
+    p <- p + coord_cartesian(ylim = ylimits)
+  }
+
+  if (!show_x) {
+    if (flip) {
+      p <- p + theme(axis.text.y = element_blank(), axis.ticks.y = element_blank(), axis.line.y = element_blank())
+    } else {
+      p <- p + theme(axis.text.x = element_blank(), axis.ticks.x = element_blank())
+    }
+  }
+
+  return(p)
+}
+
+# Create interval panels ---------------------------------------------------
+ylim_linear <- c(-0.22, 0.22)
+p_fl  <- make_panel("zFinancialLiteracy", show_y = FALSE, show_x = TRUE,  ylimits = ylim_linear, flip = TRUE)
+p_edu <- make_panel("zEducation",         show_y = FALSE, show_x = FALSE, ylimits = ylim_linear, flip = TRUE)
+p_age <- make_panel("zAge",               show_y = FALSE, show_x = FALSE, ylimits = ylim_linear, flip = TRUE)
+p_inc <- make_panel("zIncome",            show_y = FALSE, show_x = FALSE, ylimits = ylim_linear, flip = TRUE)
+p_gdp <- make_panel("gdp",                show_y = FALSE, ylimits = NULL, flip = TRUE)
+
+# GDP curve (Figure 2B) ----------------------------------------------------
+f <- function(x, K, r, x0) K / (1 + exp(-r * (x - x0)))
+d <- df %>% filter(family != "binomial1") %>% mutate(x = zscore(GDPxCapita), y = choensd)
+
+p_curve <- df %>%
+  filter(family != "binomial1") %>%
+  group_by(Country) %>%
+  mutate(choensd = mean(choensd)) %>%
+  filter(row_number() == 1) %>%
   ggplot(aes(GDPxCapita, choensd)) +
   geom_line(
     data = data.frame(
-      GDPxCapita=seq(-2, 100, .01) * 1000, 
-      choensd=f(seq(-2, 100, .01) * 1000, fixef(bm1)[1,1], fixef(bm1)[2,1]/sd(d$GDPxCapita), fixef(bm1)[3,1] * sd(d$GDPxCapita) + mean(d$GDPxCapita))
+      GDPxCapita = seq(-2, 100, .01) * 1000,
+      choensd = f(seq(-2, 100, .01) * 1000, fixef(nlgdp)[1, 1],
+                  fixef(nlgdp)[2, 1] / sd(d$GDPxCapita),
+                  fixef(nlgdp)[3, 1] * sd(d$GDPxCapita) + mean(d$GDPxCapita))
     ),
-    linewidth=2,color="#5f7e96"
+    linewidth = 2, color = "#5f7e96"
   ) +
-  geom_point(size=6, shape=1) +
-  geom_flag(aes(country=flag)) +
+  geom_point(size = 10, shape = 1) +
+  geom_flag(aes(country = flag), size = 8) +
   theme_pubr() +
   coord_cartesian(xlim = c(-5000, 105000), ylim = c(0.05, 1.1)) +
   scale_x_continuous(breaks = c(0, 50000, 100000), labels = c("$0", "$50K", "$100K"), guide = "prism_offset") +
   scale_y_continuous(breaks = seq(0.1, .9, 0.2), guide = "prism_offset") +
-  xlab("\nGDP per capita\n") +
-  ylab("Mental Accounting\n(Choen's d)") +
-  theme(text = element_text(size = 15, family="Arial")); 
+  labs(x = "GDP per capita", y = "Mental Accounting\n(Choen's d)") +
+  theme(text = element_text(size = 15, family = "Arial"), plot.title = element_text(hjust = 0.5, size = 13))
 
+# Flag legend --------------------------------------------------------------
+country_data <- df %>%
+  filter(family != "binomial1") %>%
+  group_by(Country) %>%
+  filter(row_number() == 1) %>%
+  ungroup() %>%
+  arrange(GDPxCapita) %>%
+  mutate(
+    col = ifelse(row_number() <= 11, 1, 2),
+    row = ifelse(col == 1, row_number(), row_number() - 11),
+    x_flag = (col - 1) * 4,
+    x_label = x_flag + 0.5
+  )
 
+p_flags <- ggplot(country_data, aes(x = x_flag, y = -row)) +
+  geom_flag(aes(country = flag), size = 5) +
+  geom_text(aes(x = x_label, label = Country), hjust = 0, size = 3) +
+  scale_x_continuous(limits = c(-0.5, 8)) +
+  theme_void()
 
-### Betas (no GDP) -----
-pp1 <- prepare_predictions(mAll)
-
-re <- data.frame( 
-  re = c(
-    fixef(mAll)[3,1] + ranef(mAll)$study[,1,"zFinancialLiteracy"],
-    fixef(mAll)[4,1] + ranef(mAll)$study[,1,"zEducation"],
-    fixef(mAll)[5,1] + ranef(mAll)$study[,1,"zAge"],
-    fixef(mAll)[6,1] + ranef(mAll)$study[,1,"zIncome"]
-  ),
-  x = c(rep(1-0.2, 6), rep(2-0.2, 6), rep(3-0.2, 6), rep(4-0.2, 6)),
-  study= rep(names(ranef(mAll)$study[,1,"zFinancialLiteracy"]), 4)
-) %>% 
-  mutate(study=factor(study, labels = c("Game", "Jacket", "Play", "Plane", "Drink", "Gym"), 
-                      levels = c("Game", "Jacket", "Play", "Plane", "Drink", "Gym"), 
-  ))
-
-
-fe <- data.frame(
-  fe = fixef(mAll)[3:6,1],
-  low=ci(mAll)$CI_low[3:6],
-  high=ci(mAll)$CI_high[3:6]
+flag_legend <- cowplot::plot_grid(
+  NULL, NULL, NULL,
+  NULL, p_flags, NULL,
+  NULL, NULL, NULL,
+  nrow = 3, rel_widths = c(0.1, 0.8, 0.1), rel_heights = c(0.15, 0.75, 0.1)
 )
 
-plot_betas_nogdp <- pp1$dpars$mu$fe$b %>% 
-  as_tibble() %>% 
-  select(- c(b_Intercept, b_zGDPxCapita)) %>% 
-  reshape2::melt() %>%
-  # mutate(issign = ifelse(variable=="b_zGDPxCapita", "yes", "no")) %>% 
-  ggplot(aes(variable, value)) +
-  stat_halfeye(
-    fill="#f6f0e8",
-    # adjust bandwidth
-    adjust = .5,
-    # move to the right
-    justification = -0.2,
-    # remove the slub interval
-    width = .6, 
-    .width = 0,
-    point_colour = NA
-    # fill= c("#d5f8ff", rep("#f6f0e8", 4))
-  ) +
-  geom_pointinterval(data=fe, aes(1:4 + 0.1, y=fe, ymin=low, ymax=high), color= "#a85100" ) +
-  geom_beeswarm(data=re, aes(x, re, color=study), cex=2, size=2, shape=1, stroke=1) +
-  geom_line(data=data.frame(x=c(0.2, 4.7), y=c(0, 0)), aes(x, y), linewidth=0.15) +
-  scale_color_manual(values = colorspace::qualitative_hcl(7, "Dark 3")[c(2, 4, 7, 6, 1, 3)]) +
-  theme_pubr() +
-  coord_cartesian(xlim = c(0.9, 4.3), ylim = c(-0.22, .3)) +
-  scale_x_discrete(labels = c("Financial\nLiteracy", "Education", "Age", "Income"),
-                   guide = "prism_offset") +
-  scale_y_continuous(breaks = c(-0.2, 0, 0.2), guide = "prism_offset") +
-  theme(text = element_text(size = 15, family="Arial"),
-        legend.position = c(0.65, 0.8), legend.direction = "horizontal",
-        axis.text.x = element_text(angle = 45, vjust = 0.5, hjust=.5)
-  ) +
-  labs(x=NULL, y="Beta Estimate               ", color=NULL) +
-  guides(fill = "none");
+# Panel A: demographic predictors (also shown standalone in the Table 4 tab)
+A_plots <- cowplot::plot_grid(p_fl, p_edu, p_age, p_inc, nrow = 1, ncol = 4, align = "h", axis = "bt")
+A_label <- ggdraw() + draw_label("Beta Estimate", size = 13, fontfamily = "Arial")
+plot_betas_demographics <- cowplot::plot_grid(NULL, A_plots, A_label, nrow = 3, rel_heights = c(0.05, 0.87, 0.08))
 
-
-
-### Betas (GDP) -----
-pp2 <- prepare_predictions(bm1)
-
-re <- data.frame( 
-  re = fixef(bm1)[2,1] + ranef(bm1)$study[,1,"r_Intercept"],
-  x = rep(1-0.2, 6),
-  study= names(ranef(mAll)$study[,1,"zFinancialLiteracy"])
-) %>% 
-  mutate(study=factor(study, labels = c("Game", "Jacket", "Play", "Plane", "Drink", "Gym"), 
-                      levels = c("Game", "Jacket", "Play", "Plane", "Drink", "Gym"), 
-  ))
-
-
-fe <- data.frame(
-  fe = fixef(bm1)[2,1],
-  low=ci(bm1)$CI_low[2],
-  high=ci(bm1)$CI_high[2]
+# Panel B: GDP growth rate + curve + flag legend ---------------------------
+gdp_vertical <- cowplot::plot_grid(NULL, p_gdp, nrow = 2, rel_heights = c(0.15, 0.85))
+plot_gdp_panel <- cowplot::plot_grid(
+  NULL, gdp_vertical, NULL, p_curve, flag_legend,
+  nrow = 1, ncol = 5, rel_widths = c(0.05, 0.25, 0.05, 0.45, 0.2)
 )
 
-plot_betas_gdp <- data.frame(value=as.numeric(pp2$nlpars$r$fe$b)) %>% as_tibble() %>% 
-  mutate(variable="r") %>% 
-  ggplot(aes(variable, value)) +
-  stat_halfeye(
-    fill="#E7ECEF",
-    # adjust bandwidth
-    adjust = .5,
-    # move to the right
-    justification = -0.2,
-    # remove the slub interval
-    width = .6, 
-    .width = 0,
-    point_colour = NA
-    # fill= c("#d5f8ff", rep("#f6f0e8", 4))
-  ) +
-  geom_pointinterval(data=fe, aes(1 + 0.1, y=fe, ymin=low, ymax=high), color="#234666" ) +
-  geom_beeswarm(data=re, aes(x-0.1, re, color=study), cex=8, size=2, shape=1, stroke=1) +
-  geom_line(data=data.frame(x=c(0,1.5), y=c(0, 0)), aes(x, y), linewidth=0.15) +
-  scale_color_manual(values = colorspace::qualitative_hcl(7, "Dark 3")[c(2, 4, 7, 6, 1, 3)]) +
-  theme_pubr() +
-  coord_cartesian(xlim = c(0.9, 1.4), ylim=c(-4.5, 6.3)) +
-  scale_x_discrete(labels = c("GDP per\nCapita"), guide = "prism_offset") +
-  scale_y_continuous(breaks = seq(-4, 4, 2), guide = "prism_offset") +
-  theme(text = element_text(size = 15, family="Arial"),
-        legend.position = "none", legend.direction = "horizontal",
-        axis.text.x = element_text(angle = 45, vjust = 0.5, hjust=.5)
-  ) +
-  labs(x=NULL, y="Slope Estimate           ", color=NULL) +
-  guides(fill = "none"); 
-
-
-### Betas Linear & Non-Linear -----
-betas_linear_and_nonlinear <- cowplot::plot_grid(
-  plot_betas_nogdp, plot_betas_gdp, rel_widths = c(0.8, 0.33)
-); 
-
-### Betas Linear & Non-Linear -----
-betas_linear_and_nonlinear <- cowplot::plot_grid(
-  plot_betas_nogdp, plot_betas_gdp, rel_widths = c(0.8, 0.33)
-); 
-
-# Non-Linear GDP & Linear & Non-Linear Betas
-cowplot::plot_grid(
-  betas_linear_and_nonlinear, plot_nlgdp, rel_widths = c(0.7, 0.45), 
-  labels = LETTERS[1:2], label_size = 20, label_y = 0.93
+# Assemble Figure 2 --------------------------------------------------------
+figure2 <- cowplot::plot_grid(
+  plot_betas_demographics, plot_gdp_panel,
+  nrow = 2, ncol = 1, rel_heights = c(0.4, 0.6),
+  align = "h", axis = "bt", labels = LETTERS[1:2], label_size = 20
 )
-
-
+figure2
 ```
 
 ```{r figure2b-gdp-slope}
@@ -10371,8 +10438,12 @@ Country-level associations of Financial Literacy, Education, Age, and Income wit
 ```{r table4-betas-plot}
 #| code-summary: "Plot"
 #| warning: false
+#| fig-width: 11
+#| fig-height: 3.5
 
-plot_betas_nogdp
+# Panel A of Figure 2 (built in the Non-Linear tab): per-scenario credible
+# intervals + Overall posterior for the four demographic predictors.
+plot_betas_demographics
 ```
 
 #### Table
